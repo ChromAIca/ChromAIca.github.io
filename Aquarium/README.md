@@ -157,6 +157,16 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
+
+
+### **Examples / Common cases when evaluating: Mask-Guided Image Editing**
+
+Please refer to **Examples / Common cases when evaluating: Text-Guided Image Editing**. They are basically having the same standard.
+
+
+
+
+
 ## **Subject-Driven Image Editing**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Editing**:
@@ -170,6 +180,14 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * PR=0.5 : 
     * PR=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
 
+
+
+### **Examples / Common cases when evaluating: **Subject-Driven Image Editing
+
+TBA
+
+
+
 ## **Multi-Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
@@ -182,6 +200,12 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * PR=1 : 
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
+
+### Examples / Common cases when evaluating: Multi-Subject-Driven Image Generation
+
+TBA
+
+
 
 ## **Control-Guided Image Generation**
 
@@ -209,6 +233,14 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
+
+
+### Examples / Common cases when evaluating: Style-Guided Image Generation
+
+TBA
+
+
+
 ## **Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Generation**:
@@ -221,6 +253,12 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * PR=1 : 
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
+
+### Examples / Common cases when evaluating: Subject-Driven Image Generation
+
+TBA
+
+
 
 
 # Frequently Asked Questions (FAQ)
