@@ -59,9 +59,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 >
 > We present each image with a human evaluation in `[<SC score>,<PR score>]`.
 
-
-
-
+<br><br>
 
 **Case: Output image looks nearly identical to the input image.**
 
@@ -80,9 +78,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * If the Output image is exactly identical to the input image, we would rate the score `[0, 2]` (we assume the input image is a realistic photo.).
 * In this given example, I would rate the score `[0, 1]` because there are some unnatural spots. 
 
-
-
-
+<br><br>
 
 **Case: Output image is following the prompt well, but causing unnecessary edits.**
 
@@ -108,9 +104,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * The image also look nearly identical to the input image, so PR=1 or 2.
 * In this given example, I would rate the score `[1, 2]`. 
 
-
-
-
+<br><br>
 
 **Case: Output image is following the prompt well, but the background completely changed.**
 
