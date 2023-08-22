@@ -71,6 +71,8 @@ Case: Output image looks nearly identical to the input image.
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102625_2.jpg" width="256" />
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_102625_2.jpg" width="256" /> 
 </p>
+
+
 * Basically, we gives SC=0 for cases like this. The PR score would vary according to the realism of the image (are there anything that looks unnatural?)
 * If the Output image is exactly identical to the input image, we would rate the score `[0, 2]` (we assume the input image is a realistic photo.).
 * In this given example, I would still rate the score `[0, 2]`. The kitchen looks very dirty!
@@ -89,6 +91,8 @@ Case: Output image is following the prompt well, but the background completely c
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102724_1.jpg" width="256" />
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Prompt2prompt/sample_102724_1.jpg" width="256" /> 
 </p>
+
+
 * For Editing tasks, no matter how the image following the prompt well, we give SC=0 as long as the result is in a complete different background.
 * The PR score would vary according to the realism of the image. (are there anything that looks unnatural?)
 * In this given example, I would rate the score `[0, 0.5]` or `[0,0]`.  The image looks real at first glance but there are some distortion in the body and on the fruits / background.
