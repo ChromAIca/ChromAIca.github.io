@@ -161,7 +161,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 
 ### **Examples / Common cases when evaluating: Mask-Guided Image Editing**
 
-Please refer to **Examples / Common cases when evaluating: Text-Guided Image Editing**. They are basically having the same standard.
+Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Editing**](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/Aquarium#examples--common-cases-when-evaluating-text-guided-image-editing). They are basically having the same standard.
 
 
 
