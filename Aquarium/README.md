@@ -104,7 +104,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * It seems the output image is following the prompt and the floor does look like a granite floor. However, the pattern also applied on other areas which makes the kitchen looks dirty.
 * We treat this case "unnecessary edits.", therefore the score SC=1.
 * The image also look nearly identical to the input image, so PR=1 or 2.
-* In this given example, I would rate the score `[1, 2]`. 
+* In this given example, I would rate the score `[1, 1]` or `[1, 2]` (if you want to assume its a dirty kitchen).
 
 <br><br>
 
