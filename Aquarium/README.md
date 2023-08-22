@@ -4,7 +4,7 @@
 
 # Evaluation Guide for Human Evaluators
 
-Please refer to the [Task-Specific Guide for Human Evaluation scoring]() when perform human evaluation. This general guide only presents the basic idea.
+Please refer to the [Task-Specific Guide for Human Evaluation scoring](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/Aquarium#task-specific-guide-for-human-evaluation-scoring) when perform human evaluation. This general guide only presents the basic idea.
 
 To standardize the conduction of a rigorous human evaluation, we stipulate the criteria for each measurement as follows:
 * Semantic Consistency (SC), score in range `[0, 0.5, 1, 2]`
