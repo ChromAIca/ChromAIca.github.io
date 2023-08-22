@@ -161,7 +161,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_111376_1.jpg" width="256" /> 
 </p>
 
-* In this given example, I would rate the score `[2, 2]` .
+* In this given example, I would rate the score `[2, 2]` . The hat gives a nice specular reflection.
 
 
 
