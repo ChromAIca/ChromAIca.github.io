@@ -144,7 +144,34 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 >   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Pix2PixZero/sample_102625_3.jpg" width="256" /> 
 > </p>
 
+<br><br>
 
+**Case: Output images are following the prompt (how well and how real are they?)**
+
+```
+"source_global_caption": "A skateboarder is doing a trick on a hand rail.",
+"instruction": "What if the man had a hat?",
+"target_global_caption": "A skateboarder with a hat is doing a trick on a hand rail."
+```
+
+Input | OutputA | OutputB | 
+OutputC | OutputD | OutputE
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_139276_1.jpg" width="256" />
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_139276_1.jpg" width="256" /> 
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/MagicBrush/sample_139276_1.jpg" width="256" /> 
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Prompt2prompt/sample_139276_1.jpg" width="256" /> 
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Text2Live/sample_139276_1.jpg" width="256" /> 
+<img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/SDEdit/sample_139276_1.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+* OutputA: `[2, 1] `. The hat suits well thus SC=2. PR=1 because there is minor facial distortion on the man.
+* OutputB: `[1, 1]`. The hat suits well, but there is unnecessary edits on his hand, therefore SC=1. PR=1 because there is minor distortion on the man's face.
+* OutputC: `[0.5, 0.5]`. The hat exists but does not suit well, thus SC=0.5. PR=0 or 0.5 because the important object look distorted.
+* OutputD: `[1, 2]`. The hat suits well, but the background color doesn't match thus SC=1. PR=1 or 2 as the image look quite real with no distortion.
+* OutputE: `[0, 0]`. SC=0 because the background completely changed. And PR=0 or 0.5 because the whole image look distorted.
 
 <br><br>
 
