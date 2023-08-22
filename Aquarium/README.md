@@ -59,12 +59,33 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 >
 > We present each image with a human evaluation in `[<SC score>,<PR score>]`.
 
+
+
 **Case: Output image looks nearly identical to the input image.**
 
 ```
-"source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV.",
-"instruction": "let the cabinets be made of dark wood",
-"target_global_caption": "An empty kitchen with dark wood cabinets and granite floors filled with dishes and appliances, with a game show on TV."
+"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game show on TV.",
+"instruction": "let there be granite floor in the kitchen",
+"target_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV."
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102625_2.jpg" width="256" />
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/CycleDiffusion/sample_102625_2.jpg" width="256" /> 
+</p>
+
+* Basically, we gives SC=0 for cases like this. The PR score would vary according to the realism of the image (are there anything that looks unnatural?)
+* If the Output image is exactly identical to the input image, we would rate the score `[0, 2]` (we assume the input image is a realistic photo.).
+* In this given example, I would rate the score `[0, 1]` because there are some unnatural spots. 
+
+
+
+**Case: Output image is following the prompt well, but causing unnecessary edits.**
+
+```
+"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game show on TV.",
+"instruction": "let there be granite floor in the kitchen",
+"target_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV."
 ```
 
 <p float="left", align="center">
@@ -72,10 +93,16 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_102625_2.jpg" width="256" /> 
 </p>
 
+> Btw this is how a granite floor look like:
+>
+> <img src="https://www.regattagranitesindia.com/wp-content/uploads/2019/03/Rosewood-granite-flooring.jpg" alt="Granite floor tiles for having a traffic friendly surface" width="256" />
+>
+> <img src="https://marblerenewal.ca/wp-content/uploads/2015/11/Living-Room.jpg" width="256" />
 
-* Basically, we gives SC=0 for cases like this. The PR score would vary according to the realism of the image (are there anything that looks unnatural?)
-* If the Output image is exactly identical to the input image, we would rate the score `[0, 2]` (we assume the input image is a realistic photo.).
-* In this given example, I would still rate the score `[0, 2]`. The kitchen looks very dirty!
+* It seems the output image is following the prompt and the floor does look like a granite floor. However, the pattern also applied on other areas which makes the kitchen looks dirty.
+* We treat this case "unnecessary edits.", therefore the score SC=1.
+* The image also look nearly identical to the input image, so PR=1 or 2.
+* In this given example, I would rate the score `[1, 2]`. 
 
 
 
@@ -96,6 +123,24 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * For Editing tasks, no matter how the image following the prompt well, we give SC=0 as long as the result is in a complete different background.
 * The PR score would vary according to the realism of the image. (are there anything that looks unnatural?)
 * In this given example, I would rate the score `[0, 0.5]` or `[0,0]`.  The image looks real at first glance but there are some distortion in the body and on the fruits / background.
+
+
+
+> How do we define unnessary edits and complete different background?
+>
+> ```
+> "source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV.",
+> "instruction": "let the cabinets be made of dark wood",
+> "target_global_caption": "An empty kitchen with dark wood cabinets and granite floors filled with dishes and appliances, with a game show on TV."
+> ```
+>
+> Input | Unnessary/Bad Edit | Complete different background
+>
+> <p float="left", align="center">
+>   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102625_3.jpg" width="256" />
+>   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/MagicBrush/sample_102625_3.jpg" width="256" /> 
+>   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Pix2PixZero/sample_102625_3.jpg" width="256" /> 
+> </p>
 
 
 
