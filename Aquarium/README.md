@@ -126,7 +126,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 
 
 
-> How do we define unnessary edits and complete different background?
+> How do we define unnecessary edits and complete different background?
 >
 > ```
 > "source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV.",
@@ -134,7 +134,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 > "target_global_caption": "An empty kitchen with dark wood cabinets and granite floors filled with dishes and appliances, with a game show on TV."
 > ```
 >
-> Input | Unnessary/Bad Edit | Complete different background
+> Input | Unnecessary/Bad Edit | Complete different background
 >
 > <p float="left", align="center">
 >   <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102625_3.jpg" width="256" />
