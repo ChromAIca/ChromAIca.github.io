@@ -146,6 +146,27 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 
 
 
+<br><br>
+
+**Perfect Cases: The Editing following the prompt perfectly and look very real**
+
+```
+"source_global_caption": "A bull is on a farm walking around a pen.",
+"instruction": "Have the cow wear a hat.",
+"target_global_caption": "A stylish cow wearing a hat walks around a pen on a farm."
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_111376_1.jpg" width="256" />
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_111376_1.jpg" width="256" /> 
+</p>
+
+* In this given example, I would rate the score `[2, 2]` .
+
+
+
+
+
 ## **Mask-Guided Image Editing**
 
 * Semantic Consistency (SC) scoring for **Mask-Guided Image Editing**:
