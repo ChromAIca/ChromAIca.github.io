@@ -29,11 +29,17 @@ General design rules for Perceptual Realism (PR) scoring:
 * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 
-### Task-Specific Guide for scoring:
+
+> We present each image with a human evaluation in `[<SC score>,<PR score>]`.
+
+
+
+## Task-Specific Guide for Human Evaluation scoring:
 
 In the Task-Specific Scoring Guide we outline the details of the score judgement.
 
-**Text-Guided Image Editing**
+### **Text-Guided Image Editing**
+
 * Semantic Consistency (SC) scoring for **Text-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
     * SC=1 : The generated image perfectly described all the required attributes but having unnecessary edits.
@@ -46,7 +52,51 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
 
-**Mask-Guided Image Editing**
+
+**Examples / Common cases when evaluating: Text-Guided Image Editing**
+
+> Note that all the images on the left are Inputs, while the images on the right are the outputs.
+>
+> We present each image with a human evaluation in `[<SC score>,<PR score>]`.
+
+Case: Output image looks nearly identical to the input image.
+
+```
+"source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV.",
+"instruction": "let the cabinets be made of dark wood",
+"target_global_caption": "An empty kitchen with dark wood cabinets and granite floors filled with dishes and appliances, with a game show on TV."
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102625_2.jpg" width="256" />
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/InstructPix2Pix/sample_102625_2.jpg" width="256" /> 
+</p>
+* Basically, we gives SC=0 for cases like this. The PR score would vary according to the realism of the image (are there anything that looks unnatural?)
+* If the Output image is exactly identical to the input image, we would rate the score `[0, 2]` (we assume the input image is a realistic photo.).
+* In this given example, I would still rate the score `[0, 2]`. The kitchen looks very dirty!
+
+
+
+Case: Output image is following the prompt well, but the background completely changed.
+
+```
+"source_global_caption": "some fruits are sitting on a table in bowls.",
+"instruction": "remove middle fruit and put a cat in place",
+"target_global_caption": "A cat sits on a table surrounded by bowls of fruit."
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/input/sample_102724_1.jpg" width="256" />
+  <img src="https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush/Prompt2prompt/sample_102724_1.jpg" width="256" /> 
+</p>
+* For Editing tasks, no matter how the image following the prompt well, we give SC=0 as long as the result is in a complete different background.
+* The PR score would vary according to the realism of the image. (are there anything that looks unnatural?)
+* In this given example, I would rate the score `[0, 0.5]` or `[0,0]`.  The image looks real at first glance but there are some distortion in the body and on the fruits / background.
+
+
+
+### **Mask-Guided Image Editing**
+
 * Semantic Consistency (SC) scoring for **Mask-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
     * SC=1 : The generated image perfectly described all the required attributes but having unnecessary edits.
@@ -58,8 +108,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * VF=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
+### **Subject-Driven Image Editing**
 
-**Subject-Driven Image Editing**
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Editing**:
     * SC=2 : Subject accurately represents the intended subject, closely matching all visual characteristics.
     * SC=1 : Subject somewhat represents the intended subject, mismatch low-level features such as facial/texture details.
@@ -71,8 +121,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0.5 : 
     * VF=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
 
+### **Multi-Subject-Driven Image Generation**
 
-**Multi-Subject-Driven Image Generation**
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
     * SC=2 :
     * SC=1 :
@@ -84,8 +134,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0.5 : 
     * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
 
+### **Control-Guided Image Generation**
 
-**Control-Guided Image Generation**
 * Semantic Consistency (SC) scoring for **Control-Guided Image Generation**:
     * SC=2 :
     * SC=1 :
@@ -97,8 +147,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0.5 : 
     * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
 
+### **Style-Guided Image Generation**
 
-**Style-Guided Image Generation**
 * Semantic Consistency (SC) scoring for **Style-Guided Image Generation**:
     * SC=2 : Aesthetic styles match accurately including color palette, stroke type, and paint type. And image perfectly matches to the user prompt.
     * SC=1 : Aesthetic styles match accurately including color palette, stroke type, and paint type. but image missing minor objects to the user prompt.
@@ -110,8 +160,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
     * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
 
+### **Subject-Driven Image Generation**
 
-**Subject-Driven Image Generation**
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Generation**:
     * SC=2 : Subject accurately represents the intended subject, and the background perfectly matches to the user prompt. 
     * SC=1 : Subject mismatch low-level features such as facial/texture details of the intended subject. But the background matches to the user prompt.
@@ -126,6 +176,8 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 
 ### Frequently Asked Questions (FAQ)
 TBA
+
+
 
 ## Human Evaluation Design Rationale
 
