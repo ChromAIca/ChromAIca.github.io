@@ -40,7 +40,7 @@ General design rules for Perceptual Realism (PR) scoring:
 
 In the Task-Specific Scoring Guide we outline the details of the score judgement.
 
-## **Text-Guided Image Editing**
+## **Human Eval - Text-Guided Image Editing**
 
 * Semantic Consistency (SC) scoring for **Text-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
@@ -194,7 +194,7 @@ OutputC | OutputD | OutputE
 
 
 
-## **Mask-Guided Image Editing**
+## **Human Eval - Mask-Guided Image Editing**
 
 * Semantic Consistency (SC) scoring for **Mask-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
@@ -217,7 +217,7 @@ Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Ed
 
 
 
-## **Subject-Driven Image Editing**
+## **Human Eval - Subject-Driven Image Editing**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Editing**:
     * SC=2 : Subject accurately represents the intended subject, closely matching all visual characteristics.
@@ -238,7 +238,7 @@ TBA
 
 
 
-## **Multi-Subject-Driven Image Generation**
+## **Human Eval - Multi-Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
     * SC=2 :
@@ -257,7 +257,7 @@ TBA
 
 
 
-## **Control-Guided Image Generation**
+## **Human Eval - Control-Guided Image Generation**
 
 * Semantic Consistency (SC) scoring for **Control-Guided Image Generation**:
     * SC=2 :
@@ -270,7 +270,7 @@ TBA
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
-## **Style-Guided Image Generation**
+## **Human Eval - Style-Guided Image Generation**
 
 * Semantic Consistency (SC) scoring for **Style-Guided Image Generation**:
     * SC=2 : Aesthetic styles match accurately including color palette, stroke type, and paint type. And image perfectly matches to the user prompt.
@@ -291,7 +291,7 @@ TBA
 
 
 
-## **Subject-Driven Image Generation**
+## **Human Eval - Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Generation**:
     * SC=2 : Subject accurately represents the intended subject, and the background perfectly matches to the user prompt. 
