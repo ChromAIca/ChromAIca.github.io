@@ -205,7 +205,7 @@ Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Ed
 
 
 
-### **Examples / Common cases when evaluating: **Subject-Driven Image Editing
+### Examples / Common cases when evaluating: Subject-Driven Image Editing
 
 TBA
 
@@ -298,3 +298,10 @@ We set
 * Score=1: Decent but not perfect results
 * Score=0.5: for minor flaws
 * Score=0: for serious flaws.
+
+
+
+Insights we can want to get from our results.
+
+* Robustness of each model.
+
