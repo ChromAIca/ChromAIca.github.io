@@ -23,10 +23,10 @@ Perceptual Realism (PR) ensures the generated image align with real-world charac
 
 
 General design rules for Perceptual Realism (PR) scoring:
-* VF=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
-* VF=1 : Nearly no distortion, incompletion found. including sense of distance, lighting or shadow details.
-* VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
-* VF=0 : Obvious noise, distortion, or incompletion can be spotted.
+* PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
+* PR=1 : Nearly no distortion, incompletion found. including sense of distance, lighting or shadow details.
+* PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
+* PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 
 
@@ -46,10 +46,10 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
     * SC=0.5 : Some required attributes appeared on the generated image but in a unnatural sense or seems incomplete.
     * SC=0 : The generated image failed in following the key instruction in editing, or result in a completely different background.
 * Perceptual Realism (PR) scoring for **Text-Guided Image Editing**:
-    * VF=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
-    * VF=1 : Image generally look real but with minor visual flaws on trivial objects.
-    * VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
-    * VF=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
+    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
+    * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
 
 
@@ -107,10 +107,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : Some required attributes appeared on the generated image but in a unnatural sense or seems incomplete.
     * SC=0 : The generated image failed in following the key instruction in editing, or result in a completely different background.
 * Perceptual Realism (PR) scoring for **Mask-Guided Image Editing**:
-    * VF=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
-    * VF=1 : Image generally look real but with minor visual flaws on trivial objects.
-    * VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
-    * VF=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
+    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
+    * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
 ### **Subject-Driven Image Editing**
 
@@ -120,10 +120,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : Subject partially resembles the intended subject, mismatch high-level features such as colors, body proportions. 
     * SC=0 : Subject bears little resemblance to the intended subject, or result in a completely different background.
 * Perceptual Realism (PR) scoring for **Subject-Driven Image Editing**:
-    * VF=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
-    * VF=1 : 
-    * VF=0.5 : 
-    * VF=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
+    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
+    * PR=1 : 
+    * PR=0.5 : 
+    * PR=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
 
 ### **Multi-Subject-Driven Image Generation**
 
@@ -133,10 +133,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : 
     * SC=0 : 
 * Perceptual Realism (PR) scoring for **Multi-Subject-Driven Image Generation**:
-    * VF=2 : 
-    * VF=1 : 
-    * VF=0.5 : 
-    * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
+    * PR=2 : 
+    * PR=1 : 
+    * PR=0.5 : 
+    * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### **Control-Guided Image Generation**
 
@@ -146,10 +146,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : 
     * SC=0 : 
 * Perceptual Realism (PR) scoring for **Control-Guided Image Generation**:
-    * VF=2 : 
-    * VF=1 : 
-    * VF=0.5 : 
-    * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
+    * PR=2 : 
+    * PR=1 : 
+    * PR=0.5 : 
+    * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### **Style-Guided Image Generation**
 
@@ -159,10 +159,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : Aesthetic styles bears partial resemblance.
     * SC=0 : Obvious aesthetic styles completely mismatch or object mismatch to the user prompt.
 * Perceptual Realism (PR) scoring for **Style-Guided Image Generation**:
-    * VF=2 : 
-    * VF=1 : Nearly no distortion, incompletion found. including sense of distance, lighting or shadow details.
-    * VF=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
-    * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
+    * PR=2 : 
+    * PR=1 : Nearly no distortion, incompletion found. including sense of distance, lighting or shadow details.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
+    * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### **Subject-Driven Image Generation**
 
@@ -172,10 +172,10 @@ Case: Output image is following the prompt well, but the background completely c
     * SC=0.5 : Subject mismatch high-level features such as colors and body proportions of the intended subject. But the background matches to the user prompt.
     * SC=0 : Subject bears little resemblance to the intended subject, or the background does not align to the user prompt.
 * Perceptual Realism (PR) scoring for **Subject-Driven Image Generation**:
-    * VF=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
-    * VF=1 : 
-    * VF=0.5 : 
-    * VF=0 : Obvious noise, distortion, or incompletion can be spotted.
+    * PR=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
+    * PR=1 : 
+    * PR=0.5 : 
+    * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 
 ### Frequently Asked Questions (FAQ)
