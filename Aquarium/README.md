@@ -2,7 +2,7 @@
 
 > Our Evaluation Guide is extended from the evaluation standard in [DreamEdit](https://arxiv.org/abs/2306.12624).
 
-## Evaluation Guide for Human Evaluators
+# Evaluation Guide for Human Evaluators
 
 To standardize the conduction of a rigorous human evaluation, we stipulate the criteria for each measurement as follows:
 * Semantic Consistency (SC), score in range `[0, 0.5, 1, 2]`
@@ -34,11 +34,11 @@ General design rules for Perceptual Realism (PR) scoring:
 
 
 
-## Task-Specific Guide for Human Evaluation scoring:
+# Task-Specific Guide for Human Evaluation scoring:
 
 In the Task-Specific Scoring Guide we outline the details of the score judgement.
 
-### **Text-Guided Image Editing**
+## **Text-Guided Image Editing**
 
 * Semantic Consistency (SC) scoring for **Text-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
@@ -53,13 +53,13 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 
 
 
-**Examples / Common cases when evaluating: Text-Guided Image Editing**
+### **Examples / Common cases when evaluating: Text-Guided Image Editing**
 
 > Note that all the images on the left are Inputs, while the images on the right are the outputs.
 >
 > We present each image with a human evaluation in `[<SC score>,<PR score>]`.
 
-Case: Output image looks nearly identical to the input image.
+**Case: Output image looks nearly identical to the input image.**
 
 ```
 "source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV.",
@@ -79,7 +79,7 @@ Case: Output image looks nearly identical to the input image.
 
 
 
-Case: Output image is following the prompt well, but the background completely changed.
+**Case: Output image is following the prompt well, but the background completely changed.**
 
 ```
 "source_global_caption": "some fruits are sitting on a table in bowls.",
@@ -99,7 +99,7 @@ Case: Output image is following the prompt well, but the background completely c
 
 
 
-### **Mask-Guided Image Editing**
+## **Mask-Guided Image Editing**
 
 * Semantic Consistency (SC) scoring for **Mask-Guided Image Editing**:
     * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
@@ -112,7 +112,7 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
-### **Subject-Driven Image Editing**
+## **Subject-Driven Image Editing**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Editing**:
     * SC=2 : Subject accurately represents the intended subject, closely matching all visual characteristics.
@@ -125,7 +125,7 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0.5 : 
     * PR=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
 
-### **Multi-Subject-Driven Image Generation**
+## **Multi-Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
     * SC=2 :
@@ -138,7 +138,7 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
-### **Control-Guided Image Generation**
+## **Control-Guided Image Generation**
 
 * Semantic Consistency (SC) scoring for **Control-Guided Image Generation**:
     * SC=2 :
@@ -151,7 +151,7 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
-### **Style-Guided Image Generation**
+## **Style-Guided Image Generation**
 
 * Semantic Consistency (SC) scoring for **Style-Guided Image Generation**:
     * SC=2 : Aesthetic styles match accurately including color palette, stroke type, and paint type. And image perfectly matches to the user prompt.
@@ -164,7 +164,7 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
-### **Subject-Driven Image Generation**
+## **Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Generation**:
     * SC=2 : Subject accurately represents the intended subject, and the background perfectly matches to the user prompt. 
@@ -178,14 +178,14 @@ Case: Output image is following the prompt well, but the background completely c
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 
-### Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 TBA
 
 
 
-## Human Evaluation Design Rationale
+# Human Evaluation Design Rationale
 
-### Score Design
+## Score Design
 
 We set 
 * Score=2: Having some desire properties hopefully the field will push toward to (what the majority of SOTA models were not capable of generating those consistently)
