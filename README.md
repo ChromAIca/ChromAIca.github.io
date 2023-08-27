@@ -1,5 +1,4 @@
-# [ChromAIca Projects](chromaica.github.io/)
-
+# ChromAIca Projects
 
 ## Aquarium
 
