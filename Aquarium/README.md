@@ -260,15 +260,20 @@ TBA
 ## **Human Eval - Control-Guided Image Generation**
 
 * Semantic Consistency (SC) scoring for **Control-Guided Image Generation**:
-    * SC=2 :
-    * SC=1 :
-    * SC=0.5 : 
-    * SC=0 : 
+    * SC=2 : The generated image perfectly described all the required attributes of the user prompt, and even work
+    * SC=1 : The generated image perfectly described all the required attributes, but with unnecessary objects that is harming the scene.
+    * SC=0.5 : Some required attributes appeared on the generated image but in a unnatural sense or seems incomplete.
+    * SC=0 : The generated image failed following every required attributes in the prompt. 
 * Perceptual Realism (PR) scoring for **Control-Guided Image Generation**:
-    * PR=2 : 
-    * PR=1 : 
-    * PR=0.5 : 
-    * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
+    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
+    * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
+
+### **Examples / Common cases when evaluating: Mask-Guided Image Editing**
+
+Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Editing**](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/Aquarium#examples--common-cases-when-evaluating-text-guided-image-editing). They are basically having the same standard.
+
 
 ## **Human Eval - Style-Guided Image Generation**
 
