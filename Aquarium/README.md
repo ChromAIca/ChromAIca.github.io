@@ -247,8 +247,8 @@ TBA
     * SC=0 : Subjects bears little resemblance to the intended subject, or there are any missing subjects.
 * Perceptual Realism (PR) scoring for **Multi-Subject-Driven Image Generation**:
     * PR=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
-    * PR=1 : 
-    * PR=0.5 : 
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### Examples / Common cases when evaluating: Multi-Subject-Driven Image Generation
@@ -323,8 +323,8 @@ TBA
     * SC=0 : Subject bears little resemblance to the intended subject, or the background does not align to the user prompt.
 * Perceptual Realism (PR) scoring for **Subject-Driven Image Generation**:
     * PR=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
-    * PR=1 : 
-    * PR=0.5 : 
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### Examples / Common cases when evaluating: Subject-Driven Image Generation
