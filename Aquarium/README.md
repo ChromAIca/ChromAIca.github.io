@@ -241,9 +241,9 @@ TBA
 ## **Human Eval - Multi-Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
-    * SC=2 : Subjects accurately represents all the intended subjects, closely matching all visual characteristics.
-    * SC=1 : Subjects somewhat represents the intended subject, mismatch low-level features such as facial/texture details on one of the subjects.
-    * SC=0.5 : Subjects partially resembles the intended subject, mismatch high-level features such as colors, and body proportions on one of the subjects.
+    * SC=2 : Subjects accurately represents all the intended subjects, and the prompt action match exactly.
+    * SC=1 : Subjects somewhat represents the intended subject, mismatch low-level features such as facial/texture details on one of the subjects. Or Both subjects accurately represents all the intended subjects but the prompt action only match in certain degree.
+    * SC=0.5 : Subjects partially resembles the intended subject, mismatch high-level features such as colors, and body proportions on one of the subjects. Or Both subjects accurately represents all the intended subjects but the prompt action does not match.
     * SC=0 : Subjects bears little resemblance to the intended subject, or there are any missing subjects.
 * Perceptual Realism (PR) scoring for **Multi-Subject-Driven Image Generation**:
     * PR=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
@@ -252,6 +252,22 @@ TBA
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### Examples / Common cases when evaluating: Multi-Subject-Driven Image Generation
+
+**Case: Both subjects accurately represents all the intended subjects but the prompt action does not match.**
+
+```
+"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game show on TV.",
+"instruction": "let there be granite floor in the kitchen",
+"target_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV."
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/Aquarium/Multi-Subject_Aqua/input/sample_0.jpg" width="256" />
+  <img src="https://chromaica.github.io/Aquarium/Multi-Subject_Aqua/CustomDiffusion/sample_0.jpg" width="256" /> 
+</p>
+
+* Basically, we gives SC=0.5 for cases like this. Both subjects accurately represents all the intended subjects but the prompt action does not match.
+* In this given example, I would rate the score `[0.5, 1]` because there are some unnatural spots on the cat but looks generally real. The pot look flawless. 
 
 E.g. 
 ```
