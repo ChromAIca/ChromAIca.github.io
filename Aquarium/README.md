@@ -226,8 +226,8 @@ Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Ed
     * SC=0 : Subject bears little resemblance to the intended subject, or result in a completely different background.
 * Perceptual Realism (PR) scoring for **Subject-Driven Image Editing**:
     * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
-    * PR=1 : 
-    * PR=0.5 : 
+    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
+    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Large portion of noise, distortion, or incompletion can be spotted on the object or in the background.
 
 
