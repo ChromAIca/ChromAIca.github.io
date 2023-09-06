@@ -241,20 +241,38 @@ TBA
 ## **Human Eval - Multi-Subject-Driven Image Generation**
 
 * Semantic Consistency (SC) scoring for **Multi-Subject-Driven Image Generation**:
-    * SC=2 :
-    * SC=1 :
-    * SC=0.5 : 
-    * SC=0 : 
+    * SC=2 : Subjects accurately represents all the intended subjects, closely matching all visual characteristics.
+    * SC=1 : Subjects somewhat represents the intended subject, mismatch low-level features such as facial/texture details on one of the subjects.
+    * SC=0.5 : Subjects partially resembles the intended subject, mismatch high-level features such as colors, and body proportions on one of the subjects.
+    * SC=0 : Subjects bears little resemblance to the intended subject, or there are any missing subjects.
 * Perceptual Realism (PR) scoring for **Multi-Subject-Driven Image Generation**:
-    * PR=2 : 
+    * PR=2 : Exhibiting realistic lighting, shadows, texture and background details, and overall visual coherence.
     * PR=1 : 
     * PR=0.5 : 
     * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
 ### Examples / Common cases when evaluating: Multi-Subject-Driven Image Generation
 
-TBA
+E.g. 
+```
+Prompt : A <token_A> Cat under <token_B> chair.
+Result : The cat perfect resembles the intended subject. The chair has the wrong pattern texture. (White Metal chair become White limestone chair) 
+```
+SC=1 : Subjects somewhat represents the intended subject, mismatch low-level features such as facial/texture details on one of the subjects.
 
+E.g. 
+```
+Prompt : A <token_A> Cat under <token_B> chair.
+Result : The cat perfect resembles the intended subject. The chair has the wrong color.
+```
+SC=0.5 : Subjects partially resembles the intended subject, mismatch high-level features such as colors, and body proportions on one of the subjects.
+
+E.g. 
+```
+Prompt : A <token_A> Cat under <token_B> chair.
+Result : The cat perfect resembles the intended subject. The chair is missing. OR The chair is a completely different chair.
+```
+SC=0 : Subjects bears little resemblance to the intended subject, or there are any missing subjects.
 
 
 ## **Human Eval - Control-Guided Image Generation**
