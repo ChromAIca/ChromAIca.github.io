@@ -2,52 +2,52 @@
     "sample_0.jpg": {
         "subject_id": 0,
         "subject": "backpack",
-        "prompt": "a Herschel <token> backpack in Paris"
+        "prompt": "a <token> backpack in Paris"
     },
     "sample_1.jpg": {
         "subject_id": 0,
         "subject": "backpack",
-        "prompt": "a Herschel <token> backpack in Grand Canyon"
+        "prompt": "a <token> backpack in Grand Canyon"
     },
     "sample_2.jpg": {
         "subject_id": 0,
         "subject": "backpack",
-        "prompt": "a Herschel <token> backpack in the water"
+        "prompt": "a <token> backpack in the water"
     },
     "sample_3.jpg": {
         "subject_id": 0,
         "subject": "backpack",
-        "prompt": "a Herschel <token> backpack in Versailles"
+        "prompt": "a <token> backpack in Versailles"
     },
     "sample_4.jpg": {
         "subject_id": 0,
         "subject": "backpack",
-        "prompt": "a Herschel <token> backpack under the blue moon"
+        "prompt": "a <token> backpack under the blue moon"
     },
     "sample_5.jpg": {
         "subject_id": 1,
         "subject": "backpack_dog",
-        "prompt": "a <token> doggy backpack on the beach"
+        "prompt": "a <token> backpack dog on the beach"
     },
     "sample_6.jpg": {
         "subject_id": 1,
         "subject": "backpack_dog",
-        "prompt": "a <token> doggy backpack covered in snow"
+        "prompt": "a <token> backpack dog covered in snow"
     },
     "sample_7.jpg": {
         "subject_id": 1,
         "subject": "backpack_dog",
-        "prompt": "a <token> doggy backpack on the desk"
+        "prompt": "a <token> backpack dog on the desk"
     },
     "sample_8.jpg": {
         "subject_id": 1,
         "subject": "backpack_dog",
-        "prompt": "a <token> doggy backpack in the trash bin"
+        "prompt": "a <token> backpack dog in the trash bin"
     },
     "sample_9.jpg": {
         "subject_id": 1,
         "subject": "backpack_dog",
-        "prompt": "a man carrying <token> doggy backpack"
+        "prompt": "a man carrying <token> backpack dog"
     },
     "sample_10.jpg": {
         "subject_id": 2,
@@ -67,7 +67,7 @@
     "sample_13.jpg": {
         "subject_id": 2,
         "subject": "bear_plushie",
-        "prompt": "Two <token> bear plushies in the store"
+        "prompt": "Two <token> bear plushie in the store"
     },
     "sample_14.jpg": {
         "subject_id": 2,
@@ -102,27 +102,27 @@
     "sample_20.jpg": {
         "subject_id": 4,
         "subject": "can",
-        "prompt": "A <token> beer can in supermarket"
+        "prompt": "A <token> can in supermarket"
     },
     "sample_21.jpg": {
         "subject_id": 4,
         "subject": "can",
-        "prompt": "a <token> pink beer can"
+        "prompt": "a <token> can"
     },
     "sample_22.jpg": {
         "subject_id": 4,
         "subject": "can",
-        "prompt": "a <token> beer can hung on a tree"
+        "prompt": "a <token> can hung on a tree"
     },
     "sample_23.jpg": {
         "subject_id": 4,
         "subject": "can",
-        "prompt": "A cat is opening a <token> beer can"
+        "prompt": "A cat is opening a <token> can"
     },
     "sample_24.jpg": {
         "subject_id": 4,
         "subject": "can",
-        "prompt": "a <token> yellow beer can on the sand"
+        "prompt": "a <token> can on the sand"
     },
     "sample_25.jpg": {
         "subject_id": 5,
@@ -152,77 +152,77 @@
     "sample_30.jpg": {
         "subject_id": 6,
         "subject": "cat",
-        "prompt": "A <token> tabby cat reading a book"
+        "prompt": "A <token> cat reading a book"
     },
     "sample_31.jpg": {
         "subject_id": 6,
         "subject": "cat",
-        "prompt": "A dog sitting with a <token> tabby cat"
+        "prompt": "A dog sitting with a <token> cat"
     },
     "sample_32.jpg": {
         "subject_id": 6,
         "subject": "cat",
-        "prompt": "A <token> tabby cat in a box"
+        "prompt": "A <token> cat in a box"
     },
     "sample_33.jpg": {
         "subject_id": 6,
         "subject": "cat",
-        "prompt": "A <token> tabby cat is sleeping"
+        "prompt": "A <token> cat is sleeping"
     },
     "sample_34.jpg": {
         "subject_id": 6,
         "subject": "cat",
-        "prompt": "A <token> tabby cat is riding a bike"
+        "prompt": "A <token> cat is riding a bike"
     },
     "sample_35.jpg": {
         "subject_id": 7,
         "subject": "cat2",
-        "prompt": "Two <token> Russian blue cat kissing each other"
+        "prompt": "Two <token> cat kissing each other"
     },
     "sample_36.jpg": {
         "subject_id": 7,
         "subject": "cat2",
-        "prompt": "A <token> Russian blue cat reading a book"
+        "prompt": "A <token> cat reading a book"
     },
     "sample_37.jpg": {
         "subject_id": 7,
         "subject": "cat2",
-        "prompt": "A Monet-style painting of <token> Russian blue cat with a hat on a vacation"
+        "prompt": "A Monet-style painting of <token> cat with a hat on a vacation"
     },
     "sample_38.jpg": {
         "subject_id": 7,
         "subject": "cat2",
-        "prompt": "A <token> Russian blue cat in a TV"
+        "prompt": "A <token> cat in a TV"
     },
     "sample_39.jpg": {
         "subject_id": 7,
         "subject": "cat2",
-        "prompt": "A <token> Russian blue cat with a hat in a TV"
+        "prompt": "A <token> cat with a hat in a TV"
     },
     "sample_40.jpg": {
         "subject_id": 8,
         "subject": "clock",
-        "prompt": "A <token> yellow clock on the street"
+        "prompt": "A <token> clock on the street"
     },
     "sample_41.jpg": {
         "subject_id": 8,
         "subject": "clock",
-        "prompt": "A <token> rusty yellow clock"
+        "prompt": "A <token> clock on a bed"
     },
     "sample_42.jpg": {
         "subject_id": 8,
         "subject": "clock",
-        "prompt": "A <token> cartoon yellow clock"
+        "prompt": "A <token> clock on the beach"
     },
     "sample_43.jpg": {
         "subject_id": 8,
         "subject": "clock",
-        "prompt": "A <token> yellow clock drown in the water"
+        "prompt": "A <token> clock drown in the water"
     },
     "sample_44.jpg": {
         "subject_id": 8,
         "subject": "clock",
-        "prompt": "A <token> broken yellow clock"
+        "prompt": "A <token> clock on a table"
     },
     "sample_45.jpg": {
         "subject_id": 9,
@@ -252,177 +252,177 @@
     "sample_50.jpg": {
         "subject_id": 10,
         "subject": "dog",
-        "prompt": "a <token> corgi in the Versailles hall of mirrors"
+        "prompt": "a <token> dog in the Versailles hall of mirrors"
     },
     "sample_51.jpg": {
         "subject_id": 10,
         "subject": "dog",
-        "prompt": "a <token> corgi in the gardens of Versailles"
+        "prompt": "a <token> dog in the gardens of Versailles"
     },
     "sample_52.jpg": {
         "subject_id": 10,
         "subject": "dog",
-        "prompt": "a <token> corgi in Coachella"
+        "prompt": "a <token> dog in Coachella"
     },
     "sample_53.jpg": {
         "subject_id": 10,
         "subject": "dog",
-        "prompt": "a <token> corgi in moutain Fuji"
+        "prompt": "a <token> dog in moutain Fuji"
     },
     "sample_54.jpg": {
         "subject_id": 10,
         "subject": "dog",
-        "prompt": "a <token> corgi in Eiffel Tower"
+        "prompt": "a <token> dog in Eiffel Tower"
     },
     "sample_55.jpg": {
         "subject_id": 11,
         "subject": "dog2",
-        "prompt": "a <token> chow chow dog in the Versailles hall of mirrors"
+        "prompt": "a <token> dog in the Versailles hall of mirrors"
     },
     "sample_56.jpg": {
         "subject_id": 11,
         "subject": "dog2",
-        "prompt": "a <token> chow chow dog in the gardens of Versailles"
+        "prompt": "a <token> dog in the gardens of Versailles"
     },
     "sample_57.jpg": {
         "subject_id": 11,
         "subject": "dog2",
-        "prompt": "a <token> chow chow dog in Coachella"
+        "prompt": "a <token> dog in Coachella"
     },
     "sample_58.jpg": {
         "subject_id": 11,
         "subject": "dog2",
-        "prompt": "a <token> chow chow dog in moutain Fuji"
+        "prompt": "a <token> dog in moutain Fuji"
     },
     "sample_59.jpg": {
         "subject_id": 11,
         "subject": "dog2",
-        "prompt": "a <token> chow chow dog in Eiffel Tower"
+        "prompt": "a <token> dog in Eiffel Tower"
     },
     "sample_60.jpg": {
         "subject_id": 12,
         "subject": "dog3",
-        "prompt": "a <token> Maltese dog in the Versailles hall of mirrors"
+        "prompt": "a <token> dog in the Versailles hall of mirrors"
     },
     "sample_61.jpg": {
         "subject_id": 12,
         "subject": "dog3",
-        "prompt": "a <token> Maltese dog in the gardens of Versailles"
+        "prompt": "a <token> dog in the gardens of Versailles"
     },
     "sample_62.jpg": {
         "subject_id": 12,
         "subject": "dog3",
-        "prompt": "a <token> Maltese dog in Coachella"
+        "prompt": "a <token> dog in Coachella"
     },
     "sample_63.jpg": {
         "subject_id": 12,
         "subject": "dog3",
-        "prompt": "a <token> Maltese dog in moutain Fuji"
+        "prompt": "a <token> dog in moutain Fuji"
     },
     "sample_64.jpg": {
         "subject_id": 12,
         "subject": "dog3",
-        "prompt": "a <token> Maltese dog in Eiffel Tower"
+        "prompt": "a <token> dog in Eiffel Tower"
     },
     "sample_65.jpg": {
         "subject_id": 13,
         "subject": "dog5",
-        "prompt": "a <token> Dachshund dog in the Versailles hall of mirrors"
+        "prompt": "a <token> dog in the Versailles hall of mirrors"
     },
     "sample_66.jpg": {
         "subject_id": 13,
         "subject": "dog5",
-        "prompt": "a <token> Dachshund dog in the gardens of Versailles"
+        "prompt": "a <token> dog in the gardens of Versailles"
     },
     "sample_67.jpg": {
         "subject_id": 13,
         "subject": "dog5",
-        "prompt": "a <token> Dachshund dog in Coachella"
+        "prompt": "a <token> dog in Coachella"
     },
     "sample_68.jpg": {
         "subject_id": 13,
         "subject": "dog5",
-        "prompt": "a <token> Dachshund dog in moutain Fuji"
+        "prompt": "a <token> dog in moutain Fuji"
     },
     "sample_69.jpg": {
         "subject_id": 13,
         "subject": "dog5",
-        "prompt": "a <token> Dachshund dog in Eiffel Tower"
+        "prompt": "a <token> dog in Eiffel Tower"
     },
     "sample_70.jpg": {
         "subject_id": 14,
         "subject": "dog6",
-        "prompt": "a <token> tiny dog in front of Acropolis"
+        "prompt": "a <token> dog in front of Acropolis"
     },
     "sample_71.jpg": {
         "subject_id": 14,
         "subject": "dog6",
-        "prompt": "a <token> tiny dog swimming"
+        "prompt": "a <token> dog swimming"
     },
     "sample_72.jpg": {
         "subject_id": 14,
         "subject": "dog6",
-        "prompt": "a <token> tiny dog in doghouse"
+        "prompt": "a <token> dog in doghouse"
     },
     "sample_73.jpg": {
         "subject_id": 14,
         "subject": "dog6",
-        "prompt": "a <token> tiny dog sleeping"
+        "prompt": "a <token> dog sleeping"
     },
     "sample_74.jpg": {
         "subject_id": 14,
         "subject": "dog6",
-        "prompt": "a <token> tiny dog having a haircut"
+        "prompt": "a <token> dog having a haircut"
     },
     "sample_75.jpg": {
         "subject_id": 15,
         "subject": "dog7",
-        "prompt": "a <token> canine dog jumping over a vehicle on a snowy day"
+        "prompt": "a <token> dog jumping over a vehicle on a snowy day"
     },
     "sample_76.jpg": {
         "subject_id": 15,
         "subject": "dog7",
-        "prompt": "a <token> back view of a canine dog watching a TV show about birds"
+        "prompt": "a <token> dog watching a TV show about birds"
     },
     "sample_77.jpg": {
         "subject_id": 15,
         "subject": "dog7",
-        "prompt": "a <token> canine dog reading a book with a pink glasses on"
+        "prompt": "a <token> dog reading a book with a pink glasses on"
     },
     "sample_78.jpg": {
         "subject_id": 15,
         "subject": "dog7",
-        "prompt": "a <token> canine dog eating an ice-cream in a bowl"
+        "prompt": "a <token> dog eating an ice-cream in a bowl"
     },
     "sample_79.jpg": {
         "subject_id": 15,
         "subject": "dog7",
-        "prompt": "a <token> canine dog talking to a british shorthair in the garden"
+        "prompt": "a <token> dog talking to a british shorthair in the garden"
     },
     "sample_80.jpg": {
         "subject_id": 16,
         "subject": "dog8",
-        "prompt": "a <token> border collie sniffing a backpack"
+        "prompt": "a <token> dog sniffing a backpack"
     },
     "sample_81.jpg": {
         "subject_id": 16,
         "subject": "dog8",
-        "prompt": "a <token> border collie standing on a lush green field"
+        "prompt": "a <token> dog standing on a lush green field"
     },
     "sample_82.jpg": {
         "subject_id": 16,
         "subject": "dog8",
-        "prompt": "A <token> border collie herding a group of sheep"
+        "prompt": "A <token> dog herding a group of sheep"
     },
     "sample_83.jpg": {
         "subject_id": 16,
         "subject": "dog8",
-        "prompt": "A <token> border collie swimming in a river"
+        "prompt": "A <token> dog swimming in a river"
     },
     "sample_84.jpg": {
         "subject_id": 16,
         "subject": "dog8",
-        "prompt": "A <token> border collie sticking its head out of a car window"
+        "prompt": "A <token> dog sticking its head out of a car window"
     },
     "sample_85.jpg": {
         "subject_id": 17,
@@ -432,7 +432,7 @@
     "sample_86.jpg": {
         "subject_id": 17,
         "subject": "duck_toy",
-        "prompt": "a <token> blue duck toy on TV"
+        "prompt": "a <token> duck toy on TV"
     },
     "sample_87.jpg": {
         "subject_id": 17,
@@ -502,102 +502,102 @@
     "sample_100.jpg": {
         "subject_id": 20,
         "subject": "monster_toy",
-        "prompt": "a <token> red monster toy sitting on a wing chair"
+        "prompt": "a <token> monster toy sitting on a wing chair"
     },
     "sample_101.jpg": {
         "subject_id": 20,
         "subject": "monster_toy",
-        "prompt": "a <token> red monster toy on the book cover"
+        "prompt": "a <token> monster toy on the book cover"
     },
     "sample_102.jpg": {
         "subject_id": 20,
         "subject": "monster_toy",
-        "prompt": "a <token> red monster toy driving a car"
+        "prompt": "a <token> monster toy driving a car"
     },
     "sample_103.jpg": {
         "subject_id": 20,
         "subject": "monster_toy",
-        "prompt": "a <token> red monster toy having sushi"
+        "prompt": "a <token> monster toy having sushi"
     },
     "sample_104.jpg": {
         "subject_id": 20,
         "subject": "monster_toy",
-        "prompt": "a <token> red monster toy flying a kite"
+        "prompt": "a <token> monster toy flying a kite"
     },
     "sample_105.jpg": {
         "subject_id": 21,
         "subject": "pink_sunglasses",
-        "prompt": "Dior sunglasses <token> sitting on a riverbank"
+        "prompt": "<token> pink sunglasses sitting on a riverbank"
     },
     "sample_106.jpg": {
         "subject_id": 21,
         "subject": "pink_sunglasses",
-        "prompt": "Dior sunglasses <token> hang on the wall"
+        "prompt": "<token> pink sunglasses hang on the wall"
     },
     "sample_107.jpg": {
         "subject_id": 21,
         "subject": "pink_sunglasses",
-        "prompt": "Dior sunglasses <token> on a wooden deck"
+        "prompt": "<token> pink sunglasses on a wooden deck"
     },
     "sample_108.jpg": {
         "subject_id": 21,
         "subject": "pink_sunglasses",
-        "prompt": "Dior sunglasses <token> worn by a teddy bear"
+        "prompt": "<token> pink sunglasses worn by a teddy bear"
     },
     "sample_109.jpg": {
         "subject_id": 21,
         "subject": "pink_sunglasses",
-        "prompt": "Dior sunglasses <token> carried by a monkey"
+        "prompt": "<token> pink sunglasses carried by a monkey"
     },
     "sample_110.jpg": {
         "subject_id": 22,
         "subject": "poop_emoji",
-        "prompt": "a <token> poop emoji toy talking to a red heart emoji toy"
+        "prompt": "a <token> poop emoji talking to a red heart emoji toy"
     },
     "sample_111.jpg": {
         "subject_id": 22,
         "subject": "poop_emoji",
-        "prompt": "a <token> poop emoji toy on a clock tower"
+        "prompt": "a <token> poop emoji on a clock tower"
     },
     "sample_112.jpg": {
         "subject_id": 22,
         "subject": "poop_emoji",
-        "prompt": "a <token> poop emoji toy under an iron tower"
+        "prompt": "a <token> poop emoji under an iron tower"
     },
     "sample_113.jpg": {
         "subject_id": 22,
         "subject": "poop_emoji",
-        "prompt": "a <token> poop emoji toy flying in the sky"
+        "prompt": "a <token> poop emoji flying in the sky"
     },
     "sample_114.jpg": {
         "subject_id": 22,
         "subject": "poop_emoji",
-        "prompt": "a <token> poop emoji toy wearing sunglasses"
+        "prompt": "a <token> poop emoji wearing sunglasses"
     },
     "sample_115.jpg": {
         "subject_id": 23,
         "subject": "rc_car",
-        "prompt": "a racing <token> car toy ready on the racing track"
+        "prompt": "a <token> rc car ready on the racing track"
     },
     "sample_116.jpg": {
         "subject_id": 23,
         "subject": "rc_car",
-        "prompt": "a racing <token> car toy on a railway track"
+        "prompt": "a <token> rc car on a railway track"
     },
     "sample_117.jpg": {
         "subject_id": 23,
         "subject": "rc_car",
-        "prompt": "a racing <token> car toy on the bridge"
+        "prompt": "a <token> rc car on the bridge"
     },
     "sample_118.jpg": {
         "subject_id": 23,
         "subject": "rc_car",
-        "prompt": "a racing <token> car toy driven by the super mario"
+        "prompt": "a <token> rc car driven by the super mario"
     },
     "sample_119.jpg": {
         "subject_id": 23,
         "subject": "rc_car",
-        "prompt": "a racing <token> car toy zooms past another car toy"
+        "prompt": "a <token> rc car zooms past another car toy"
     },
     "sample_120.jpg": {
         "subject_id": 24,
