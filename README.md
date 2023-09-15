@@ -5,6 +5,7 @@
 [Human Eval Guide](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/Aquarium)
 
 Showcase of Results (Might take some time to load)
+* [Text-To-Image Generation](https://chromaica.github.io/Aquarium/Text-To-Image)
 * [Text-Guided Image Editing](https://chromaica.github.io/Aquarium/Text-Guided_Aqua-Magicbrush)
 * [Mask-Guided Image Editing](https://chromaica.github.io/Aquarium/Mask-Guided_Aqua-Magicbrush)
 * [Control-Guided Image Generation](https://chromaica.github.io/Aquarium/Control-Guided_Aqua)
