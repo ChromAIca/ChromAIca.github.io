@@ -221,8 +221,8 @@ Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Ed
 
 * Semantic Consistency (SC) scoring for **Subject-Driven Image Editing**:
     * SC=2 : Subject accurately represents the intended subject, closely matching all visual characteristics.
-    * SC=1 : Subject somewhat represents the intended subject, mismatch low-level features such as facial/texture details.
-    * SC=0.5 : Subject partially resembles the intended subject, mismatch high-level features such as colors, body proportions. 
+    * SC=1 : Subject somewhat represents the intended subject, mismatch low-level features such as facial/texture details. Or there are minor change in background.
+    * SC=0.5 : Subject partially resembles the intended subject, mismatch high-level features such as colors, body proportions. Or there are easily observable change in background.
     * SC=0 : Subject bears little resemblance to the intended subject, or result in a completely different background.
 * Perceptual Realism (PR) scoring for **Subject-Driven Image Editing**:
     * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
