@@ -232,7 +232,7 @@ Glide|SDInpaint|SDXLInpaint
 </p>
 
 - BlendedDiffusion: `[0, 0]`. Generated content can not be regarded as strawberry, SC=0. In general the image is unnatural, PR=0.
-- Glide: `[0.5, 0]`. Generated content looks like strawberry but it's unnatural, SC=0.5. Edi region does not seemlessly blend with context, PR=0.
+- Glide: `[0.5, 0]`. Generated content looks like strawberry but it's unnatural, SC=0.5. Edi region does not seamlessly blend with context, PR=0.
 - SDInpaint: `[2, 1]`. Succesfully edits a clear strawberry, SC=2. The bottom left part of the generated content does not blend well with the context.
 - SDXLInpaint: `[0, 1]`. Fail to add strawberry, SC=0. THe bottom left part has unexpected red.
 
@@ -280,7 +280,7 @@ Glide|SDInpaint|SDXLInpaint
 </p>
 
 - BlendedDiffusion: `[0, 0]`. The edited object can hardly be regarded as airplane, SC=0. Unrealistic object and unnatural image, PR=0.
-- Glide: `[2, 1]`. Clearly generates the blue airplane, SC=2. The edit region does not blend seemlessly to the rest of the image, PR=1.
+- Glide: `[2, 1]`. Clearly generates the blue airplane, SC=2. The edit region does not blend seamlessly to the rest of the image, PR=1.
 - SDInpaint: `[0.5,0]`. Generates a airplane-like object but not good enough, SC=0.5. In general the image is not natural, Pr=0.
 - SDXLInpaint: `[2, 1]`. Successfully generates the blue airplane, SC=2. The rightmost part is a bit blurry, PR=1.
 
