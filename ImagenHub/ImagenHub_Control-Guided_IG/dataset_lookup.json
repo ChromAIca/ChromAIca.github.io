@@ -1,0 +1,2002 @@
+{
+    "sample_0_control_canny.jpg": {
+        "text": "A small dog is curled up on top of the shoes",
+        "control_type": "canny"
+    },
+    "sample_1_control_depth.jpg": {
+        "text": "a man riding a skateboard up the side of a ramp",
+        "control_type": "depth"
+    },
+    "sample_2_control_openpose.jpg": {
+        "text": "two boys are playing with a frisbee in a field, 2009 cinematography, trending on artforum, running pose, bruce springsteen, connected to heart machines, with tattoos, beautiful - n 9, by Eric Dinyer, young child, midlands",
+        "control_type": "openpose"
+    },
+    "sample_3_control_grayscale.jpg": {
+        "text": "person holding white styro cup",
+        "control_type": "grayscale"
+    },
+    "sample_4_control_hed.jpg": {
+        "text": "the golden gate bridge is in the distance, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_5_control_canny.jpg": {
+        "text": "A motorcycle parked in a parking space next to another motorcycle.",
+        "control_type": "canny"
+    },
+    "sample_6_control_depth.jpg": {
+        "text": "a man and a woman cutting a cake together",
+        "control_type": "depth"
+    },
+    "sample_7_control_openpose.jpg": {
+        "text": "a man and a woman doing a jump rope exercise, the second\u2026\u00a0like a calf, head to waist, qvc, compositing, braided hairstyle, human back legs and sneakers, damage class, bald head and menacing look, carpet at the floor, body harness, sweaty abs, circuits",
+        "control_type": "openpose"
+    },
+    "sample_8_control_grayscale.jpg": {
+        "text": "Spider-Man tutu dress. Who says girls can't be superheroes?!   Lisastutus.etsy.com Facebook.com/tutusbylisa",
+        "control_type": "grayscale"
+    },
+    "sample_9_control_hed.jpg": {
+        "text": "the golden gate bridge is in the background, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_10_control_canny.jpg": {
+        "text": "a white dog is sleeping on a street and a bicycle",
+        "control_type": "canny"
+    },
+    "sample_11_control_depth.jpg": {
+        "text": "a piece of cake sitting on top of a wooden table",
+        "control_type": "depth"
+    },
+    "sample_12_control_openpose.jpg": {
+        "text": "a woman bending over on a yoga mat, youtube video screenshot, inspired by N\u00edna Tryggvad\u00f3ttir, donkey ears, dutch camera view, aspect ratio 16:9, bridges, serpentine pose, kimi vera, h 1088, gadigal, plexus, hand on the doorknob, move still, halter neck, bicycle in background",
+        "control_type": "openpose"
+    },
+    "sample_13_control_grayscale.jpg": {
+        "text": "Love Truffles Selection Ballotin",
+        "control_type": "grayscale"
+    },
+    "sample_14_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_15_control_canny.jpg": {
+        "text": "A loft bed with a dresser underneath it.",
+        "control_type": "canny"
+    },
+    "sample_16_control_depth.jpg": {
+        "text": "a woman standing next to a luggage cart at an airport",
+        "control_type": "depth"
+    },
+    "sample_17_control_openpose.jpg": {
+        "text": "a couple of men standing next to each other with crutches, partial robotic body, high school mascot, in a lab, inspired by Christopher Moeller, damaged floor, frontal picture, brock hofer, blue gold and black, injured, photo finish, walkthrough, still photo, two young men, long distance photo, standing!!, desks, 3 / 4 view",
+        "control_type": "openpose"
+    },
+    "sample_18_control_grayscale.jpg": {
+        "text": "Grilled Pizza Bread",
+        "control_type": "grayscale"
+    },
+    "sample_19_control_hed.jpg": {
+        "text": "the golden gate bridge in san francisco, california stock, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_20_control_canny.jpg": {
+        "text": "Two giraffes in a room with people looking at them.",
+        "control_type": "canny"
+    },
+    "sample_21_control_depth.jpg": {
+        "text": "a train that is sitting on the tracks",
+        "control_type": "depth"
+    },
+    "sample_22_control_openpose.jpg": {
+        "text": "a man that is standing in a kitchen, the ecolab industrial dishwasher, dvd screencapture, restaurant, tyler jacobson style, documentary photograph, young man with short, racking focus, csp, live footage, puttin, walkthrough, cam",
+        "control_type": "openpose"
+    },
+    "sample_23_control_grayscale.jpg": {
+        "text": "Wall Art - Drawing - A Selection Of Lingerie, With Lace by Mary Evans Picture Library",
+        "control_type": "grayscale"
+    },
+    "sample_24_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_25_control_canny.jpg": {
+        "text": "A woman stands in the dining area at the table.",
+        "control_type": "canny"
+    },
+    "sample_26_control_depth.jpg": {
+        "text": "a young boy kicking a soccer ball on a field",
+        "control_type": "depth"
+    },
+    "sample_27_control_openpose.jpg": {
+        "text": "a man riding a hang glider through the air, iphone video, half-frame square glasses, fog of war, black 3 d cuboid device, holds a smart phone in one hand, shortbow, behrens style, glass cover, handheld",
+        "control_type": "openpose"
+    },
+    "sample_28_control_grayscale.jpg": {
+        "text": "The Beach Metal Print by Alfred Victor Fournier",
+        "control_type": "grayscale"
+    },
+    "sample_29_control_hed.jpg": {
+        "text": "the golden gate bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_30_control_canny.jpg": {
+        "text": "Birds perch on a bunch of twigs in the winter.",
+        "control_type": "canny"
+    },
+    "sample_31_control_depth.jpg": {
+        "text": "a man with a beard standing in front of a crowd of people",
+        "control_type": "depth"
+    },
+    "sample_32_control_openpose.jpg": {
+        "text": "a group of men standing on top of a soccer field, crossbow arrow, wprost, from italica, william open, leaving for battle, screengrab, strathmore 2 0 0, jaeyeon nam, britain, fast paced, prey, hunchbacked, brown red blue, palace, london, his arms are behind his back, about to enter doorframe",
+        "control_type": "openpose"
+    },
+    "sample_33_control_grayscale.jpg": {
+        "text": "The Harbors Dining Rooms",
+        "control_type": "grayscale"
+    },
+    "sample_34_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_35_control_canny.jpg": {
+        "text": "an image of a kitchen loft style setting",
+        "control_type": "canny"
+    },
+    "sample_36_control_depth.jpg": {
+        "text": "a man holding a tennis racquet on a tennis court",
+        "control_type": "depth"
+    },
+    "sample_37_control_openpose.jpg": {
+        "text": "a small child standing on a hard wood floor, color video footage, green flag, maid, toddler, clutter, spatula, marking lines, 5",
+        "control_type": "openpose"
+    },
+    "sample_38_control_grayscale.jpg": {
+        "text": "Charms and a whole lot of other stuff!",
+        "control_type": "grayscale"
+    },
+    "sample_39_control_hed.jpg": {
+        "text": "golden gate bridge at night, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_40_control_canny.jpg": {
+        "text": "A baseball player for the Chicago Cubs stands at home plate.",
+        "control_type": "canny"
+    },
+    "sample_41_control_depth.jpg": {
+        "text": "a woman holding a nintendo wii game controller",
+        "control_type": "depth"
+    },
+    "sample_42_control_openpose.jpg": {
+        "text": "a woman standing in front of a table holding a scarf, yarn ball, youtube video, jellycat, the empress\u2019 swirling gardens, inside a grand messy studio, website screenshot, whip in hand, twinkling and spiral nubela, youtube video screenshot, frenetic",
+        "control_type": "openpose"
+    },
+    "sample_43_control_grayscale.jpg": {
+        "text": "Its A Boy - Baby Shower Pictures, Photos, and Images for ... White Elephant Christmas",
+        "control_type": "grayscale"
+    },
+    "sample_44_control_hed.jpg": {
+        "text": "a group of people are standing near the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_45_control_canny.jpg": {
+        "text": "A table full of food such as peas and carrots, bread, salad and gravy. ",
+        "control_type": "canny"
+    },
+    "sample_46_control_depth.jpg": {
+        "text": "a cat laying on the ground next to a shoe",
+        "control_type": "depth"
+    },
+    "sample_47_control_openpose.jpg": {
+        "text": "a man riding a skateboard down a street, inspired by Jan Gregoor, with a park in the back ground, low camera position, school, cutout, mirroring, grey clothes, lensflares, tention, speed, sunny day in a park, morph, baars, 1 6 years old, face shown, heels, dolphin",
+        "control_type": "openpose"
+    },
+    "sample_48_control_grayscale.jpg": {
+        "text": "Snow fell in London on Monday morning",
+        "control_type": "grayscale"
+    },
+    "sample_49_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from a hill, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_50_control_canny.jpg": {
+        "text": "a faucet running next to a dinosuar holding a toothbrush",
+        "control_type": "canny"
+    },
+    "sample_51_control_depth.jpg": {
+        "text": "a bathroom with a toilet a sink and a window",
+        "control_type": "depth"
+    },
+    "sample_52_control_openpose.jpg": {
+        "text": "a group of people playing hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop hop, sweden, still from l'estate, dart board, prostheses, use rule of thirds, game footage, impactful graphic design, middle - age, vtm, court session images",
+        "control_type": "openpose"
+    },
+    "sample_53_control_grayscale.jpg": {
+        "text": "Sunset image on a dock",
+        "control_type": "grayscale"
+    },
+    "sample_54_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_55_control_canny.jpg": {
+        "text": "people sitting around watching a man playing a video game",
+        "control_type": "canny"
+    },
+    "sample_56_control_depth.jpg": {
+        "text": "a man and a woman on a tractor trailer",
+        "control_type": "depth"
+    },
+    "sample_57_control_openpose.jpg": {
+        "text": "a man sitting on top of a black mat, male ulzzang, doing splits and stretching, high definition screen capture, 3 meters, nfts, australia intricate, super-flat, lawns, self - taught, video, sugar glider, full size, morph",
+        "control_type": "openpose"
+    },
+    "sample_58_control_grayscale.jpg": {
+        "text": "exterior 2016 Jayco Pinnacle 36 RSQS Fort Worth, TX",
+        "control_type": "grayscale"
+    },
+    "sample_59_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_60_control_canny.jpg": {
+        "text": "People eating from food trucks near a commemorative archway",
+        "control_type": "canny"
+    },
+    "sample_61_control_depth.jpg": {
+        "text": "a man laying in the snow on skis",
+        "control_type": "depth"
+    },
+    "sample_62_control_openpose.jpg": {
+        "text": "a person on a small sailboat in the water, transformation sequence, great britain, wearing adidas clothing, sd video, reeds, grey tarnished longcoat, training, suki, rogue, sport, glinting metal, the fifth series, sheild, laser, off putting, subdivision, smoothly",
+        "control_type": "openpose"
+    },
+    "sample_63_control_grayscale.jpg": {
+        "text": "Ask Adam: What's the Difference Between Scotch Ale and Scottish Ale?",
+        "control_type": "grayscale"
+    },
+    "sample_64_control_hed.jpg": {
+        "text": "a golden gate bridge is seen through the fog, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_65_control_canny.jpg": {
+        "text": "A bottle and glass on red wine on a patio table",
+        "control_type": "canny"
+    },
+    "sample_66_control_depth.jpg": {
+        "text": "a woman holding a bottle and a beer in her hand",
+        "control_type": "depth"
+    },
+    "sample_67_control_openpose.jpg": {
+        "text": "a man standing on a mat with a pair of dumbbells, deep fake, youtube video screenshot, off the shoulder shirt, underbrush wash, two legs two arms one head, neck shackle, grainy footage, surfaces blemishes, artem, uses c4, buttshape, sconces, threes, head to waist",
+        "control_type": "openpose"
+    },
+    "sample_68_control_grayscale.jpg": {
+        "text": "\"New Year's Eve: Dubai Will Attempt \"\"Largest Fireworks Display\"\" World Record\"",
+        "control_type": "grayscale"
+    },
+    "sample_69_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from a hilltop, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_70_control_canny.jpg": {
+        "text": "Closeup of a brown bear sitting in a grassy area.",
+        "control_type": "canny"
+    },
+    "sample_71_control_depth.jpg": {
+        "text": "a red and white airplane is hanging from a ceiling",
+        "control_type": "depth"
+    },
+    "sample_72_control_openpose.jpg": {
+        "text": "a woman pushing a wheelbarrow full of dirt, maple syrup highlights, plasticized spiral flames, cherry tree in the background, color video footage, wooden crates, backyard garden, adobe eps, news report, lush landscaping, pallet, grungy woman, nets, sludgy",
+        "control_type": "openpose"
+    },
+    "sample_73_control_grayscale.jpg": {
+        "text": "Shovels & Rope's Michael Trent and Cary Ann Hearst.",
+        "control_type": "grayscale"
+    },
+    "sample_74_control_hed.jpg": {
+        "text": "the golden gate bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_75_control_canny.jpg": {
+        "text": "a man poses in front of some pots and pans ",
+        "control_type": "canny"
+    },
+    "sample_76_control_depth.jpg": {
+        "text": "a man in a suit holding a baseball bat",
+        "control_type": "depth"
+    },
+    "sample_77_control_openpose.jpg": {
+        "text": "a man standing in a kitchen preparing food, tv program, protagonist in foreground, in one frame, huble, piping, crossover, with same hairstyle, entire character, mist filters, dmd, female lead character, general, kidneys, on his left hand",
+        "control_type": "openpose"
+    },
+    "sample_78_control_grayscale.jpg": {
+        "text": "Pride parade, Key West, Florida, USA. Photo by Ron Mayhew Photography.",
+        "control_type": "grayscale"
+    },
+    "sample_79_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_80_control_canny.jpg": {
+        "text": "a few guys sit next to each other on a bench ",
+        "control_type": "canny"
+    },
+    "sample_81_control_depth.jpg": {
+        "text": "a woman sitting in a chair holding a teddy bear",
+        "control_type": "depth"
+    },
+    "sample_82_control_openpose.jpg": {
+        "text": "a woman in a red dress paddling a canoe, tvp, at the world cup, parallax \u00bb, 4 colors!!!, rating: general, portugal, torus energy, wearing adidas clothing, by Pietro Testa, that resembles a bull\\'s, slovakia, screenshot, masterful, super precise detail, podium",
+        "control_type": "openpose"
+    },
+    "sample_83_control_grayscale.jpg": {
+        "text": "Load image into Gallery viewer, Lake Blue Chelsea Collar Vintage Long Sleeve Fall 50S Dress",
+        "control_type": "grayscale"
+    },
+    "sample_84_control_hed.jpg": {
+        "text": "a golden gate bridge is seen in the distance, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_85_control_canny.jpg": {
+        "text": "An elderly man and woman looking around in a kitchen.",
+        "control_type": "canny"
+    },
+    "sample_86_control_depth.jpg": {
+        "text": "two cats sitting on a table next to each other",
+        "control_type": "depth"
+    },
+    "sample_87_control_openpose.jpg": {
+        "text": "a bull and a bullfighter in a bullfight, dvd screencapture, empathic, holding dagger, codex, cargo shorts, critically condemned, before the final culling, holding an ace card, highlighted, caught on camera, cloak covering face",
+        "control_type": "openpose"
+    },
+    "sample_88_control_grayscale.jpg": {
+        "text": "Landscape with Church in the Summer. Mid 90th",
+        "control_type": "grayscale"
+    },
+    "sample_89_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_90_control_canny.jpg": {
+        "text": "A group of men on a field playing baseball.",
+        "control_type": "canny"
+    },
+    "sample_91_control_depth.jpg": {
+        "text": "a man riding on the back of a brown horse",
+        "control_type": "depth"
+    },
+    "sample_92_control_openpose.jpg": {
+        "text": "a group of young men playing a game of frisbee, cybermosque interior, youtube video screenshot, wooden walls brass panels, inspired by Fabien Charuau, large room, old man doing with mask, malaysian, dirty short sleeved shirt, fencing, photo taken from far, logo, walking to the right, dim",
+        "control_type": "openpose"
+    },
+    "sample_93_control_grayscale.jpg": {
+        "text": "Galloway Burn - Winter<br /> <br /> I love the structure of winter shots - the raw components stripped back to reveal their true form and beauty",
+        "control_type": "grayscale"
+    },
+    "sample_94_control_hed.jpg": {
+        "text": "a view of the golden gate bridge from the top, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_95_control_canny.jpg": {
+        "text": "A black and white shot of a city with a tall skyscraper in the distance.",
+        "control_type": "canny"
+    },
+    "sample_96_control_depth.jpg": {
+        "text": "people on a boat in the water",
+        "control_type": "depth"
+    },
+    "sample_97_control_openpose.jpg": {
+        "text": "a man standing on a tennis court holding a racquet, ney matogrosso with malice, youtube video screenshot, deep shafts, baseball cap, by Giorgio Cavallon, sebastien chabal, he is about 5 0 years old, with a square, octave",
+        "control_type": "openpose"
+    },
+    "sample_98_control_grayscale.jpg": {
+        "text": "Porg MINI plant air holder , star wars inspired air plant holder, geeky gift, air plant gift set, free shipping",
+        "control_type": "grayscale"
+    },
+    "sample_99_control_hed.jpg": {
+        "text": "a picture of the golden gate bridge with chinese writing, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_100_control_canny.jpg": {
+        "text": "A snowboarder hitting a trick off a giant ramp.",
+        "control_type": "canny"
+    },
+    "sample_101_control_depth.jpg": {
+        "text": "a yellow fire hydrant sitting in the grass",
+        "control_type": "depth"
+    },
+    "sample_102_control_openpose.jpg": {
+        "text": "a man is chopping wood in the woods, future soldier clothing, youtube video screenshot, fig.1, inspired by Keos Masons, wearing a tee shirt and combats, july 2 0 1 1, by Oton Ivekovi\u0107, redlettermedia, viking runes, masculinity",
+        "control_type": "openpose"
+    },
+    "sample_103_control_grayscale.jpg": {
+        "text": "A different type of Snow White cake. The colors could be changed to work for any of the Disney princesses.",
+        "control_type": "grayscale"
+    },
+    "sample_104_control_hed.jpg": {
+        "text": "people are standing on a hill overlooking the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_105_control_canny.jpg": {
+        "text": "a desk with three electronics stacked on each other",
+        "control_type": "canny"
+    },
+    "sample_106_control_depth.jpg": {
+        "text": "two zebras are grazing in a grassy field",
+        "control_type": "depth"
+    },
+    "sample_107_control_openpose.jpg": {
+        "text": "a woman sitting on top of a pile of sticks, filleting technique, inspired by Jiao Bingzhen, dark cables hanging from ceiling, a still of a happy, older woman, vdovenko, worksafe.2000s, still from nature documentary, leafs falling, royal workshop, kakejiku",
+        "control_type": "openpose"
+    },
+    "sample_108_control_grayscale.jpg": {
+        "text": "Fresh hops on the vine.",
+        "control_type": "grayscale"
+    },
+    "sample_109_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_110_control_canny.jpg": {
+        "text": "A man using a cell phone amongst a crowd of people.",
+        "control_type": "canny"
+    },
+    "sample_111_control_depth.jpg": {
+        "text": "a bowl of soup and a sandwich on a plate",
+        "control_type": "depth"
+    },
+    "sample_112_control_openpose.jpg": {
+        "text": "a group of men running down a dirt road, dvd screencapture, inspired by L. A. Ring, park background, in the high school gym, practice, cam de leon, eyes closed, upper body close - up, highschool background, cold blood, upper body close up, fins, asian descend, band, race, newspaper photo, highly focused",
+        "control_type": "openpose"
+    },
+    "sample_113_control_grayscale.jpg": {
+        "text": "pregnant bride kissing groom cartoon vector image",
+        "control_type": "grayscale"
+    },
+    "sample_114_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_115_control_canny.jpg": {
+        "text": "This large pizza has a lot of cheese and tomato sauce.",
+        "control_type": "canny"
+    },
+    "sample_116_control_depth.jpg": {
+        "text": "a man holding a tennis racquet on a tennis court",
+        "control_type": "depth"
+    },
+    "sample_117_control_openpose.jpg": {
+        "text": "a group of people sitting on top of a bench, ice princess, dvd screencapture, very very happy!, smooth panelling, podium, 2013",
+        "control_type": "openpose"
+    },
+    "sample_118_control_grayscale.jpg": {
+        "text": "New cottage garden planting with Veronicas, Dianthus, Salvias and Lavender.",
+        "control_type": "grayscale"
+    },
+    "sample_119_control_hed.jpg": {
+        "text": "the golden gate bridge is a beautiful bridge in san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_120_control_canny.jpg": {
+        "text": "a white boat is out on the water",
+        "control_type": "canny"
+    },
+    "sample_121_control_depth.jpg": {
+        "text": "two people on skis standing on top of a snow covered slope",
+        "control_type": "depth"
+    },
+    "sample_122_control_openpose.jpg": {
+        "text": "a woman standing on top of a tennis court holding a racquet, sprinters in a race, lee ji - eun, scarlet and yellow scheme, screengrab, the forefoot to make a v gesture, flags, one single continues line, by Sim Sa-jeong, 2 meters, field depth, margins, pv, hironaka",
+        "control_type": "openpose"
+    },
+    "sample_123_control_grayscale.jpg": {
+        "text": "chocolate, drink, and food image",
+        "control_type": "grayscale"
+    },
+    "sample_124_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_125_control_canny.jpg": {
+        "text": "A man standing on a tennis court holding a racquet.",
+        "control_type": "canny"
+    },
+    "sample_126_control_depth.jpg": {
+        "text": "a collection of books sitting on top of a shelf",
+        "control_type": "depth"
+    },
+    "sample_127_control_openpose.jpg": {
+        "text": "a man and a woman walking through a field, food network, luisiana, wearing a blue jacket, still image from tv series, camera pulled back far, hydroponic farms, fish flocks, off-roading, collar around neck, depth of field : - 2, hidden dangers, fully visible",
+        "control_type": "openpose"
+    },
+    "sample_128_control_grayscale.jpg": {
+        "text": "Group of people holding a pink heart icon",
+        "control_type": "grayscale"
+    },
+    "sample_129_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_130_control_canny.jpg": {
+        "text": "The young boy is dressed in a tie that matches his cake. ",
+        "control_type": "canny"
+    },
+    "sample_131_control_depth.jpg": {
+        "text": "two polar bears sitting on top of a rock",
+        "control_type": "depth"
+    },
+    "sample_132_control_openpose.jpg": {
+        "text": "a man sitting in a boat holding a fish, shot with a gopro, inspired by Randy Gallegos, azores, interrupting the big game, centered full body rear-shot, chrome and carbon, hovering indecision, before the final culling, superflat pop, tilted 35\u00b0 frame",
+        "control_type": "openpose"
+    },
+    "sample_133_control_grayscale.jpg": {
+        "text": "Autumn park. Autumn forest. Autumn park. Autumn forest. Fall scene. Footpath covered by yellow maple foliage. Sun shines through trees in park. Warm bright autumn day. fall leaves stock pictures, royalty-free photos & images",
+        "control_type": "grayscale"
+    },
+    "sample_134_control_hed.jpg": {
+        "text": "a group of people are standing near the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_135_control_canny.jpg": {
+        "text": "A man holding a camera up over his left shoulder.",
+        "control_type": "canny"
+    },
+    "sample_136_control_depth.jpg": {
+        "text": "a woman brushing her teeth in front of a mirror",
+        "control_type": "depth"
+    },
+    "sample_137_control_openpose.jpg": {
+        "text": "a man sitting at a table with bowls of food, first-person pov, thailand, jackie tsai style, dvd screencapture, joel fletcher, wearing authentic attire, extremely long forehead, mouth agape, reallism, square masculine jaw, by Dong Kingman",
+        "control_type": "openpose"
+    },
+    "sample_138_control_grayscale.jpg": {
+        "text": "Seamless hearts pattern vector",
+        "control_type": "grayscale"
+    },
+    "sample_139_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_140_control_canny.jpg": {
+        "text": "A white airplane flying low over an island covered in trees.",
+        "control_type": "canny"
+    },
+    "sample_141_control_depth.jpg": {
+        "text": "a person riding a wave on top of a surfboard",
+        "control_type": "depth"
+    },
+    "sample_142_control_openpose.jpg": {
+        "text": "a man taking a picture of another man in a field, crossbow arrow, youtube video screenshot, only snow in the background, overcast day, drag light bombs, country style, giant threes, redneck, games 3 d, full width, zoomed out, anime shot, sprigger",
+        "control_type": "openpose"
+    },
+    "sample_143_control_grayscale.jpg": {
+        "text": "Green Men's Stuff Jacket",
+        "control_type": "grayscale"
+    },
+    "sample_144_control_hed.jpg": {
+        "text": "the golden gate bridge is in the background, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_145_control_canny.jpg": {
+        "text": "A little boay is wearing a tie dye shirt and attempting to catch the ball.",
+        "control_type": "canny"
+    },
+    "sample_146_control_depth.jpg": {
+        "text": "a car parked on the side of a street",
+        "control_type": "depth"
+    },
+    "sample_147_control_openpose.jpg": {
+        "text": "a man working on a wooden structure in a workshop, screenshot of found footage, green visor, impactful masterpiece, fins, inspired by Michael Ray Charles, in a school classroom, looking intensely at the camera, two young men, guillotine, precisionism, engaging",
+        "control_type": "openpose"
+    },
+    "sample_148_control_grayscale.jpg": {
+        "text": "Vintage Newborn, Premie Baby or Doll Layette Hand Crochet Sweater in Sweet Pastel Colors",
+        "control_type": "grayscale"
+    },
+    "sample_149_control_hed.jpg": {
+        "text": "a woman is standing on a hill overlooking the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_150_control_canny.jpg": {
+        "text": "A dirty commercial kitchen with a bowl on the counter",
+        "control_type": "canny"
+    },
+    "sample_151_control_depth.jpg": {
+        "text": "a horse drawn carriage on a city street",
+        "control_type": "depth"
+    },
+    "sample_152_control_openpose.jpg": {
+        "text": "a man jumping in the air to catch a frisbee, secret cypher, inspired by Steven James Petruccio, wind blows the leaves, deck, youtube video screenshot, lean man with light tan skin, focus on his foot, black floor, fences, yard, assasin, squares, practice",
+        "control_type": "openpose"
+    },
+    "sample_153_control_grayscale.jpg": {
+        "text": "15811  Collins Ave #2307 For Sale A10852717, FL",
+        "control_type": "grayscale"
+    },
+    "sample_154_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_155_control_canny.jpg": {
+        "text": "A batter goes to hit the ball just thrown to him from the pitcher. ",
+        "control_type": "canny"
+    },
+    "sample_156_control_depth.jpg": {
+        "text": "a person on a surfboard in the water",
+        "control_type": "depth"
+    },
+    "sample_157_control_openpose.jpg": {
+        "text": "a man is hanging from a high rise window, using his desktop pc, wearing a flying jacket, humachine humanized experiment, nervous and terrified, trustworthy, glazing, seattle, female ascending, professional capture",
+        "control_type": "openpose"
+    },
+    "sample_158_control_grayscale.jpg": {
+        "text": "Two Elderly Female Best Friends Sitting at the Outdoor Table While Holding Cups of Coffee and Smiling at the Camera.",
+        "control_type": "grayscale"
+    },
+    "sample_159_control_hed.jpg": {
+        "text": "the golden gate bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_160_control_canny.jpg": {
+        "text": "there is a black bear climbing the side of a mountain",
+        "control_type": "canny"
+    },
+    "sample_161_control_depth.jpg": {
+        "text": "a bathroom sink with a mirror above it",
+        "control_type": "depth"
+    },
+    "sample_162_control_openpose.jpg": {
+        "text": "a man riding a snowboard down a snow covered slope, cheering crowd, inspired by Brian Despain, netfilx !n-9, marathon race, inuk, screen cap, his last moment, shaking hands, photo of breeze kaze, media photo, william open, fargo, barriers",
+        "control_type": "openpose"
+    },
+    "sample_163_control_grayscale.jpg": {
+        "text": "Spring wedding bouquet with anemone, ranunculus, allium.",
+        "control_type": "grayscale"
+    },
+    "sample_164_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_165_control_canny.jpg": {
+        "text": "A group of seagulls are flying over a wooden dock that is sitting in a lake during the early part of the evening.",
+        "control_type": "canny"
+    },
+    "sample_166_control_depth.jpg": {
+        "text": "a flock of seagulls flying over a beach",
+        "control_type": "depth"
+    },
+    "sample_167_control_openpose.jpg": {
+        "text": "a group of people sitting around a table with laptops, in a classroom, with mouth open, movie still of a tired, hila klein, the thinker, large room, blonde guy, economist, raised hand, web design, middle distance, boy and girl are the focus, college, left, a hand, gape",
+        "control_type": "openpose"
+    },
+    "sample_168_control_grayscale.jpg": {
+        "text": "Weekly meal plan: BBQ Chicken Sandwiches at Inquiring Chef",
+        "control_type": "grayscale"
+    },
+    "sample_169_control_hed.jpg": {
+        "text": "the golden gate bridge is in the distance, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_170_control_canny.jpg": {
+        "text": "Three women in dresses, with two talking on the phone. ",
+        "control_type": "canny"
+    },
+    "sample_171_control_depth.jpg": {
+        "text": "bananas hanging from a tree",
+        "control_type": "depth"
+    },
+    "sample_172_control_openpose.jpg": {
+        "text": "a woman standing next to a dog in a room, lexi belle, short redhead, transformation sequence, clothed, discovery channel, 6, inspired by Marie-Suzanne Giroust, walking confidently, emotionally touching, hotel room, ful dressed, fearful, voitv, deviant",
+        "control_type": "openpose"
+    },
+    "sample_173_control_grayscale.jpg": {
+        "text": "One day in Evian-les-Bains, France",
+        "control_type": "grayscale"
+    },
+    "sample_174_control_hed.jpg": {
+        "text": "bay bridge at dusk, san francisco, californi, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_175_control_canny.jpg": {
+        "text": "The stands are packed as a baseball player in a gray uniform holds a bat as a catcher holds out his mitt.",
+        "control_type": "canny"
+    },
+    "sample_176_control_depth.jpg": {
+        "text": "a clock on a pole in the middle of a grassy area",
+        "control_type": "depth"
+    },
+    "sample_177_control_openpose.jpg": {
+        "text": "a man chopping wood with a chainsaw, still frame, dynamic folds, documentary photograph, craft, inspired by Charles McAuley, inspired by Kawai Gyokud\u014d, perfect dynamic posture, second eagle head, offhand, pouring, aged, perfect intricate, sap, single chair",
+        "control_type": "openpose"
+    },
+    "sample_178_control_grayscale.jpg": {
+        "text": "Colmar, France - 18 August, 2014: old town street. Colmar is the most popular tourist destination in France, founded in the 9th century.",
+        "control_type": "grayscale"
+    },
+    "sample_179_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from atop a hill, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_180_control_canny.jpg": {
+        "text": "A tennis player runs to hit the ball.",
+        "control_type": "canny"
+    },
+    "sample_181_control_depth.jpg": {
+        "text": "two giraffes standing next to each other on a fence",
+        "control_type": "depth"
+    },
+    "sample_182_control_openpose.jpg": {
+        "text": "a group of men and women playing instruments, final fantasy 1 2 style, wonderful compositions, by Friedrich Gauermann, live, syndicate(2012), bassist, live broadcast, standing posture, 16:9, christoph wohlgemuth, july 2 0 1 1, bass, tannoy",
+        "control_type": "openpose"
+    },
+    "sample_183_control_grayscale.jpg": {
+        "text": "Best ideas about Shopkins Coloring Pages For Girls . Save or Pin Shopkins Coloring Pages Best Coloring Pages For Kids Now.",
+        "control_type": "grayscale"
+    },
+    "sample_184_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_185_control_canny.jpg": {
+        "text": "a person standing with multiple kites tied together",
+        "control_type": "canny"
+    },
+    "sample_186_control_depth.jpg": {
+        "text": "a train traveling down train tracks next to power lines",
+        "control_type": "depth"
+    },
+    "sample_187_control_openpose.jpg": {
+        "text": "a couple of men standing next to each other at a table, dvd screencapture, inspired by Izidor Kr\u0161njavi, bartending, contest award winner, traditional clothing, security agent, drinking a cup of coffee, peter lundqvist, horns on its head, supersampled",
+        "control_type": "openpose"
+    },
+    "sample_188_control_grayscale.jpg": {
+        "text": "Top 10 Most Amazing Trees Around The World Youtube",
+        "control_type": "grayscale"
+    },
+    "sample_189_control_hed.jpg": {
+        "text": "the golden gate bridge is in the background, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_190_control_canny.jpg": {
+        "text": "A man standing outside on the grass at night making body motions.",
+        "control_type": "canny"
+    },
+    "sample_191_control_depth.jpg": {
+        "text": "a donut sitting on top of a table",
+        "control_type": "depth"
+    },
+    "sample_192_control_openpose.jpg": {
+        "text": "a man riding a bike on top of a grass covered field, netfilx !n-9, sanctions in russia, racers, inspired by Aileen Eagleton, video, intricately deteailed, russian girlfriend, blurred face, athlete photography, widescreen shot, solidworks, spring season, photo of, katey truhn, long tail",
+        "control_type": "openpose"
+    },
+    "sample_193_control_grayscale.jpg": {
+        "text": "Felt Christmas Ornament,handmade Scandinavian Heart,Embroidered Snowflake decoration,red and white felt heart, Handmade felt heart ornament....",
+        "control_type": "grayscale"
+    },
+    "sample_194_control_hed.jpg": {
+        "text": "a red bridge is spanning the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_195_control_canny.jpg": {
+        "text": "A wall inside of a white room covered in lots of newspaper article clippings.",
+        "control_type": "canny"
+    },
+    "sample_196_control_depth.jpg": {
+        "text": "a display case filled with lots of different types of clocks",
+        "control_type": "depth"
+    },
+    "sample_197_control_openpose.jpg": {
+        "text": "a man standing next to a piano in a room, assembly instructions, organ harvesting, dolman, v 8 k, by Friedrich Traffelet, mooc, button potenciometers, with detailed wood, audiophile, analogue, palm body, full details, interconnections, redlettermedia, helpful, cabinets",
+        "control_type": "openpose"
+    },
+    "sample_198_control_grayscale.jpg": {
+        "text": "Haunted Bonaventure Cemetery - Savannah, GA - Savannah is one of the USA's most haunted towns.",
+        "control_type": "grayscale"
+    },
+    "sample_199_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_200_control_canny.jpg": {
+        "text": "A cat on a leather chair next to remotes",
+        "control_type": "canny"
+    },
+    "sample_201_control_depth.jpg": {
+        "text": "young men standing in a gymnasium",
+        "control_type": "depth"
+    },
+    "sample_202_control_openpose.jpg": {
+        "text": "a man is trimming a hedge in the yard, mind - bending reality, wlop : :, litter, gif, hispanic, ocd",
+        "control_type": "openpose"
+    },
+    "sample_203_control_grayscale.jpg": {
+        "text": "The Christmas Boutique",
+        "control_type": "grayscale"
+    },
+    "sample_204_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_205_control_canny.jpg": {
+        "text": "A woman hods a stuffed pig close to her",
+        "control_type": "canny"
+    },
+    "sample_206_control_depth.jpg": {
+        "text": "a man riding a skateboard down a sidewalk",
+        "control_type": "depth"
+    },
+    "sample_207_control_openpose.jpg": {
+        "text": "a man working on a machine in a workshop, alexis ohanian as a wizard, belts & velcro galore, lathe, high quality printing, ussa, mit technology review, cinegraphic, half length, style of kieran yanner, acoustic guitar, the back rooms, in a butcher shop, inc",
+        "control_type": "openpose"
+    },
+    "sample_208_control_grayscale.jpg": {
+        "text": "Photo for Fat man eating a lot of unhealthy food, on home interior background - Royalty Free Image",
+        "control_type": "grayscale"
+    },
+    "sample_209_control_hed.jpg": {
+        "text": "a golden gate bridge spanning over water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_210_control_canny.jpg": {
+        "text": "A brick building with many windows and a clock tower in the middle of the building.",
+        "control_type": "canny"
+    },
+    "sample_211_control_depth.jpg": {
+        "text": "a slice of pizza sitting on a plate next to a glass of beer",
+        "control_type": "depth"
+    },
+    "sample_212_control_openpose.jpg": {
+        "text": "a young boy holding a medicine ball in a room, realistic human movement, parallax \u00bb, long blond drill curls, # 6 6 9 3 fs, camilo gc, pictured from the shoulders up, red and purple coloring, youtube video, blurry image, playing tennis, maximalsm, fig.1",
+        "control_type": "openpose"
+    },
+    "sample_213_control_grayscale.jpg": {
+        "text": "Rainbow over herders' tent in Todzhu. Republic of Tuva, Siberia, Russia, 1998. - Bryan and Cherry Alexander",
+        "control_type": "grayscale"
+    },
+    "sample_214_control_hed.jpg": {
+        "text": "the golden gate bridge is a beautiful structure, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_215_control_canny.jpg": {
+        "text": "A bedroom with a bookshelf full of books.",
+        "control_type": "canny"
+    },
+    "sample_216_control_depth.jpg": {
+        "text": "a large elephant is playing with a ball",
+        "control_type": "depth"
+    },
+    "sample_217_control_openpose.jpg": {
+        "text": "a group of people standing on top of a cross walk, performing a music video, yoga pose, with a french garden, logo without text, mixed-race woman, acid pooling on the floor, portrait of paris, pu\u1e63karac\u016b\u1e0da, three women, resistance, monitors, commercial",
+        "control_type": "openpose"
+    },
+    "sample_218_control_grayscale.jpg": {
+        "text": "Abstract Floral Background",
+        "control_type": "grayscale"
+    },
+    "sample_219_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, california stock photo, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_220_control_canny.jpg": {
+        "text": "a toilet seat over a hole in a bath room ",
+        "control_type": "canny"
+    },
+    "sample_221_control_depth.jpg": {
+        "text": "a woman feeding a giraffe at a zoo",
+        "control_type": "depth"
+    },
+    "sample_222_control_openpose.jpg": {
+        "text": "a man dribbling a soccer ball on a basketball court, dvd screencapture, running towards camera, curved red arrow, cone, in the high school gym, future doctrine, skinny caucasian young man, alex kiesling, horse is running, power bright neon energy, white tracing",
+        "control_type": "openpose"
+    },
+    "sample_223_control_grayscale.jpg": {
+        "text": "Poster featuring the pastel Lady Cardinal In The Pine by MM Anderson",
+        "control_type": "grayscale"
+    },
+    "sample_224_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_225_control_canny.jpg": {
+        "text": "there is a large bus that is coming up the street",
+        "control_type": "canny"
+    },
+    "sample_226_control_depth.jpg": {
+        "text": "a man standing in a field holding a kite",
+        "control_type": "depth"
+    },
+    "sample_227_control_openpose.jpg": {
+        "text": "a woman standing in front of a display of vegetables, sd video, reduce character duplication, older woman, inspect in inventory image, holding maracas, facial actuary, eyelevel perspective image, perception of value, in an american suburb",
+        "control_type": "openpose"
+    },
+    "sample_228_control_grayscale.jpg": {
+        "text": "Jeweled Framed Jewelry Art Christmas Tree Pale Green Gold Art Deco",
+        "control_type": "grayscale"
+    },
+    "sample_229_control_hed.jpg": {
+        "text": "a bridge over a body of water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_230_control_canny.jpg": {
+        "text": "A sandwich that is in paper on a table.",
+        "control_type": "canny"
+    },
+    "sample_231_control_depth.jpg": {
+        "text": "a baby sitting in front of a plate of food",
+        "control_type": "depth"
+    },
+    "sample_232_control_openpose.jpg": {
+        "text": "a group of young men playing a game of baseball, dvd screencapture, panoramic view of girl, curved red arrow, hemlocks, only snow i the background, bright castleton green, photo finish, spring time, swat, take off, kailee mandel, 8 feet from the camera, sport pants, bright sunlight",
+        "control_type": "openpose"
+    },
+    "sample_233_control_grayscale.jpg": {
+        "text": "Red Everywear Stretch Zip Hood",
+        "control_type": "grayscale"
+    },
+    "sample_234_control_hed.jpg": {
+        "text": "the golden gate bridge in hong kong, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_235_control_canny.jpg": {
+        "text": "A cat standing on a bed, dipping his hand into a cup.",
+        "control_type": "canny"
+    },
+    "sample_236_control_depth.jpg": {
+        "text": "a train on a train track with mountains",
+        "control_type": "depth"
+    },
+    "sample_237_control_openpose.jpg": {
+        "text": "a man that is standing next to a mixer, product view, high speed motion, orange racing stripes, steel collar, tutorial, qvc, interconnections, dessert, twisted wire, prototype",
+        "control_type": "openpose"
+    },
+    "sample_238_control_grayscale.jpg": {
+        "text": "Winter resorts - Bansko",
+        "control_type": "grayscale"
+    },
+    "sample_239_control_hed.jpg": {
+        "text": "a car driving over the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_240_control_canny.jpg": {
+        "text": "A smiling woman holding a baby has a camera in her hand.",
+        "control_type": "canny"
+    },
+    "sample_241_control_depth.jpg": {
+        "text": "a man jumping in the air to catch a frisbee",
+        "control_type": "depth"
+    },
+    "sample_242_control_openpose.jpg": {
+        "text": "a woman doing a yoga pose on a yoga mat, nathan fielder and groucho marx, massive arch, uses c4, epicanthal fold, csp, his arms are behind his back, long boi, andrei riabovitchev symmetrical, centipede, paul kratter, tail of a lemur, peter singhof",
+        "control_type": "openpose"
+    },
+    "sample_243_control_grayscale.jpg": {
+        "text": "Fun Activities for the Kids these School Holidays",
+        "control_type": "grayscale"
+    },
+    "sample_244_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the top of a hill, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_245_control_canny.jpg": {
+        "text": "A pre-school girl standing on a skateboard in a toy store",
+        "control_type": "canny"
+    },
+    "sample_246_control_depth.jpg": {
+        "text": "a bowl of broccoli with a spoon in it",
+        "control_type": "depth"
+    },
+    "sample_247_control_openpose.jpg": {
+        "text": "a person on a trampol in a gym, mackenzie foy, editorial footage, standing!!, epic angel wings, youtube video screenshot, dvd, bar, teal uniform, upper body avatar, lulu chen, hook as ring, 4yr old, old footage, cloud jumper, blue shorts, fig.1, soft pads, s line",
+        "control_type": "openpose"
+    },
+    "sample_248_control_grayscale.jpg": {
+        "text": "Soon Japan will Have a Delivery Robot Navigating the Streets",
+        "control_type": "grayscale"
+    },
+    "sample_249_control_hed.jpg": {
+        "text": "the golden gate bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_250_control_canny.jpg": {
+        "text": "A blurry image of a stop light on a street corner.",
+        "control_type": "canny"
+    },
+    "sample_251_control_depth.jpg": {
+        "text": "doughnuts on a tray on a table",
+        "control_type": "depth"
+    },
+    "sample_252_control_openpose.jpg": {
+        "text": "a man laying on the ground in a gym, with long curly, hyper-reslistic, slides, slate, youtube, official product image, kingpin, big shoulder polster, black man, his back is turned, internet meme, guide, curl noise, listing image, self - taught, right align",
+        "control_type": "openpose"
+    },
+    "sample_253_control_grayscale.jpg": {
+        "text": "Model wearing Vinka Design Briar Wedding Dress, an Embroidered Lace Wedding Gown in Paris",
+        "control_type": "grayscale"
+    },
+    "sample_254_control_hed.jpg": {
+        "text": "golden gate bridge san francisco california, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_255_control_canny.jpg": {
+        "text": "The living room has a wood and glass coffee table, an area rug, a pillow covered futon, and a love seat in it.",
+        "control_type": "canny"
+    },
+    "sample_256_control_depth.jpg": {
+        "text": "a dog with a frisbee in its mouth",
+        "control_type": "depth"
+    },
+    "sample_257_control_openpose.jpg": {
+        "text": "a couple of men playing a game of squash, netfilx !n-9, video, axes, forced perspective, houzz, z, style of mirror\\'s edge, 4, baseball player mike trout, james zapata, widescreen shot, uses c4, athletic crossfit build, raging bugbear, holding a broadsword",
+        "control_type": "openpose"
+    },
+    "sample_258_control_grayscale.jpg": {
+        "text": "Mobile Home Manufacturers Prices Modern Modular Home",
+        "control_type": "grayscale"
+    },
+    "sample_259_control_hed.jpg": {
+        "text": "the golden gate bridge is lit up at night, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_260_control_canny.jpg": {
+        "text": "Pineapples, bananas and oranges are in crates near smoothies.",
+        "control_type": "canny"
+    },
+    "sample_261_control_depth.jpg": {
+        "text": "a man riding a horse down a street next to a crowd of people",
+        "control_type": "depth"
+    },
+    "sample_262_control_openpose.jpg": {
+        "text": "a man sitting on a chair holding a saxophone, shaved bald head, a screenshot of a rusty, tom, gelios lens, with glasses and goatee, youtube video screenshot, creating a soft, vine twist, a still of a happy, by Herb Aach, standing in a dimly lit room, saxophone",
+        "control_type": "openpose"
+    },
+    "sample_263_control_grayscale.jpg": {
+        "text": "pakistan-bridal",
+        "control_type": "grayscale"
+    },
+    "sample_264_control_hed.jpg": {
+        "text": "golden gate bridge 4k, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_265_control_canny.jpg": {
+        "text": "An upside down stop sign by the road.",
+        "control_type": "canny"
+    },
+    "sample_266_control_depth.jpg": {
+        "text": "a cat laying on top of a suitcase",
+        "control_type": "depth"
+    },
+    "sample_267_control_openpose.jpg": {
+        "text": "a man in a white shirt is painting a wall, aspect ratio 16:9, duster, houzz, by Brad Holland, video, luscious brushstrokes",
+        "control_type": "openpose"
+    },
+    "sample_268_control_grayscale.jpg": {
+        "text": "DIY Ornaments: Dipped Rose Gold",
+        "control_type": "grayscale"
+    },
+    "sample_269_control_hed.jpg": {
+        "text": "a person is standing on the beach, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_270_control_canny.jpg": {
+        "text": "a big red bus that is driving down the road",
+        "control_type": "canny"
+    },
+    "sample_271_control_depth.jpg": {
+        "text": "a white bird standing on top of a sandy beach",
+        "control_type": "depth"
+    },
+    "sample_272_control_openpose.jpg": {
+        "text": "a black and white photo of a woman playing a guitar, rachel amber, singer in the voice show, movie screenshot, by Helen Binyon, urban music studio, in 2 0 1 5, noelle stevenson, live, photographed, ewa juszkiewicz, mars black, meni chatzipanagiotou, fragile girl",
+        "control_type": "openpose"
+    },
+    "sample_273_control_grayscale.jpg": {
+        "text": "Michael Joseph oil on canvas, city street scene",
+        "control_type": "grayscale"
+    },
+    "sample_274_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_275_control_canny.jpg": {
+        "text": "A herd of elephants walking through a lake filled with water.",
+        "control_type": "canny"
+    },
+    "sample_276_control_depth.jpg": {
+        "text": "a banana and a banana peel on a table",
+        "control_type": "depth"
+    },
+    "sample_277_control_openpose.jpg": {
+        "text": "a man cutting a fish in a kitchen, netfilx !n-9, hawaii, eric hu, with street food stalls, captures emotion and movement, guy, oceanside, dvd screencapture, dough sculpture, earthship, gridless",
+        "control_type": "openpose"
+    },
+    "sample_278_control_grayscale.jpg": {
+        "text": "Field of food crops",
+        "control_type": "grayscale"
+    },
+    "sample_279_control_hed.jpg": {
+        "text": "a golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_280_control_canny.jpg": {
+        "text": "A group of people riding skis on top of a ski slope.",
+        "control_type": "canny"
+    },
+    "sample_281_control_depth.jpg": {
+        "text": "a woman holding a wine glass next to a man",
+        "control_type": "depth"
+    },
+    "sample_282_control_openpose.jpg": {
+        "text": "a man is making cupcakes in a kitchen, inspired by Oscar Rodr\u00edguez Naranjo, orange metal ears, adapted to a drier climate, screengrab, deep dish wheels, inspired by It\u014d Seiu, without text, carved soap, gourmet style, still shot, using a spade",
+        "control_type": "openpose"
+    },
+    "sample_283_control_grayscale.jpg": {
+        "text": "Arai XC-W Gold Wing Gray Open Face Helmet",
+        "control_type": "grayscale"
+    },
+    "sample_284_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_285_control_canny.jpg": {
+        "text": "a crowded field with a woman throwing a frisbee in the foreground",
+        "control_type": "canny"
+    },
+    "sample_286_control_depth.jpg": {
+        "text": "a plate of food on a table",
+        "control_type": "depth"
+    },
+    "sample_287_control_openpose.jpg": {
+        "text": "a couple of people that are on a tennis court, bird\\'s eye view, tom and jerry, multiple arms, dvd screencapture, benoit b, jpl, dark at left side, two towers, browny, orrery, white shirts, game overlay, ryden, james c, desert setting, start of the match, sbt",
+        "control_type": "openpose"
+    },
+    "sample_288_control_grayscale.jpg": {
+        "text": "Bright angel trail grand canyon snow",
+        "control_type": "grayscale"
+    },
+    "sample_289_control_hed.jpg": {
+        "text": "golden gate bridge at sunset in san francisco, california, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_290_control_canny.jpg": {
+        "text": "A group of sheep standing in the grass.",
+        "control_type": "canny"
+    },
+    "sample_291_control_depth.jpg": {
+        "text": "two people skiing down a snow covered slope",
+        "control_type": "depth"
+    },
+    "sample_292_control_openpose.jpg": {
+        "text": "a woman playing a cello in a music studio, competition highlights, mit technology review, live, cam de leon & john j. park, inspired by Zhang Shunzi, sparse room, library of congress, featured on artsation, white studio, voitv, solitude",
+        "control_type": "openpose"
+    },
+    "sample_293_control_grayscale.jpg": {
+        "text": "Reach email deliverability's final frontier with Ongage",
+        "control_type": "grayscale"
+    },
+    "sample_294_control_hed.jpg": {
+        "text": "the golden gate bridge in san francisco, california stock, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_295_control_canny.jpg": {
+        "text": "A rear view mirror on a bike is reflecting a poster on building.\n",
+        "control_type": "canny"
+    },
+    "sample_296_control_depth.jpg": {
+        "text": "two people sitting at a table with plates of food",
+        "control_type": "depth"
+    },
+    "sample_297_control_openpose.jpg": {
+        "text": "a man playing a cello in front of a piano, a beautiful pathway in a forest, painfully adorable, ben maier and sakimichan, adapted to a drier climate, looking directly at the viewer, with a tall tree, man in black suit, video, flailing, half - closed eyes",
+        "control_type": "openpose"
+    },
+    "sample_298_control_grayscale.jpg": {
+        "text": "hanging advent wreath with red ribbons ala Tasha Tudor's books - love the corner windows with wreaths & tiny corner tree too",
+        "control_type": "grayscale"
+    },
+    "sample_299_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_300_control_canny.jpg": {
+        "text": "Three stuffed bears hugging and sitting on a blue pillow",
+        "control_type": "canny"
+    },
+    "sample_301_control_depth.jpg": {
+        "text": "horses are grazing in a grassy area",
+        "control_type": "depth"
+    },
+    "sample_302_control_openpose.jpg": {
+        "text": "a group of people playing a game of tennis, \\'obey\\', salsa social dance, barong family member, youtube video screenshot, workers, dynamic comparison, nurse scrubs, in the high school gym, epic diptych, osl, staff, villager, adversitement, satire, yoworld",
+        "control_type": "openpose"
+    },
+    "sample_303_control_grayscale.jpg": {
+        "text": "Royalty Free Photo of a Fence in a Snow Covered Landscape",
+        "control_type": "grayscale"
+    },
+    "sample_304_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_305_control_canny.jpg": {
+        "text": "a woman standing on skiis while posing for the camera",
+        "control_type": "canny"
+    },
+    "sample_306_control_depth.jpg": {
+        "text": "a slice of pizza on a plate with a fork",
+        "control_type": "depth"
+    },
+    "sample_307_control_openpose.jpg": {
+        "text": "a man standing in a gym holding a frisbee, levitating twin nuns, inspired by Martin Desjardins, neutral pose, fairy dancing, youtube video screenshot, holding the elder wand, rob mcnaughton, balance beams, stp, red meat shreds, circuits, traverse",
+        "control_type": "openpose"
+    },
+    "sample_308_control_grayscale.jpg": {
+        "text": "Nomadic helped Ubisoft ads go viral with launch of Far Cry 5",
+        "control_type": "grayscale"
+    },
+    "sample_309_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the skyline of san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_310_control_canny.jpg": {
+        "text": "Stark white appliances stand out against brown wooden cabinets.",
+        "control_type": "canny"
+    },
+    "sample_311_control_depth.jpg": {
+        "text": "a cat laying on top of a car",
+        "control_type": "depth"
+    },
+    "sample_312_control_openpose.jpg": {
+        "text": "a woman making a smoothie in a kitchen, gorgeous stella maeve magician, clean and clear face, it has lemon skin texture, screengrab, cottage hippie naturalist, suzanne engelberg, female fox, emaciated, crystal waters, using a spade, bulging veins, acids, mead",
+        "control_type": "openpose"
+    },
+    "sample_313_control_grayscale.jpg": {
+        "text": "Isolated watercolor dry tree with yellow leaves on white background. Fall, autumn, spring nature. Fine tree. Yellow leaves falling.",
+        "control_type": "grayscale"
+    },
+    "sample_314_control_hed.jpg": {
+        "text": "a golden gate bridge is seen in the fog, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_315_control_canny.jpg": {
+        "text": "Sandwich and a lollipop in a bright orange serving tray sitting on a table.",
+        "control_type": "canny"
+    },
+    "sample_316_control_depth.jpg": {
+        "text": "a cup of coffee and a cell phone on a table",
+        "control_type": "depth"
+    },
+    "sample_317_control_openpose.jpg": {
+        "text": "a couple of kids that are sitting in a stroller, 3 sisters look into the mirror, slow motion, youtube video screenshot, nerds, cute but determined, too many hands in all directions, loosely cropped, backup vocalists, mission impossible, bottles, wheels, \\'the end, action shot, busy",
+        "control_type": "openpose"
+    },
+    "sample_318_control_grayscale.jpg": {
+        "text": "Home And Design Show In Charleston Sc Where To Stay In Charleston Sc Hotels U0026 Lodging Guide",
+        "control_type": "grayscale"
+    },
+    "sample_319_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_320_control_canny.jpg": {
+        "text": "A zebra running through some grass and past some tall bushes. ",
+        "control_type": "canny"
+    },
+    "sample_321_control_depth.jpg": {
+        "text": "people on a beach with umbrellas",
+        "control_type": "depth"
+    },
+    "sample_322_control_openpose.jpg": {
+        "text": "a man sitting on a couch playing a violin, male ulzzang, he wears a blue shirt, darren quach, video still, watermarked, arms, bent over posture, white background : 3, brittney lee, male teenager, screencap, cleary see face, identical picture, bows, cowboy",
+        "control_type": "openpose"
+    },
+    "sample_323_control_grayscale.jpg": {
+        "text": "Durango & Silverton Narrow Gauge Railroad, Colorado",
+        "control_type": "grayscale"
+    },
+    "sample_324_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_325_control_canny.jpg": {
+        "text": "A man on a skateboard is performing a trick at the park.",
+        "control_type": "canny"
+    },
+    "sample_326_control_depth.jpg": {
+        "text": "a blue and white bus driving down a street",
+        "control_type": "depth"
+    },
+    "sample_327_control_openpose.jpg": {
+        "text": "a group of people riding motorcycles down a street, pulling the move'derp banshee ', runway, youtube thumbnail, los angeles 2 0 1 5, purple bridges with leggins, drifting around a corner, golden gate, show from below, competition, pictured from the shoulders up, youtube video screenshot, grimy, padlocks, bricks flying, smooth curves, slick wet walls",
+        "control_type": "openpose"
+    },
+    "sample_328_control_grayscale.jpg": {
+        "text": "Toadstool Forest, Flower Garden, and Cabin",
+        "control_type": "grayscale"
+    },
+    "sample_329_control_hed.jpg": {
+        "text": "a bridge over a body of water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_330_control_canny.jpg": {
+        "text": "A person doing a flip on a snow board.",
+        "control_type": "canny"
+    },
+    "sample_331_control_depth.jpg": {
+        "text": "a female tennis player in action on the court",
+        "control_type": "depth"
+    },
+    "sample_332_control_openpose.jpg": {
+        "text": "a man in a workshop working on a machine, jim cornette, doc marten boots, on tv, july 2 0 1 1, evening news program, clogs, made in 2019, worth1000.com, the man stands out on the image, ecommerce photograph, middle aged man, screengrab, khakis, inside a grand",
+        "control_type": "openpose"
+    },
+    "sample_333_control_grayscale.jpg": {
+        "text": "garden office image is loading garden-office-theodore-garden-office-w3-8m-x- YDXRZFB",
+        "control_type": "grayscale"
+    },
+    "sample_334_control_hed.jpg": {
+        "text": "the golden gate bridge is a popular tourist attraction in san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_335_control_canny.jpg": {
+        "text": "A couple of men play baseball and the batter runs for base.",
+        "control_type": "canny"
+    },
+    "sample_336_control_depth.jpg": {
+        "text": "a person holding a donut with a bite taken out of it",
+        "control_type": "depth"
+    },
+    "sample_337_control_openpose.jpg": {
+        "text": "a couple of people standing next to a car, washing her dark long hair, # e 4 e 6 2 0, dusty and smokey, detailed professional, colt, wearing a black t-shirt, color video footage, highlighted, buffed, blonde girl, his back is turned, stingray, competition, shadowing",
+        "control_type": "openpose"
+    },
+    "sample_338_control_grayscale.jpg": {
+        "text": "Hell-A Romantic Patch",
+        "control_type": "grayscale"
+    },
+    "sample_339_control_hed.jpg": {
+        "text": "the bridge is lit up at night, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_340_control_canny.jpg": {
+        "text": "Large factory smoke towers shadowed by a large building behind them. ",
+        "control_type": "canny"
+    },
+    "sample_341_control_depth.jpg": {
+        "text": "a man holding a cell phone in his hand",
+        "control_type": "depth"
+    },
+    "sample_342_control_openpose.jpg": {
+        "text": "a couple of people that are running in the snow, dvd screencapture, evening news program, shades of green, floodplains, fins, high-quality photograph, storybook layout, loosely cropped, color footage, identical, from left, working out",
+        "control_type": "openpose"
+    },
+    "sample_343_control_grayscale.jpg": {
+        "text": "mountain, nature, and pink image",
+        "control_type": "grayscale"
+    },
+    "sample_344_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the sky, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_345_control_canny.jpg": {
+        "text": "Someone playing in a tennis tournament with a crowd looking on.",
+        "control_type": "canny"
+    },
+    "sample_346_control_depth.jpg": {
+        "text": "a baggage carousel filled with luggage at an airport",
+        "control_type": "depth"
+    },
+    "sample_347_control_openpose.jpg": {
+        "text": "a man standing on a diving board in a pool, dvd screencapture, very tall and slender, short legs, gofl course and swimming, looking from shoulder, focus gate, nathan fowkes, barrier integrity, 2 0 0 0's photo, he is about 20 years old, 7 feet tall, symatrical",
+        "control_type": "openpose"
+    },
+    "sample_348_control_grayscale.jpg": {
+        "text": "\"\"\"\"\"\"\"I love Rinse because it went from being a cool London pirate to becoming a global underground music brand, and it didn't compromise the music on the way\"\"\"\" \u2013 DJ Zinc\"\"\"",
+        "control_type": "grayscale"
+    },
+    "sample_349_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_350_control_canny.jpg": {
+        "text": "a green and yellow train on the train track",
+        "control_type": "canny"
+    },
+    "sample_351_control_depth.jpg": {
+        "text": "a cow that is standing in the street",
+        "control_type": "depth"
+    },
+    "sample_352_control_openpose.jpg": {
+        "text": "a man riding on the back of a red four wheeler, wielding an axe on each hand, australian bush, with a kid, youtube video screenshot, inspired by M\u0101rti\u0146\u0161 Kr\u016bmi\u0146\u0161, crew cut, relaxing and smiling at camera, extreme log shot, long sleeves, happily tired, fist training",
+        "control_type": "openpose"
+    },
+    "sample_353_control_grayscale.jpg": {
+        "text": "Luxury Wooden Dressing Table Design With Oval Shaped Mirror And ...",
+        "control_type": "grayscale"
+    },
+    "sample_354_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_355_control_canny.jpg": {
+        "text": "A bathroom with a mounted TV next to his and her sinks.",
+        "control_type": "canny"
+    },
+    "sample_356_control_depth.jpg": {
+        "text": "a young boy standing next to an orange umbrella",
+        "control_type": "depth"
+    },
+    "sample_357_control_openpose.jpg": {
+        "text": "a man riding a bike down a street next to traffic cones, race footage, ramil sunga, ironman, inspired by Terrell James, video, the second\u2026\u00a0like a calf, elegant biomechanical machinery, inspired by Randy Gallegos, utradetailed, kicking a florida mansion, v 8 k",
+        "control_type": "openpose"
+    },
+    "sample_358_control_grayscale.jpg": {
+        "text": "Wedding of two lesbians girls vector",
+        "control_type": "grayscale"
+    },
+    "sample_359_control_hed.jpg": {
+        "text": "the golden gate bridge in san francisco, california stock, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_360_control_canny.jpg": {
+        "text": "a person is holding a ball and tennis racket",
+        "control_type": "canny"
+    },
+    "sample_361_control_depth.jpg": {
+        "text": "a piece of luggage sitting on the sidewalk",
+        "control_type": "depth"
+    },
+    "sample_362_control_openpose.jpg": {
+        "text": "a man riding a bike through a forest, massive vertical grand prix race, red river, lowshot, soggy, still from l'estate, cycles, 2 0 1 4. modern attire, holding a white flag, multicam, \u201c iron bark, wearing adidas clothing, grainy photo, tournament, rocky roads",
+        "control_type": "openpose"
+    },
+    "sample_363_control_grayscale.jpg": {
+        "text": "Temple, NH: The Birchwood Inn - a touch of late winter snowfall",
+        "control_type": "grayscale"
+    },
+    "sample_364_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_365_control_canny.jpg": {
+        "text": "a man catching a ball with a young boy",
+        "control_type": "canny"
+    },
+    "sample_366_control_depth.jpg": {
+        "text": "a plane is parked on the tarmac at an airport",
+        "control_type": "depth"
+    },
+    "sample_367_control_openpose.jpg": {
+        "text": "a woman serving a meal to a group of people, comix wave films, headshot and bodyshot, cutlery, short curly blonde haired girl, featured on artsation, black tie, ian callum, postproduction, mit technology review, award-winning cinema, brown shirt, headshot",
+        "control_type": "openpose"
+    },
+    "sample_368_control_grayscale.jpg": {
+        "text": "1903 Orient Car and Carriage Caravan Postcard",
+        "control_type": "grayscale"
+    },
+    "sample_369_control_hed.jpg": {
+        "text": "the bridge is lit up at night, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_370_control_canny.jpg": {
+        "text": "A guide and three people riding an elephant.",
+        "control_type": "canny"
+    },
+    "sample_371_control_depth.jpg": {
+        "text": "boats are docked in the water",
+        "control_type": "depth"
+    },
+    "sample_372_control_openpose.jpg": {
+        "text": "a man walking down a sidewalk past a store, paint-on-glass painting, wielding a crowbar, video, smooth clean surfaces, behrens style, panning shot, many large windows, scrathes, busy restaurant, youtube video screenshot, clean environment, large windows",
+        "control_type": "openpose"
+    },
+    "sample_373_control_grayscale.jpg": {
+        "text": "Birthday pancake lunch at Cafe St. Regis",
+        "control_type": "grayscale"
+    },
+    "sample_374_control_hed.jpg": {
+        "text": "golden gate bridge at night in san francisco, california, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_375_control_canny.jpg": {
+        "text": "A bus parked in a large parking lot ",
+        "control_type": "canny"
+    },
+    "sample_376_control_depth.jpg": {
+        "text": "two people on surfboards in the water",
+        "control_type": "depth"
+    },
+    "sample_377_control_openpose.jpg": {
+        "text": "a man in a red shirt swinging a golf club, youtube video screenshot, lean sleek styling, tall broad oaks, 1 / 3 headroom, 9, face covers half of the frame, open jacket, whirlwind, jamey jones, no headgear, two legs two arms one head",
+        "control_type": "openpose"
+    },
+    "sample_378_control_grayscale.jpg": {
+        "text": "Dodge A100 Pickup Truck For Sale | 2019 2020 Top Upcoming Cars 1964 Dodge A100 Pickup The Vault Classic Cars For Sale In Ohio Truck Van 641970 North Carolina 196470 1966 For Sale Hrodhotline 1965 Trucks Bigmatruckscom Van Custom Sportsman Camper Hot Rod V8 Muscle Vwvortexcom Party Gm Ford Ram Datsun Dodge Pickup Rare 318ci California Car Runs Great Looks Near Cadillac Michigan 49601 Classics On",
+        "control_type": "grayscale"
+    },
+    "sample_379_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from a high point, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_380_control_canny.jpg": {
+        "text": "The stove has a coffee pot on the burner and a pot in the oven.",
+        "control_type": "canny"
+    },
+    "sample_381_control_depth.jpg": {
+        "text": "a motorcycle is parked on a grassy field",
+        "control_type": "depth"
+    },
+    "sample_382_control_openpose.jpg": {
+        "text": "a man standing in a body of water, medievil spear, still from a nature documentary, running sequence, inspired by Erwin Bowien, soft-sanded coastlines, florida man, wet reflective ground, screenshot, fishing, hyper - real, lower saxony, action shot, dolphins",
+        "control_type": "openpose"
+    },
+    "sample_383_control_grayscale.jpg": {
+        "text": "BBQ Pulled Pork Gyros ~ Filled with BBQ Pulled Pork, Creamy Coleslaw, Tomato, Onion and All Wrapped in a Soft Flatbread. Perfect for An Easy Lunch or Dinner!",
+        "control_type": "grayscale"
+    },
+    "sample_384_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_385_control_canny.jpg": {
+        "text": "baseball player knealing on the field in orange shirt",
+        "control_type": "canny"
+    },
+    "sample_386_control_depth.jpg": {
+        "text": "two women standing next to each other in a room",
+        "control_type": "depth"
+    },
+    "sample_387_control_openpose.jpg": {
+        "text": "a group of people standing on top of a sandy field, running robots in a marathon, muzinabu, inspired by Albert Namatjira, competition highlights, wooden crates and barrels, dvd screencapture, digger land amusement park, whirlwind, photo finish, brawl, file photo",
+        "control_type": "openpose"
+    },
+    "sample_388_control_grayscale.jpg": {
+        "text": "Alex Grey ~ Holy Love",
+        "control_type": "grayscale"
+    },
+    "sample_389_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the top of a hill, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_390_control_canny.jpg": {
+        "text": "The people are posing for a group photo.",
+        "control_type": "canny"
+    },
+    "sample_391_control_depth.jpg": {
+        "text": "a large group of men in uniform standing in front of a building",
+        "control_type": "depth"
+    },
+    "sample_392_control_openpose.jpg": {
+        "text": "a man chopping a tree in the woods, nostalgia critic, he has a beard and graying hair, red mood in background, soyjack, axe, person in foreground, he is at camp, the red sox left fielder, discord moderator, grading, movie still of a tired, chopping hands, photo",
+        "control_type": "openpose"
+    },
+    "sample_393_control_grayscale.jpg": {
+        "text": "The American Muenster Grilled Cheese Sandwich - Creamy and Cheesy Grilled Cheese to Celebrate National Grilled Cheese Month with Sara Lee\u00ae Artesano\u2122 Bread",
+        "control_type": "grayscale"
+    },
+    "sample_394_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_395_control_canny.jpg": {
+        "text": "An airplane is shown taking off into the sky.",
+        "control_type": "canny"
+    },
+    "sample_396_control_depth.jpg": {
+        "text": "boats are docked in a harbor",
+        "control_type": "depth"
+    },
+    "sample_397_control_openpose.jpg": {
+        "text": "a man standing in the middle of a field of peppers, dvd screencapture, young thug, workers, by N\u014dami, marijuana plants, african american young woman, live broadcast, white baseball cap, organic biomass, exploited, tall factory, deep shafts, fragrant plants",
+        "control_type": "openpose"
+    },
+    "sample_398_control_grayscale.jpg": {
+        "text": "Happy woman with scarf struggling with illness with her moms help Stock Photo",
+        "control_type": "grayscale"
+    },
+    "sample_399_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_400_control_canny.jpg": {
+        "text": "A giraffe walkinf during the day near a wood fence.",
+        "control_type": "canny"
+    },
+    "sample_401_control_depth.jpg": {
+        "text": "a bathroom with a toilet and a sink",
+        "control_type": "depth"
+    },
+    "sample_402_control_openpose.jpg": {
+        "text": "a man washing a car with a hose, glistening seafoam, wearing adidas clothing, twitch tv, axe, clear cross hatching, professional online branding, deblurring, prototype car, bubble bath, smooth coloring, slime",
+        "control_type": "openpose"
+    },
+    "sample_403_control_grayscale.jpg": {
+        "text": "Close up portrait of small girl holding a frog outdoors in summer.",
+        "control_type": "grayscale"
+    },
+    "sample_404_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_405_control_canny.jpg": {
+        "text": "a white plate with cheese broccoli and chicken",
+        "control_type": "canny"
+    },
+    "sample_406_control_depth.jpg": {
+        "text": "a large jetliner sitting on top of an airport tarmac",
+        "control_type": "depth"
+    },
+    "sample_407_control_openpose.jpg": {
+        "text": "a man standing on a tennis court holding a racquet, mana shooting from his hands, boulder chase, trending on aetstation, g6, left align, esports logo, mohamed chahin, tightly framed, fast paced, start of the match, inside in a glass box, calf, gallows",
+        "control_type": "openpose"
+    },
+    "sample_408_control_grayscale.jpg": {
+        "text": "A view looking down the coast of Punta del Este from a boardwalk. You can see the hotels lining the beach.",
+        "control_type": "grayscale"
+    },
+    "sample_409_control_hed.jpg": {
+        "text": "the golden gate bridge is a beautiful structure, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_410_control_canny.jpg": {
+        "text": "Three cows are walking in a field near trees.",
+        "control_type": "canny"
+    },
+    "sample_411_control_depth.jpg": {
+        "text": "a dog sitting on a ledge next to a plant",
+        "control_type": "depth"
+    },
+    "sample_412_control_openpose.jpg": {
+        "text": "a woman standing in a kitchen next to a sink, sasha grey, sugar sprinkled, holding an ep\u00e9e, reduce duplication interference, her hand is on her waist, as well as the handyboy, screenshot, pregnant, baugh casey, telekinesis, mixing, rice, brown haired",
+        "control_type": "openpose"
+    },
+    "sample_413_control_grayscale.jpg": {
+        "text": "Blueberries in Your Backyard",
+        "control_type": "grayscale"
+    },
+    "sample_414_control_hed.jpg": {
+        "text": "a bridge over a body of water, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_415_control_canny.jpg": {
+        "text": "A demonic looking President Barrack Hussein Obama clasping his hands together.",
+        "control_type": "canny"
+    },
+    "sample_416_control_depth.jpg": {
+        "text": "a red train traveling down train tracks next to power lines",
+        "control_type": "depth"
+    },
+    "sample_417_control_openpose.jpg": {
+        "text": "a man cutting a tree with a pair of scissors, houzz, sd video, vibrant foliage, gambrel roof, bts, product showcase, ivy's",
+        "control_type": "openpose"
+    },
+    "sample_418_control_grayscale.jpg": {
+        "text": "Baby Fairy Diaper Cake - baby tutu, shoes, wings, clips & antlers",
+        "control_type": "grayscale"
+    },
+    "sample_419_control_hed.jpg": {
+        "text": "a large bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_420_control_canny.jpg": {
+        "text": "A flock of birds walking down the beach\n",
+        "control_type": "canny"
+    },
+    "sample_421_control_depth.jpg": {
+        "text": "a batter, catcher and umpire during a baseball game",
+        "control_type": "depth"
+    },
+    "sample_422_control_openpose.jpg": {
+        "text": "a man is painting on the side of a building, tessellating patterns, nanocarbon-vest, dvd screencapture, light brown colors, footbridges between houses, youtube thumbnail, marking lines, guanajuato, man wearing a closed cowl, flexiseal, draincore, tiling, decaing, detailed patterned rug, by Derf",
+        "control_type": "openpose"
+    },
+    "sample_423_control_grayscale.jpg": {
+        "text": "Hot rod cars on display during Ocean Park's Rod Run to the End of the World",
+        "control_type": "grayscale"
+    },
+    "sample_424_control_hed.jpg": {
+        "text": "golden gate bridge at night, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_425_control_canny.jpg": {
+        "text": "A living room has a couch, chair, fireplace, windows, and a potted plant.",
+        "control_type": "canny"
+    },
+    "sample_426_control_depth.jpg": {
+        "text": "a tray of food on a table",
+        "control_type": "depth"
+    },
+    "sample_427_control_openpose.jpg": {
+        "text": "a woman standing in a living room next to a couch, athletic body build, color video footage, upper torso, website screenshot, body transmogrify, 50s style infomercial, steps 50, boundless and bare, skinny, height 1 7 8, a screenshot, body shot, vascularity",
+        "control_type": "openpose"
+    },
+    "sample_428_control_grayscale.jpg": {
+        "text": "Men Stripe Flax Casual Shoes - freakichic",
+        "control_type": "grayscale"
+    },
+    "sample_429_control_hed.jpg": {
+        "text": "the golden gate bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_430_control_canny.jpg": {
+        "text": "A person that is dressed up very nicely.",
+        "control_type": "canny"
+    },
+    "sample_431_control_depth.jpg": {
+        "text": "a stop sign in the middle of a snow covered field",
+        "control_type": "depth"
+    },
+    "sample_432_control_openpose.jpg": {
+        "text": "a group of men sitting next to each other in a stadium, yiqiang and shurakrgt, strong red hue, showing off biceps, 720p, human staring blankly ahead, gold medal, hidden camera photo, man with glasses, horrified, red car, ginormous, choi, 2 0 1 5, the caretaker",
+        "control_type": "openpose"
+    },
+    "sample_433_control_grayscale.jpg": {
+        "text": "Woman hiker hiking looking at scenic view of fall foliage mountain landscape",
+        "control_type": "grayscale"
+    },
+    "sample_434_control_hed.jpg": {
+        "text": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_435_control_canny.jpg": {
+        "text": "Men in uniforms and suits are looking at bomb-type weapons.",
+        "control_type": "canny"
+    },
+    "sample_436_control_depth.jpg": {
+        "text": "a vase filled with flowers sitting on top of a table",
+        "control_type": "depth"
+    },
+    "sample_437_control_openpose.jpg": {
+        "text": "a man standing on top of a snow covered slope, holding a camera, action sports, weather report, video still, by Karl Ballmer, drenched clothing, action glamour pose, shot with sony alpha, reduce duplicate content, full round face, hands up, guide, set photograph",
+        "control_type": "openpose"
+    },
+    "sample_438_control_grayscale.jpg": {
+        "text": "COVID-19 Shuts Down High Point Payment Office",
+        "control_type": "grayscale"
+    },
+    "sample_439_control_hed.jpg": {
+        "text": "the bay bridge is lit up at dusk, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_440_control_canny.jpg": {
+        "text": "A banana that is sitting in a bowl on the table.",
+        "control_type": "canny"
+    },
+    "sample_441_control_depth.jpg": {
+        "text": "a woman riding skis down a snow covered slope",
+        "control_type": "depth"
+    },
+    "sample_442_control_openpose.jpg": {
+        "text": "a group of people skating on an ice rink, wearing a red backwards cap, still from breaking bad, justin bieber, goldsrc, by Bruce Nauman, red elegant shirt, two young men, hidden camera photo, red coat, sharp focus \u00bb, very cute and childlike, parks, fishlike",
+        "control_type": "openpose"
+    },
+    "sample_443_control_grayscale.jpg": {
+        "text": "12 month girls one piece snow suit",
+        "control_type": "grayscale"
+    },
+    "sample_444_control_hed.jpg": {
+        "text": "the golden gate bridge in san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_445_control_canny.jpg": {
+        "text": "Two beautiful young ladies giving an elephant a bath in a river.",
+        "control_type": "canny"
+    },
+    "sample_446_control_depth.jpg": {
+        "text": "a dog and a cat laying on a couch",
+        "control_type": "depth"
+    },
+    "sample_447_control_openpose.jpg": {
+        "text": "a man sitting on top of a chair in a garage, dynamic active running pose, dvd screencapture, thigh skin, medical photography, full subject shown in photo, terry davis, windmill, heart operation, very vascular, bicycle, only two hands, youtube video screenshot, sitting pose",
+        "control_type": "openpose"
+    },
+    "sample_448_control_grayscale.jpg": {
+        "text": "Wedding Inspiration: The Little Prince",
+        "control_type": "grayscale"
+    },
+    "sample_449_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the top of a cliff, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_450_control_canny.jpg": {
+        "text": "An old train is lit up at a festival.",
+        "control_type": "canny"
+    },
+    "sample_451_control_depth.jpg": {
+        "text": "a truck driving down a street next to tall buildings",
+        "control_type": "depth"
+    },
+    "sample_452_control_openpose.jpg": {
+        "text": "a man in a red shirt milking a cow, wildlife documentary, by Bapu, cinematic photograph, anvil, wild animals, four hands, malt",
+        "control_type": "openpose"
+    },
+    "sample_453_control_grayscale.jpg": {
+        "text": "Blue velvet chair, lashing & lashings of blue velvet, with olives & teals, & family signatures embroidered on sides & seat base",
+        "control_type": "grayscale"
+    },
+    "sample_454_control_hed.jpg": {
+        "text": "san francisco golden gate bridge in fog, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_455_control_canny.jpg": {
+        "text": "a view through through a window of a skate boarder",
+        "control_type": "canny"
+    },
+    "sample_456_control_depth.jpg": {
+        "text": "a large boat in the middle of a large body of water",
+        "control_type": "depth"
+    },
+    "sample_457_control_openpose.jpg": {
+        "text": "a man sitting on the ground in the woods, wearing tall combat boots, youtube video screenshot, wrenches, field journal, by Christopher Moeller, broken glasses, remembering his life, dark tomb setting, sores and scars, radios, knives, launch test, guide, steps 50",
+        "control_type": "openpose"
+    },
+    "sample_458_control_grayscale.jpg": {
+        "text": "WHOLESALE Liquidation of Hand-Crafted Fashion Jewelry &",
+        "control_type": "grayscale"
+    },
+    "sample_459_control_hed.jpg": {
+        "text": "golden gate bridge in the fog, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_460_control_canny.jpg": {
+        "text": "A woman wearing a hat while looking at a cake.",
+        "control_type": "canny"
+    },
+    "sample_461_control_depth.jpg": {
+        "text": "a baseball player swinging a bat at a ball",
+        "control_type": "depth"
+    },
+    "sample_462_control_openpose.jpg": {
+        "text": "a man riding skis on top of snow covered ground, backed on kickstarter, dribble contest winner, prague, pylons, city park, in orange clothes) fight, rotating, stomping, wearing fashion clothing, left align, beginner, still image from tv series, bj\u00f8rn, looping",
+        "control_type": "openpose"
+    },
+    "sample_463_control_grayscale.jpg": {
+        "text": "The Riddle Luxury Self Catering Cottage North Bovey",
+        "control_type": "grayscale"
+    },
+    "sample_464_control_hed.jpg": {
+        "text": "the golden gate bridge is a red bridge in san francisco, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_465_control_canny.jpg": {
+        "text": "The hut is sparse, containing a cot and a few pillows.",
+        "control_type": "canny"
+    },
+    "sample_466_control_depth.jpg": {
+        "text": "a woman talking on a cell phone while standing in front of a crowd",
+        "control_type": "depth"
+    },
+    "sample_467_control_openpose.jpg": {
+        "text": "a basketball player dribbling a ball on a court, inspired by Dulah Marie Evans, walkthrough, full shot ( fs ), cds, harnesses, pulling the move'the banshee ', green shirt, clean borders, indi creates, the shackled, spotlighting, harness",
+        "control_type": "openpose"
+    },
+    "sample_468_control_grayscale.jpg": {
+        "text": "white horse painting",
+        "control_type": "grayscale"
+    },
+    "sample_469_control_hed.jpg": {
+        "text": "the bridge is red, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_470_control_canny.jpg": {
+        "text": "Zebras are in an enclosed area and grazing from the dirt.",
+        "control_type": "canny"
+    },
+    "sample_471_control_depth.jpg": {
+        "text": "a bathroom with a toilet, sink, and mirror",
+        "control_type": "depth"
+    },
+    "sample_472_control_openpose.jpg": {
+        "text": "a group of young girls standing on top of a stage, channeling third eye energy, sumatraism, 2 0 0 6 youtube video, community celebration, graceful arms, description, gold adornements, los angeles 2 0 1 5, closeup of arms, two characters, aoc, ballroom, tosa school, thumb up, good clear quality, dang my linh",
+        "control_type": "openpose"
+    },
+    "sample_473_control_grayscale.jpg": {
+        "text": "Valentine Mason Jar Ideas",
+        "control_type": "grayscale"
+    },
+    "sample_474_control_hed.jpg": {
+        "text": "san francisco golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_475_control_canny.jpg": {
+        "text": "a person sitting on a chair over a body of water",
+        "control_type": "canny"
+    },
+    "sample_476_control_depth.jpg": {
+        "text": "a large group of people standing around with luggage",
+        "control_type": "depth"
+    },
+    "sample_477_control_openpose.jpg": {
+        "text": "a man in a black shirt is cleaning a bathroom floor, evening news program, tileable, netfilx !n-9, video, ad, viral image, 1 0, trending on interfacelift, csp, dripping technique, photo still of, placed in a large living room, large arrays, mrbeast, 2 0 0 6 youtube video",
+        "control_type": "openpose"
+    },
+    "sample_478_control_grayscale.jpg": {
+        "text": "What If S P Gm Chrysler Or Amc Had Designed The 1957",
+        "control_type": "grayscale"
+    },
+    "sample_479_control_hed.jpg": {
+        "text": "the bridge is long, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_480_control_canny.jpg": {
+        "text": "A beautiful woman taking a picture with her smart phone.",
+        "control_type": "canny"
+    },
+    "sample_481_control_depth.jpg": {
+        "text": "a beach with a cruise ship and beach chairs",
+        "control_type": "depth"
+    },
+    "sample_482_control_openpose.jpg": {
+        "text": "a man in a blue shirt is fixing a black jeep, leather padding, youtube video screenshot, one foot raised off the ground, 3 doors, bent over posture, expensive design, brown tail, microchip, flexiseal, kneeling, svg sticker, texas, keys, half length, dithering",
+        "control_type": "openpose"
+    },
+    "sample_483_control_grayscale.jpg": {
+        "text": "Easter eggs designs, popular in Slovakia",
+        "control_type": "grayscale"
+    },
+    "sample_484_control_hed.jpg": {
+        "text": "a collage of photos of the golden gate bridge, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_485_control_canny.jpg": {
+        "text": "Kids playing a game of baseball while people watch. ",
+        "control_type": "canny"
+    },
+    "sample_486_control_depth.jpg": {
+        "text": "a herd of sheep standing on top of a lush green field",
+        "control_type": "depth"
+    },
+    "sample_487_control_openpose.jpg": {
+        "text": "two men sitting at a table talking to each other, wearing a shirt and a jean, post - apokalyptic, new york backdrop, high forehead, tcg, raw file, ornamental rober, only one person in frame, mac, 3 2 - year - old, 5 d, complexity, duster, far - mid shot, the sopranos",
+        "control_type": "openpose"
+    },
+    "sample_488_control_grayscale.jpg": {
+        "text": "618_348_the-all-ages-reason-to-exercise.jpg",
+        "control_type": "grayscale"
+    },
+    "sample_489_control_hed.jpg": {
+        "text": "golden gate bridge san francisco california stock photo, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_490_control_canny.jpg": {
+        "text": "The children are getting ready to enjoy a piece of cake.",
+        "control_type": "canny"
+    },
+    "sample_491_control_depth.jpg": {
+        "text": "a woman is combing her hair in a salon",
+        "control_type": "depth"
+    },
+    "sample_492_control_openpose.jpg": {
+        "text": "two women sitting next to each other in a room, green and purple studio lighting, weaving, mooc, complementing colors, in the styles of tom coletti, website banner, wearing an old tunic, by Amy Weber, dvd package, owl studio, sheath, stands at her easel, qvc",
+        "control_type": "openpose"
+    },
+    "sample_493_control_grayscale.jpg": {
+        "text": "Ford Focus RS 2009",
+        "control_type": "grayscale"
+    },
+    "sample_494_control_hed.jpg": {
+        "text": "golden gate bridge san francisco, california stock photo, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    },
+    "sample_495_control_canny.jpg": {
+        "text": "A woman is inspecting the grip on her tennis racquet",
+        "control_type": "canny"
+    },
+    "sample_496_control_depth.jpg": {
+        "text": "a man sitting on top of an elephant next to a body of water",
+        "control_type": "depth"
+    },
+    "sample_497_control_openpose.jpg": {
+        "text": "a man standing on a mat with a pair of dumbbells, youtube video screenshot, slim and tall, tool, neck shackle, featured on dribble, surfaces blemishes, volume flutter, kettle, rubble, look at the front horizontally, mule, sweeping arches, guy, gangly",
+        "control_type": "openpose"
+    },
+    "sample_498_control_grayscale.jpg": {
+        "text": "bible dove cup gold religion icon graphic vector image",
+        "control_type": "grayscale"
+    },
+    "sample_499_control_hed.jpg": {
+        "text": "the golden gate bridge is seen from the air, Golden Gate Bridge in San Francisco, USA",
+        "control_type": "hed"
+    }
+}

@@ -1,0 +1,464 @@
+{
+    "sample_0.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_1.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_2.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_3.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_4.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_5.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_6.jpg": {
+        "subject": "pink_sunglasses"
+    },
+    "sample_7.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_8.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_9.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_10.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_11.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_12.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_13.jpg": {
+        "subject": "poop_emoji"
+    },
+    "sample_14.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_15.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_16.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_17.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_18.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_19.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_20.jpg": {
+        "subject": "bear_plushie"
+    },
+    "sample_21.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_22.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_23.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_24.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_25.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_26.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_27.jpg": {
+        "subject": "grey_sloth_plushie"
+    },
+    "sample_28.jpg": {
+        "subject": "can"
+    },
+    "sample_29.jpg": {
+        "subject": "can"
+    },
+    "sample_30.jpg": {
+        "subject": "can"
+    },
+    "sample_31.jpg": {
+        "subject": "can"
+    },
+    "sample_32.jpg": {
+        "subject": "can"
+    },
+    "sample_33.jpg": {
+        "subject": "can"
+    },
+    "sample_34.jpg": {
+        "subject": "can"
+    },
+    "sample_35.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_36.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_37.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_38.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_39.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_40.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_41.jpg": {
+        "subject": "duck_toy"
+    },
+    "sample_42.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_43.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_44.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_45.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_46.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_47.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_48.jpg": {
+        "subject": "colorful_sneaker"
+    },
+    "sample_49.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_50.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_51.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_52.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_53.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_54.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_55.jpg": {
+        "subject": "robot_toy"
+    },
+    "sample_56.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_57.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_58.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_59.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_60.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_61.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_62.jpg": {
+        "subject": "red_cartoon"
+    },
+    "sample_63.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_64.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_65.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_66.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_67.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_68.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_69.jpg": {
+        "subject": "monster_toy"
+    },
+    "sample_70.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_71.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_72.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_73.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_74.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_75.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_76.jpg": {
+        "subject": "wolf_plushie"
+    },
+    "sample_77.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_78.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_79.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_80.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_81.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_82.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_83.jpg": {
+        "subject": "fancy_boot"
+    },
+    "sample_84.jpg": {
+        "subject": "vase"
+    },
+    "sample_85.jpg": {
+        "subject": "vase"
+    },
+    "sample_86.jpg": {
+        "subject": "vase"
+    },
+    "sample_87.jpg": {
+        "subject": "vase"
+    },
+    "sample_88.jpg": {
+        "subject": "vase"
+    },
+    "sample_89.jpg": {
+        "subject": "vase"
+    },
+    "sample_90.jpg": {
+        "subject": "vase"
+    },
+    "sample_91.jpg": {
+        "subject": "clock"
+    },
+    "sample_92.jpg": {
+        "subject": "clock"
+    },
+    "sample_93.jpg": {
+        "subject": "clock"
+    },
+    "sample_94.jpg": {
+        "subject": "clock"
+    },
+    "sample_95.jpg": {
+        "subject": "clock"
+    },
+    "sample_96.jpg": {
+        "subject": "clock"
+    },
+    "sample_97.jpg": {
+        "subject": "clock"
+    },
+    "sample_98.jpg": {
+        "subject": "candle"
+    },
+    "sample_99.jpg": {
+        "subject": "candle"
+    },
+    "sample_100.jpg": {
+        "subject": "candle"
+    },
+    "sample_101.jpg": {
+        "subject": "candle"
+    },
+    "sample_102.jpg": {
+        "subject": "candle"
+    },
+    "sample_103.jpg": {
+        "subject": "candle"
+    },
+    "sample_104.jpg": {
+        "subject": "candle"
+    },
+    "sample_105.jpg": {
+        "subject": "dog"
+    },
+    "sample_106.jpg": {
+        "subject": "dog"
+    },
+    "sample_107.jpg": {
+        "subject": "dog"
+    },
+    "sample_108.jpg": {
+        "subject": "dog"
+    },
+    "sample_109.jpg": {
+        "subject": "dog"
+    },
+    "sample_110.jpg": {
+        "subject": "dog"
+    },
+    "sample_111.jpg": {
+        "subject": "dog"
+    },
+    "sample_112.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_113.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_114.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_115.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_116.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_117.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_118.jpg": {
+        "subject": "shiny_sneaker"
+    },
+    "sample_119.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_120.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_121.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_122.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_123.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_124.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_125.jpg": {
+        "subject": "berry_bowl"
+    },
+    "sample_126.jpg": {
+        "subject": "backpack"
+    },
+    "sample_127.jpg": {
+        "subject": "backpack"
+    },
+    "sample_128.jpg": {
+        "subject": "backpack"
+    },
+    "sample_129.jpg": {
+        "subject": "backpack"
+    },
+    "sample_130.jpg": {
+        "subject": "backpack"
+    },
+    "sample_131.jpg": {
+        "subject": "backpack"
+    },
+    "sample_132.jpg": {
+        "subject": "backpack"
+    },
+    "sample_133.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_134.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_135.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_136.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_137.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_138.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_139.jpg": {
+        "subject": "rc_car"
+    },
+    "sample_140.jpg": {
+        "subject": "teapot"
+    },
+    "sample_141.jpg": {
+        "subject": "teapot"
+    },
+    "sample_142.jpg": {
+        "subject": "teapot"
+    },
+    "sample_143.jpg": {
+        "subject": "teapot"
+    },
+    "sample_144.jpg": {
+        "subject": "teapot"
+    },
+    "sample_145.jpg": {
+        "subject": "teapot"
+    },
+    "sample_146.jpg": {
+        "subject": "teapot"
+    },
+    "sample_147.jpg": {
+        "subject": "cat"
+    },
+    "sample_148.jpg": {
+        "subject": "cat"
+    },
+    "sample_149.jpg": {
+        "subject": "cat"
+    },
+    "sample_150.jpg": {
+        "subject": "cat"
+    },
+    "sample_151.jpg": {
+        "subject": "cat"
+    },
+    "sample_152.jpg": {
+        "subject": "cat"
+    },
+    "sample_153.jpg": {
+        "subject": "cat"
+    }
+}
