@@ -13,6 +13,7 @@ To standardize the conduction of a rigorous human evaluation, we stipulate the c
 
 Semantic Consistency (SC) ensures that the generated image is coherent in terms of guidance provided (i.e. Prompts, Subject Token, etc.). In another words, the image has to be aligned with the requirements provided in user's inputs.
 
+Perceptual Realism (PR) ensures the generated image align with real-world characteristics. In another words, the image has to be visually convincing and closely resembles a real photograph (Photorealism).
 
 General design rules for Semantic Consistency (SC) scoring:
 * SC=2 : The generated image perfectly described all the required attributes of the provided guidance.
@@ -20,19 +21,13 @@ General design rules for Semantic Consistency (SC) scoring:
 * SC=0.5 : High-level features mismatch spotted in the generated image.
 * SC=0 : The generated image failed in following the majority of required attributes of the provided guidance.
 
-
-Perceptual Realism (PR) ensures the generated image align with real-world characteristics. In another words, the image has to be visually convincing and closely resembles a real photograph (Photorealism).
-
-
 General design rules for Perceptual Realism (PR) scoring:
 * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence.
 * PR=1 : Nearly no distortion, incompletion found. including sense of distance, lighting or shadow details.
 * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. watermark) can be spotted but do not strongly detract from its overall appearance.
 * PR=0 : Obvious noise, distortion, or incompletion can be spotted.
 
-
-
-> We present each image with a human evaluation in `[<SC score>,<PR score>]`.
+**Important: We present each image with a human evaluation in `[<SC score>,<PR score>]`.**
 
 
 
@@ -45,7 +40,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * Semantic Consistency (SC) scoring for **Text-To-Image**:
     * SC=2 : The image perfectly matched with the prompt, or the image matched with all the subject, action, position, adjective, style words in the prompt.
     * SC=1 : The image only matched with all the subject, action, and position words in the prompt, but missed some adjective (e.g. wrong color)
-    * SC=0.5 : the image match with some of the subject, action, and position words in prompt.
+    * SC=0.5 : the image match with some of the subject, action, and position words in prompt, but the overall idea is wrong.
     * SC=0 : The image failed to match any of the subject, action, and position words in the prompt.
 * Perceptual Realism (PR) scoring for **Text-To-Image**:
     * PR=2 : Exhibiting reasonable lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
