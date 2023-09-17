@@ -26,17 +26,15 @@ Our dataset contain serveral categories of the image.
 "category": "Conflicting",
 ```
 
-OutputA|OutputB|OutputC|OutputD
+OutputA|OutputB|OutputC
 
 <p float="left", align="center">
 <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_9.jpg" width="256" />
-<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_9.jpg" width="256" /> 
 <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SD/sample_9.jpg" width="256" /> 
 <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_9.jpg" width="256" /> 
 </p>
 
 * This is how I would rate them:
-* OutputA: `[0.5, 2] `. SC: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR: No distortion found.
-* OutputB: `[0.5, 2]`. SC: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR: No distortion found.
-* OutputC: `[0.5, 1]`. SC: panda is drinking instead of making latte art. PR: minor distortion found on the panda's hand.
-* OutputD: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion found on the panda's left hand.
+* OutputA: `[0.5, 2] `. SC: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR: Lighting looks reasonable, No distortion found.
+* OutputB: `[0.5, 1]`. SC: panda is drinking instead of making latte art. PR: minor distortion found on the panda's hand.
+* OutputC: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion found on the panda's left hand.
