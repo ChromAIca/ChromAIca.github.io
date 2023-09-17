@@ -420,10 +420,22 @@ SC=0 : Subjects bears little resemblance to the intended subject, or there are a
     * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
     * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
 
-### **Examples / Common cases when evaluating: Mask-Guided Image Editing**
+### Examples / Common cases when evaluating: Control-Guided Image Generation
 
-Please refer to [**Examples / Common cases when evaluating: Text-Guided Image Editing**](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/ImagenHub#examples--common-cases-when-evaluating-text-guided-image-editing). They are basically having the same standard.
+**Case: Both subjects accurately represents all the intended subjects but the prompt action does not match.**
 
+```
+"prompt": "golden gate bridge at sunset, Golden Gate Bridge in San Francisco, USA",
+"control_type": "hed"
+```
+
+<p float="left", align="center">
+  <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Control-Guided_IG/input/sample_14_control_hed.jpg" width="256" />
+  <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Control-Guided_IG/ControlNet/sample_14_control_hed.jpg" width="256" /> 
+</p>
+
+* Basically, we gives SC=2 for cases like this. The generated image perfectly described all the required attributes of the user prompt, and even work.
+* In this given example, I would rate the score `[0.5, 1]` because there are some missing details in the background. The details in the far-side are mostly blurred unnaturally. 
 
 ## **Human Eval - Style-Guided Image Generation**
 
