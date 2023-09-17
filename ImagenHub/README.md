@@ -43,15 +43,16 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 ## **Human Eval - Text-To-Image**
 
 * Semantic Consistency (SC) scoring for **Text-To-Image**:
-    * SC=2 : 
-    * SC=1 : 
-    * SC=0.5 : 
-    * SC=0 : 
+    * SC=2 : The image perfectly matched with the prompt, or the image matched with all the subject, action, position, adjective, style words in the prompt.
+    * SC=1 : The image only matched with all the subject, action, and position words in the prompt, but missed some adjective (e.g. wrong color)
+    * SC=0.5 : the image match with some of the subject, action, and position words in prompt.
+    * SC=0 : The image failed to match any of the subject, action, and position words in the prompt.
 * Perceptual Realism (PR) scoring for **Text-To-Image**:
-    * PR=2 : 
-    * PR=1 : 
-    * PR=0.5 : 
-    * PR=0 : 
+    * PR=2 : Exhibiting reasonable lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
+    * PR=1 : only minor distortion found on high-level features / small objects (e.g. subject faces, small words, unusual number of fingers etc)
+    * PR=0.5 : some wrong body portions spotted but still be able to identify the object.
+    * PR=0 : The image is heavily distorted, or huge potion of artifacts appeared.
+
 
 Important: Please refer to [HumanGuide_Text-To-Image.md](https://github.com/ChromAIca/ChromAIca.github.io/blob/main/ImagenHub/HumanGuide_Text-To-Image.md) for more detail and examples.
 
