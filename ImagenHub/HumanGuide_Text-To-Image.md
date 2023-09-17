@@ -38,3 +38,90 @@ OutputA|OutputB|OutputC
 * OutputA: `[0.5, 2] `. SC: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR: Lighting looks reasonable, No distortion found.
 * OutputB: `[0.5, 1]`. SC: panda is drinking instead of making latte art. PR: minor distortion found on the panda's hand.
 * OutputC: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion found on the panda's left hand.
+
+**Case: Rating Counting image**
+```
+"prompt": "One cat and two dogs sitting on the grass.",
+"category": "Counting",
+```
+
+OutputA|OutputB|OutputC
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_16.jpg" width="256" />
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_16.jpg" width="256" /> 
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SD/sample_16.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+* OutputA: `[2, 1] `. SC: prompt perfectly align. PR: minor distortion on the cat's facial features.
+* OutputB: `[0.5, 1]`. SC: 3 dogs appeared instead of 1 cat and 2 dogs. PR: minor distortion was found on the animal's face and the watermark.
+* OutputC: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion on the dog's facial features.
+
+
+**Case: Rating Positional image**
+
+```
+"prompt": "A stop sign on the right of a refrigerator.",
+"category": "Positional",
+```
+OutputA|OutputB|OutputC
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_50.jpg" width="256" />
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_50.jpg" width="256" /> 
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_50.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+
+
+**Case: Rating Text image**
+
+```
+"prompt": "A sign that says 'Deep Learning'.",
+"category": "Text",
+```
+OutputA|OutputB|OutputC
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_76.jpg" width="256" />
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_76.jpg" width="256" /> 
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_76.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+
+
+**Case: Rating Misspellings image**
+```
+"prompt": "Bzaseball galove.",
+"category": "Misspellings",
+```
+OutputA|OutputB|OutputC
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_43.jpg" width="256" />
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_43.jpg" width="256" /> 
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_43.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+
+**Case: Rating Long prompt image**
+```
+"prompt": "a beautiful photorealistic anime illustration of urbex industrial architecture city architecture unfinished building abandoned post office by renzo piano, laser extraterrestial sunset lake vaporwave elysian at night reclaimed by nature magic realism myst wilderness, archdaily, wallpaper, highly detailed, trending on artstation. ",
+"category": "Misc",
+```
+
+OutputA|OutputB|OutputC
+
+<p float="left", align="center">
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_95.jpg" width="256" />
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_95.jpg" width="256" /> 
+<img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_95.jpg" width="256" /> 
+</p>
+
+* This is how I would rate them:
+
+
