@@ -45,7 +45,7 @@ In the Task-Specific Scoring Guide we outline the details of the score judgement
 * Perceptual Realism (PR) scoring for **Text-To-Image**:
     * PR=2 : Exhibiting reasonable lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
     * PR=1 : only minor distortion found on high-level features / small objects (e.g. subject faces, small words, unusual number of fingers etc)
-    * PR=0.5 : some wrong body portions spotted but still be able to identify the object.
+    * PR=0.5 : some wrong body portions spotted but still be able to identify the object, or a huge sense of unnatural feeling exists.
     * PR=0 : The image is heavily distorted, or huge potion of artifacts appeared.
 
 
