@@ -12,9 +12,6 @@
     * PR=0 : The image is heavily distorted, or huge potion of artifacts appeared.
 
 ### **Examples / Common cases when evaluating: Text-To-Image**
-
-> Note that all the images on the left are Inputs, while the images on the right are the outputs.
->
 > We present each image with a human evaluation in `[<SC score>,<PR score>]`.
 
 Our dataset contain serveral categories of the image.
@@ -143,9 +140,9 @@ OutputA|OutputB|OutputC
 > <img src="https://images.adsttc.com/media/images/57d9/66c5/e58e/ce72/2b00/01e9/newsletter/2496569412_97e61ae248_o.jpg?1473865406" width="256" /> 
 > <img src="https://images.adsttc.com/media/images/55f6/78a4/e58e/cec1/f800/008e/large_jpg/626.008.jpg?1442216093" width="256" /> 
 > </p>
-> This is how vaporwave looks like (just by googling). We can assume it is a style dominated by a mixture of purple, yellow, and blue.
+> This is how vaporwave looks like (just by googling). We can assume it is a style dominated by a mixture of purple-like colors.
 > <p float="left", align="center">
-> <img src="https://static.wikia.nocookie.net/ultimas-cosmology/images/e/e5/Maxresdefault.jpg/revision/latest?cb=20200611075552" width="256" /> 
+> <img src="https://esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg" width="256" /> 
 > <img src="https://retro.nativ3.io/wp-content/uploads/2021/05/5155536-1536x1024.jpg" width="256" /> 
 > </p>
 * Then we can get the idea of the prompt (it's subjective): an illustration of unfinished/abandoned renzo piano style industrial building, sunset vaporwave
