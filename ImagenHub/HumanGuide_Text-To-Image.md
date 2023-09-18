@@ -8,7 +8,7 @@
 * Perceptual Realism (PR) scoring for **Text-To-Image**:
     * PR=2 : Exhibiting reasonable lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
     * PR=1 : only minor distortion found on high-level features / small objects (e.g. subject faces, small words, unusual number of fingers etc)
-    * PR=0.5 : some wrong body portions spotted but still be able to identify the object.
+    * PR=0.5 : some wrong body portions spotted but still be able to identify the object, or a huge sense of unnatural feeling exists.
     * PR=0 : The image is heavily distorted, or huge potion of artifacts appeared.
 
 ### **Examples / Common cases when evaluating: Text-To-Image**
@@ -35,9 +35,9 @@ OutputA|OutputB|OutputC
 </p>
 
 * This is how I would rate them:
-* OutputA: `[0.5, 2] `. SC: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR: Lighting looks reasonable, No distortion found.
-* OutputB: `[0.5, 1]`. SC: panda is drinking instead of making latte art. PR: minor distortion found on the panda's hand.
-* OutputC: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion found on the panda's left hand.
+* OutputA: `[0.5, 2] `. SC=2: panda should be the one making the art instead of being in the latte. Only panda and latte words matched but not panda making latte art. PR=2: Lighting looks reasonable, No distortion found.
+* OutputB: `[0.5, 1]`. SC=0.5: panda is drinking instead of making latte art. PR=1: minor distortion found on the panda's hand.
+* OutputC: `[2, 1]`. SC=2: The prompt match perfectly with the image. PR=1: minor distortion found on the panda's left hand.
 
 **Case: Rating Counting image**
 ```
@@ -54,9 +54,9 @@ OutputA|OutputB|OutputC
 </p>
 
 * This is how I would rate them:
-* OutputA: `[2, 1] `. SC: prompt perfectly align. PR: minor distortion on the cat's facial features.
-* OutputB: `[0.5, 1]`. SC: 3 dogs appeared instead of 1 cat and 2 dogs. PR: minor distortion was found on the animal's face and the watermark.
-* OutputC: `[2, 1]`. SC: The prompt match perfectly with the image. PR: minor distortion on the dog's facial features.
+* OutputA: `[2, 1] `. SC=2: prompt perfectly align. PR=1: minor distortion on the cat's facial features.
+* OutputB: `[0.5, 1]`. SC=0.5: 3 dogs appeared instead of 1 cat and 2 dogs. PR=1: minor distortion was found on the animal's face and the watermark.
+* OutputC: `[2, 1]`. SC=2: The prompt match perfectly with the image. PR=1: minor distortion on the dog's facial features.
 
 
 **Case: Rating Positional image**
@@ -74,6 +74,10 @@ OutputA|OutputB|OutputC
 </p>
 
 * This is how I would rate them:
+* OutputA: `[0.5, 1] `. SC=0.5: refrigerator not found but the stop sign is here. PR=1: minor distortion on the cat's facial features.
+* OutputB: `[0, 1]`. SC=0: Failed to generate refrigerator nor the stop sign. PR=1: 
+* OutputC: `[2, 1]`. SC=2:  PR=1:
+
 
 
 **Case: Rating Text image**
