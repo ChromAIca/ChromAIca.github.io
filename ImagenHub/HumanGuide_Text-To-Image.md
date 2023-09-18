@@ -75,8 +75,8 @@ OutputA|OutputB|OutputC
 
 * This is how I would rate them:
 * OutputA: `[0.5, 1] `. SC=0.5: refrigerator not found but the stop sign is here. PR=1: minor distortion on the cat's facial features.
-* OutputB: `[0, 1]`. SC=0: Failed to generate refrigerator nor the stop sign. PR=1: 
-* OutputC: `[2, 1]`. SC=2:  PR=1:
+* OutputB: `[0, 0.5]`. SC=0: Failed to generate refrigerator nor the stop sign. PR=0.5: The whole thing looks unnatural.
+* OutputC: `[2, 1]`. SC=2: The prompt match perfectly with the image.  PR=1 or 2: The stop sign looks like pinned on the wall with an unnatural angle.
 
 
 
@@ -95,6 +95,9 @@ OutputA|OutputB|OutputC
 </p>
 
 * This is how I would rate them:
+* OutputA: `[0.5, 1] `. SC=0.5: A sign appeared, but failed to spell the word.  PR=1: The image look generally real but with some lighting issues.
+* OutputB: `[0.5, 0.5]`. SC=0.5: A sign appeared, but failed to spell the word.  PR=0.5: The background looks so unnatural.
+* OutputC: `[0.5, 0]`. SC=0.5: A sign appeared, but failed to spell the word.  PR=0.5: Heavy distortion on both text and strong artifacts in the background.
 
 
 **Case: Rating Misspellings image**
@@ -110,9 +113,16 @@ OutputA|OutputB|OutputC
 <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_43.jpg" width="256" /> 
 </p>
 
-* This is how I would rate them:
+* The prompt should mean "Baseball glove". This is how I would rate them:
+* OutputA: `[2, 2] `. SC=2: It is a baseball glove. PR=2 or 1: It looks highly resemble to a baseball glove.
+* OutputB: `[0, 0.5]`. SC=0 or 0.5: It's just some balls, not even a baseball. PR=0.5: The balls are stacking in an unnatural way.
+* OutputC: `[0, 0]`. SC=0: It looks similar to a baseball court but no baseball nor glove appeared in the image. PR=0 or 0.5: The image is heavily distorted as the objects cannot be recognized.
+
 
 **Case: Rating Long prompt image**
+
+Long prompt ratings are highly subjective.
+
 ```
 "prompt": "a beautiful photorealistic anime illustration of urbex industrial architecture city architecture unfinished building abandoned post office by renzo piano, laser extraterrestial sunset lake vaporwave elysian at night reclaimed by nature magic realism myst wilderness, archdaily, wallpaper, highly detailed, trending on artstation. ",
 "category": "Misc",
@@ -126,6 +136,21 @@ OutputA|OutputB|OutputC
 <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_95.jpg" width="256" /> 
 </p>
 
+* Let's analyze the prompt.
+* style: photorealistic, anime, renzo piano, vaporwave
+> This is how the renzo piano building looks like (just by googling). We can assume its some kind of industrial building.
+> <p float="left", align="center">
+> <img src="https://images.adsttc.com/media/images/57d9/66c5/e58e/ce72/2b00/01e9/newsletter/2496569412_97e61ae248_o.jpg?1473865406" width="256" /> 
+> <img src="https://images.adsttc.com/media/images/55f6/78a4/e58e/cec1/f800/008e/large_jpg/626.008.jpg?1442216093" width="256" /> 
+> </p>
+> This is how vaporwave looks like (just by googling). We can assume it is a style dominated by a mixture of purple, yellow, and blue.
+> <p float="left", align="center">
+> <img src="https://static.wikia.nocookie.net/ultimas-cosmology/images/e/e5/Maxresdefault.jpg/revision/latest?cb=20200611075552" width="256" /> 
+> <img src="https://retro.nativ3.io/wp-content/uploads/2021/05/5155536-1536x1024.jpg" width="256" /> 
+> </p>
+* Then we can get the idea of the prompt (it's subjective): an illustration of unfinished/abandoned renzo piano style industrial building, sunset vaporwave
 * This is how I would rate them:
-
+* OutputA: `[2, 1] `. SC=2 or 1: The image showed the industrial building, the sunset, and the vaporware (mixed with anime) feeling. PR=0.5: The ground and the bridge on the top look distorted and give an unnatural feeling.
+* OutputB: `[2, 1]`. SC=2 or 1: The image showed the industrial building, the sunset, and the vaporware feeling. PR=1: The image generally looks real and with nice reflection, but the roof lighting looks unnatural.
+* OutputC: `[0.5, 0.5]`. SC=0.5:  The image showed the sunset, and the vaporware (mixed with anime) feeling, but a building is not found. PR=0.5: The trees appeared in an unnatural way. Also, artifacts appeared on the railings.
 
