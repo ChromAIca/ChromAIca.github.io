@@ -20,10 +20,6 @@
         Introduction
       </h1>
       <p>Hello Rater! Thank you for participating our Rating AI-Generated Image Quality Task: Text-To-Image branch.</p>
-      <p>We are the researchers from <a href="https://wenhuchen.github.io/lab.html">Text and Image GEnerative Research (TIGER) Lab at the University of Waterloo</a>, in collaboration with researchers from other universities, are on a quest to find out how the AI-generated images are perceived by human in terms on Realism and Consistency.</p>
-      <p>In this study, the rater will have to rate images according to a certain guideline.</p>
-      <p>Each image should take 30 seconds to 1 minute to rate.</p>
-      
       
       <div class="jumbotron">
       <h2>
@@ -61,6 +57,7 @@
 
       <h2 id="examples-">Examples:</h2>
       <p>Sometimes the prompt might contain misspell words / rare words / words that are contradictory, those are intended.</p>
+      <p>prompt means the image description.</p>
       <button type="button" class="btn btn-info btn-block" onclick="hide_and_show()">Show/Hide examples</button>
       <div id="humaneval_examples" class="jumbotron">
         <p>
@@ -72,8 +69,8 @@
         
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_9.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SD/sample_9.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_9.jpg" width="256" />
@@ -93,8 +90,8 @@
         
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_16.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_16.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SD/sample_16.jpg" width="256" />
@@ -109,18 +106,11 @@
           <strong>Case: Rating Positional image</strong>
         </p>
         <pre>
-      <code>"prompt": "A 
-        <span class="hljs-keyword">stop</span>
-        <span class="hljs-keyword">sign</span>
-        <span class="hljs-keyword">on</span> the 
-        <span class="hljs-keyword">right</span>
-        <span class="hljs-keyword">of</span> a refrigerator.
-        <span class="hljs-string">",
-        "</span>
+      <code>"prompt": "A stop sign on right of a refrigerator."
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_50.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_50.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_50.jpg" width="256" />
@@ -140,8 +130,8 @@
         
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_76.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_76.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/SDXL/sample_76.jpg" width="256" />
@@ -161,8 +151,8 @@
         
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_43.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_43.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_43.jpg" width="256" />
@@ -183,8 +173,8 @@
         
       </code>
     </pre>
-        <p>OutputA|OutputB|OutputC</p>
         <p float="left" , align="center">
+          <p>OutputA|OutputB|OutputC</p>
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DALLE/sample_95.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/DeepFloydIF/sample_95.jpg" width="256" />
           <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image/OpenJourney/sample_95.jpg" width="256" />
@@ -216,7 +206,6 @@
         <h3>How to complete the task</h3>
         <p><strong>Before you start working on the task, please be sure that you already reigistered with us on Prolific.</strong></p>
 
-        <p> The submission process is to prevent both sides from malicious attack. It is expected to take around 10 minutes to complete the submission process.</p>
         <p>First open the visualization link in a new page: <a href="https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image">https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image</a></p>
         <p float="left" , align="center">
           <img src="imgs/vis_page.png" width="512" alt="">
@@ -227,10 +216,6 @@
           <img src="imgs/instruction1.png" width="512" alt="">
         </p>
         <p>After copying the googlesheet to your drive, you should be able to edit the file safely.</p>
-        <ul>
-        <li>If you are in the [Trial] task, please select the Trial version sheet.</li>
-        <li>If you are in the [Full] task, please select the Full version sheet.</li>
-        </ul>
         <p>Start filling the image score in [SC,PR] format for images that align the uid in the visualization link.</p>
         <p>Take the Trial version as example. The filling should look like something like this: each image is rated with [SC, PR] score.</p>
         <p float="left" , align="center">
@@ -241,17 +226,8 @@
         <p float="left" , align="center">
           <img src="imgs/instruction2.png" width="512" alt="">
         </p>
-        <p>Once the labelling is done, please download the current labeled sheet as <code>.tsv</code> file.</p>
-        <p>Then open the tsv file with NotePad, copy all the content to <a href="https://pastebin.com/">https://pastebin.com/</a>. Fill in your ID in the <code>Paste Name / Title:</code> section. and press <code>Create New Paste</code>.</p>
-        <p float="left" , align="center">
-          <img src="imgs/instruction3.png" width="512" alt="">
-        </p>
-        <p>The generated paste just looks like this:</p>
-        <p float="left" , align="center">
-          <img src="imgs/instruction4.png" width="512" alt="">
-        </p>
-        <p>Finally, copy the website page e.g. <a href="https://pastebin.com/EYfQi3xp">https://pastebin.com/EYfQi3xp</a> 
-        and submit the website link through emailing to <a href="mailto:m3ku@uwaterloo.ca">m3ku@uwaterloo.ca</a></p>
+
+        <p>Finally, attach the tsv file through emailing to <a href="mailto:m3ku@uwaterloo.ca">m3ku@uwaterloo.ca</a></p>
         
         <p>Please list the email title as <pre>[Prolific] AI-Generated Image Rating</pre></p>
         <p>
@@ -261,32 +237,16 @@
             Hi,
 
             I am a participant of the Rating AI-Generated Image Quality Task: Text-To-Image branch.
-              Version : 
               My ID: 
-              Pastebin link: 
             
             Best,
             </pre>
           </div>
         </p>
+        <p>Then message us on Prolific saying that you have finished the task. Send us your ID so we can align with your email.</p>
         <p>You should get a response within 24 hours if the format is right. And the payment will sent through Prolific within 12 hours once you get the email reply.</p>
       </div>
 
-      <div class="jumbotron">
-        <h3 id="recap">Recap: Instruction to rate an image</h3>
-        <li>Semantic Consistency (SC) scoring for <strong>Text-To-Image</strong>: <ul>
-            <li>SC=2 : The image perfectly matched with the prompt, or the image matched with all the subject, action, position, adjective, style words in the prompt.</li>
-            <li>SC=1 : The image only matched with all the subject, action, and position words in the prompt, but missed some adjective (e.g. wrong color)</li>
-            <li>SC=0.5 : the image match with some of the subject, action, and position words in prompt, but the overall idea is wrong.</li>
-            <li>SC=0 : The image failed to match any of the subject, action, and position words in the prompt.</li>
-          </ul>
-        </li>
-        <li>Perceptual Realism (PR) scoring for <strong>Text-To-Image</strong>: <ul>
-            <li>PR=2 : Exhibiting reasonable lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.</li>
-            <li>PR=1 : only minor distortion found on high-level features / small objects (e.g. subject faces, small words, unusual number of fingers etc)</li>
-            <li>PR=0.5 : some wrong body portions spotted but still be able to identify the object, or a huge sense of unnatural feeling exists.</li>
-            <li>PR=0 : The image is heavily distorted, or huge potion of artifacts appeared.</li>
-      </div>
 		</div>
 	</div>
 </div>
