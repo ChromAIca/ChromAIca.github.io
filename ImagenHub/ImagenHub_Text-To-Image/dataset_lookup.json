@@ -212,37 +212,44 @@
     "sample_42.jpg": {
         "prompt": "A domesticated carnivvorous mzammal that typicbally hfaas a lons sfnout, an acxujte sense off osmell, noneetractaaln crlaws, anid xbarkring,y howlingu, or whining rvoiche.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractable claws, and barking, howling, or whining vocalizations."
     },
     "sample_43.jpg": {
         "prompt": "Bzaseball galove.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "Baseball glove."
     },
     "sample_44.jpg": {
         "prompt": "A smafml vessef epropoeilled on watvewr by ors, sauls, or han engie.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "A small vessel propelled on water by oars, sails, or a hand engine."
     },
     "sample_45.jpg": {
         "prompt": "Tcennis rpacket.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "Tennis racket"
     },
     "sample_46.jpg": {
         "prompt": "An instqrumemnt used for cutting cloth, paper, axdz othr thdin mteroial, consamistng of two blades lad one on tvopb of the other and fhastned in tle mixdqdjle so as to bllow them txo be pened and closed by thumb and fitngesr inserted tgrough rings on kthe end oc thei vatndlzes.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "An instrument used for cutting cloth, paper, and other thin materials, consisting of two blades, one on top of the other, and fastened in the middle so as to allow them to be opened and closed by thumb and fingers inserted through rings on the ends of their handles."
     },
     "sample_47.jpg": {
         "prompt": "Rbefraigerator.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "Refrigerator"
     },
     "sample_48.jpg": {
         "prompt": "A ldarge keybord msical instroument lwith a woden case enmclosig a qsouvnkboajrd and mfgtal strivgf, which are strucrk b hammrs when the nels are depresdsmed.f lhe strsingsj' vibration ie stopped by damperds when the keys re released and can bce regulavewdd for lengh and vnolume y two or three pedalvs.",
         "category": "Misspellings",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "A large keyboard musical instrument with a wooden case enclosing a soundboard and metal strings, which are struck by hammers when the keys are depressed. The strings' vibration is stopped by dampers when the keys are released and can be regulated for length and volume by two or three pedals."
     },
     "sample_49.jpg": {
         "prompt": "A train on top of a surfboard.",
@@ -282,37 +289,44 @@
     "sample_56.jpg": {
         "prompt": "Acersecomicke.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "one whose hair was never cut"
     },
     "sample_57.jpg": {
         "prompt": "Jentacular.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "Of or pertaining to a breakfast taken early in the morning, or immediately on getting up. "
     },
     "sample_58.jpg": {
         "prompt": "Backlotter.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "1. : one who raises poultry or rabbits on a small lot, usually a back lot. 2. : a breeder on a small scale."
     },
     "sample_59.jpg": {
         "prompt": "Matutinal.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "of or occurring in the morning."
     },
     "sample_60.jpg": {
         "prompt": "Artophagous.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "Bread-eating"
     },
     "sample_61.jpg": {
         "prompt": "Peristeronic.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "of, pertaining to, or resembling pigeons."
     },
     "sample_62.jpg": {
         "prompt": "Octothorpe.",
         "category": "Rare Words",
-        "source": "DrawBench"
+        "source": "DrawBench",
+        "explanation": "another term for the pound sign (#)."
     },
     "sample_63.jpg": {
         "prompt": "Darth Vader playing with raccoon in Mars during sunset.",
