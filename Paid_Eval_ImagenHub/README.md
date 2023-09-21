@@ -3,7 +3,7 @@
 This is the Simple Human Evaluation Guide.
 
 The Human Rating design has to be 
-* Easy to distinguish
+* Easy to follow
 * Fast to rate
 
 # Simple Evaluation Guide for Human Evaluators
