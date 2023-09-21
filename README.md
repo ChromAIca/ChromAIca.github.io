@@ -2,7 +2,8 @@
 
 ## ImagenHub
 
-[Human Eval Guide](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/ImagenHub)
+[New: Simple Human Eval Guide](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/Paid_Eval_ImagenHub)
+[Old: Advanced Human Eval Guide](https://github.com/ChromAIca/ChromAIca.github.io/tree/main/ImagenHub)
 
 Showcase of Results (Might take some time to load)
 * [Text-To-Image Generation](https://chromaica.github.io/ImagenHub/ImagenHub_Text-To-Image)
