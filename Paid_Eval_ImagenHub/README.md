@@ -35,7 +35,7 @@ Rules for Perceptual Realism (PR) scoring:
 In image generations, we provide user input (conditions) to guide the image. The conditions can be different according to the task.
 ![image](https://github.com/ChromAIca/ChromAIca.github.io/assets/34955859/6c2e9b84-3375-4354-b6f7-4a80569ae252)
 
-This is how do we decide SC score to judge whether the conditions are fulfilling the requirement:
+This is how we decide the SC score to judge whether the conditions are fulfilling the requirement:
 
 | Condition 1                 | Condition 2 (if applicable) | Condition 3  (if applicable)| SC rating |
 |-----------------------------|-----------------------------|-----------------------------|-----------|
@@ -49,11 +49,15 @@ This is how do we decide SC score to judge whether the conditions are fulfilling
 
 ## Detail explanation of PR scoring.
 
-This is how do we decide PR score to judge whether the image looks real:
+This is how we decide the PR score to judge whether the image looks real:
 
 | Artifacts           | Unusual sense       | PR rating |
 |---------------------|---------------------|-----------|
-| some or many        | Any                 | 0         |
-| some minor          | Any                 | 0.5       |
-| Any                 | some minor          | 0.5       |
-| very little or None | very little or None | 1         |
+| obvious             | Any                 | 0         |
+| not obvious         | some or little      | 0.5       |
+| None                | little or None      | 1         |
+
+* Artifacts should be something that you were able to spot at first glance. It includes:
+  * Distortion, watermark, scratches, subject merged, unusual body parts, art style not harmonized etc.
+* Unusual sense should be something that you were not able to spot at first glance. It includes:
+  * image not harmonized, wrong shadow, wrong lighting, wrong sense of distance etc.
