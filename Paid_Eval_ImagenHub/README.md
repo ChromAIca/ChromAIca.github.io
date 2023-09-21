@@ -30,5 +30,30 @@ Rules for Perceptual Realism (PR) scoring:
 * PR=0.5: Unnatural sense of detail feeling in some area (e.g. body portion was wrong, textures, backgrounds, small color difference, watermark, wrong object size etc.) but not as bad as artifacts.
 * PR=1: You agree that the image generally look real (doesn't have to be 100% perfect. Like 90% is good enough.)
 
-## Example
+## Detail explanation of SC scoring.
 
+In image generations, we provide user input (conditions) to guide the image. The conditions can be different according to the task.
+![image](https://github.com/ChromAIca/ChromAIca.github.io/assets/34955859/6c2e9b84-3375-4354-b6f7-4a80569ae252)
+
+This is how do we decide SC score to judge whether the conditions are fulfilling the requirement:
+
+| Condition 1                 | Condition 2 (if applicable) | Condition 3  (if applicable)| SC rating |
+|-----------------------------|-----------------------------|-----------------------------|-----------|
+| no following at all         | Any                         | Any                         | 0         |
+| Any                         | no following at all         | Any                         | 0         |
+| Any                         | Any                         | no following at all         | 0         |
+| following some part         | following some or most part | following some or most part | 0.5       |
+| following some or most part | following some part         | following some or most part | 0.5       |
+| following some part or more | following some or most part | following some part         | 0.5       |
+| following most part         | following most part         | following most part         | 1         |
+
+## Detail explanation of PR scoring.
+
+This is how do we decide PR score to judge whether the image looks real:
+
+| Artifacts           | Unusual sense       | PR rating |
+|---------------------|---------------------|-----------|
+| some or many        | Any                 | 0         |
+| some minor          | Any                 | 0.5       |
+| Any                 | some minor          | 0.5       |
+| very little or None | very little or None | 1         |
