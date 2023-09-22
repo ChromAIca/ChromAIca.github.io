@@ -21,13 +21,13 @@ Perceptual Realism (PR) ensures the generated image align with real-world charac
 
 General Rules for Semantic Consistency (SC) scoring:
 
-* SC=0 : Image completely not following one or more of the conditions at all (e.g. not following the prompt at all, different background in editing task, wrong subject in subject-driven task etc)
+* SC=0 : Image not following one or more of the conditions at all (e.g. not following the prompt at all, different background in editing task, wrong subject in subject-driven task etc)
 * SC=0.5 : all the conditions are partly following the requirements.
 * SC=1 : All the conditions are following >75% of the requirement. You agree that the overall idea is correct.
 
 General Rules for Perceptual Realism (PR) scoring:
 * PR=0: Obvious distortion/artifacts that are unrecognizable at first glance
-* PR=0.5: Unnatural sense of detail feeling in some area (You find out the image looks strange after examining it carefully.)
+* PR=0.5: Some artifacts but the objects are still recognizable; or Unnatural sense of detail feeling in some area (You find out the image looks strange after examining it carefully.)
 * PR=1: You agree that the image generally look real (doesn't have to be 100% perfect. Like 90% is good enough.)
 
 ## Detail explanation of SC scoring.
