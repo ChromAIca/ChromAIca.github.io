@@ -3,11 +3,9 @@
 **Case: Normal situation.**
 
 ```
-"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game show on TV.",
-"instruction": "let there be granite floor in the kitchen",
-"target_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV."
+"subject": "fancy_boot"
 ```
-<p>Input | Token | Model A | Model B | Model C</p>
+<p>Input | Token | OutputA | OutputB | OutputC</p>
 <p float="left", align="center">
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/input/sample_79.jpg" width="256" />
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/token/sample_79.jpg" width="256" /> 
@@ -16,6 +14,9 @@
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/PhotoSwap/sample_79.jpg" width="256" /> 
 </p>
 
-* Basically, we gives SC=0.5 for cases like this. Both subjects accurately represents all the intended subjects but the prompt action does not match.
-* In this given example, I would rate the score `[0.5, 1]` because there are some unnatural spots on the cat but looks generally real. The pot look flawless. 
+* This is how I would rate them:
+* OutputA: `[0, 1] `. SC=0: The subject does not match the token. PR=1: It looks real.
+* OutputB: `[1, 0.5]`. SC=1: The subject does match the token. PR=0.5: Some unusual sense in the ankle.
+* OutputC: `[1, 1]`. SC=1:The subject does match the token. PR=1: It looks real.
 
+**Case: Background not match.**
