@@ -54,7 +54,7 @@ This is how we decide the PR score to judge whether the image looks real:
 | Objects in image    | Artifacts           | Unusual sense       | PR rating |
 |---------------------|---------------------|---------------------|-----------|
 | Unrecognizable      | serious             | Any                 | 0         |
-| Recognizable        | noticable           | some or little      | 0.5       |
+| Recognizable        | some                | some or little      | 0.5       |
 | Recognizable        | little or None      | little or None      | 1         |
 
 * Artifacts includes:
