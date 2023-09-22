@@ -1,17 +1,3 @@
-## **Human Eval - Text-Guided Image Editing**
-
-* Semantic Consistency (SC) scoring for **Text-Guided Image Editing**:
-    * SC=2 : The generated image perfectly described all the required attributes of the user prompt, without unnecessary edits.
-    * SC=1 : The generated image perfectly described all the required attributes but having unnecessary edits.
-    * SC=0.5 : Some required attributes appeared on the generated image but in a unnatural sense or seems incomplete.
-    * SC=0 : The generated image failed in following the key instruction in editing, or result in a completely different background.
-* Perceptual Realism (PR) scoring for **Text-Guided Image Editing**:
-    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
-    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
-    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
-    * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
-
-
 
 ### **Examples / Common cases when evaluating: Text-Guided Image Editing**
 

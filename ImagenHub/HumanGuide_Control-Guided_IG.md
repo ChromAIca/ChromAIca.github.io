@@ -1,16 +1,3 @@
-## **Human Eval - Control-Guided Image Generation**
-
-* Semantic Consistency (SC) scoring for **Control-Guided Image Generation**:
-    * SC=2 : The generated image perfectly described all the required attributes of the user prompt, and even work
-    * SC=1 : The generated image only described partial the required attributes.
-    * SC=0.5 : Some required attributes appeared on the generated image but in a unnatural sense or seems incomplete.
-    * SC=0 : The generated image failed following every required attributes in the prompt. 
-* Perceptual Realism (PR) scoring for **Control-Guided Image Generation**:
-    * PR=2 : Exhibiting realistic lighting, shadows, texture details, correct sense of distance and overall visual coherence. No distortion found.
-    * PR=1 : Image generally look real but with minor visual flaws on trivial objects.
-    * PR=0.5 : Minor distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted on important objects but do not strongly detract from its overall appearance.
-    * PR=0 : Large portion of noise, distortion, incompletion or other visual flaws (e.g. blurry or look unrealistic) can be spotted.
-
 ### Examples / Common cases when evaluating: Control-Guided Image Generation
 
 **Case: The generated image is well conditioned on the control input and the prompt, but some minor perceptual faults exist.**
