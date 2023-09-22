@@ -51,13 +51,13 @@ This is how we decide the SC score to judge whether the conditions are fulfillin
 
 This is how we decide the PR score to judge whether the image looks real:
 
-| Artifacts           | Unusual sense       | PR rating |
-|---------------------|---------------------|-----------|
-| Unrecognizable      | Any                 | 0         |
-| not obvious         | some or little      | 0.5       |
-| None                | little or None      | 1         |
+| Objects in image    | Artifacts           | Unusual sense       | PR rating |
+|---------------------|---------------------|---------------------|-----------|
+| Unrecognizable      | serious             | Any                 | 0         |
+| Recognizable        | noticable           | some or little      | 0.5       |
+| Recognizable        | little or None      | little or None      | 1         |
 
-* Artifacts should be something that you were able to spot at first glance. It includes:
+* Artifacts includes:
   * Distortion, watermark, scratches, subject merged, unusual body parts, art style not harmonized etc.
-* Unusual sense should be something that you were not able to spot at first glance. It includes:
+* Unusual sense includes:
   * image not harmonized, wrong shadow, wrong lighting, wrong sense of distance etc.
