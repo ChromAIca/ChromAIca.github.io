@@ -55,12 +55,13 @@
             <li>PR=1: You agree that the image generally look real (doesn&#39;t have to be 100% perfect. Like 90% is
               good enough.)</li>
           </ul>
+          <p><strong>Please be sure follow the Detail explanation tables when labelling.</strong></p>
           <h2 id="detail-explanation-of-sc-scoring-">Detail explanation of SC scoring.</h2>
           <p>In image generations, we provide user input (conditions) to guide the image. The conditions can be
             different according to the task.</p>
           <p>
             <img
-              src="https://github.com/ChromAIca/ChromAIca.github.io/assets/34955859/6c2e9b84-3375-4354-b6f7-4a80569ae252"
+              src="imgs/task.png"
               alt="image">
           </p>
 
@@ -176,6 +177,145 @@
         <p>prompt means the image description.</p>
         <button type="button" class="btn btn-info btn-block" onclick="hide_and_show()">Show/Hide examples</button>
         <div id="humaneval_examples" class="jumbotron">
+          <p><strong>Case: Output image looks nearly identical to the input image.</strong></p>
+          <pre><code>"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">",
+          "</span>instruction<span class="hljs-string">": "</span>let there be granite <span class="hljs-keyword">floor</span> <span class="hljs-keyword">in</span> the kitchen<span class="hljs-string">",
+          "</span>target_global_caption<span class="hljs-string">": "</span>An <span class="hljs-keyword">empty</span> kitchen <span class="hljs-keyword">with</span> granite floors filled <span class="hljs-keyword">with</span> dishes <span class="hljs-keyword">and</span> appliances, <span class="hljs-keyword">with</span> a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">"</span>
+          </code></pre>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_102625_2.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/CycleDiffusion/sample_102625_2.jpg"
+              width="256" />
+          </p>
+
+          <ul>
+            <li>Basically, we gives SC=0 for cases like this. The PR score would vary according to the realism of the
+              image (are there anything that looks unnatural?)</li>
+            <li>If the Output image is exactly identical to the input image, we would rate the score <code>[0, 1]</code>
+              (we assume the input image is a realistic photo.).</li>
+            <li>In this given example, there are some unnatural spot but its only little.
+              spots. </li>
+          </ul>
+          <p><br><br></p>
+          <p><strong>Case: Output image is following the prompt well, but causing unnecessary edits.</strong></p>
+          <pre><code>"source_global_caption": "An empty kitchen filled with dishes and appliances, with a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">",
+          "</span>instruction<span class="hljs-string">": "</span>let there be granite <span class="hljs-keyword">floor</span> <span class="hljs-keyword">in</span> the kitchen<span class="hljs-string">",
+          "</span>target_global_caption<span class="hljs-string">": "</span>An <span class="hljs-keyword">empty</span> kitchen <span class="hljs-keyword">with</span> granite floors filled <span class="hljs-keyword">with</span> dishes <span class="hljs-keyword">and</span> appliances, <span class="hljs-keyword">with</span> a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">"</span>
+          </code></pre>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_102625_2.jpg"
+              width="256" />
+            <img
+              src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/InstructPix2Pix/sample_102625_2.jpg"
+              width="256" />
+          </p>
+
+          <blockquote>
+            <p>Btw this is how a granite floor look like:</p>
+            <p><img src="https://www.regattagranitesindia.com/wp-content/uploads/2019/03/Rosewood-granite-flooring.jpg"
+                alt="Granite floor tiles for having a traffic friendly surface" width="256" /></p>
+            <p><img src="https://marblerenewal.ca/wp-content/uploads/2015/11/Living-Room.jpg" width="256" /></p>
+          </blockquote>
+          <ul>
+            <li>It seems the output image is following the prompt and the floor does look like a granite floor. However,
+              the pattern also applied on other areas which makes the kitchen looks dirty.</li>
+            <li>The image also look nearly identical to the input image, so PR=1.</li>
+            <li>In this given example, I would rate the score <code>[1, 1]</code>.</li>
+          </ul>
+          <p><br><br></p>
+          <p><strong>Case: Output image is following the prompt well, but the background completely changed.</strong>
+          </p>
+          <pre><code><span class="hljs-comment">"source_global_caption"</span>: <span class="hljs-comment">"some fruits are sitting on a table in bowls."</span>,
+          <span class="hljs-comment">"instruction"</span>: <span class="hljs-comment">"remove middle fruit and put a cat in place"</span>,
+          <span class="hljs-comment">"target_global_caption"</span>: <span class="hljs-comment">"A cat sits on a table surrounded by bowls of fruit."</span>
+          </code></pre>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_102724_1.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/Prompt2prompt/sample_102724_1.jpg"
+              width="256" />
+          </p>
+
+
+          <ul>
+            <li>For Editing tasks, no matter how the image following the prompt well, we give SC=0 as long as the result
+              is in a complete different background. (Because it failed the condition)</li>
+            <li>The PR score would vary according to the realism of the image. (are there anything that looks
+              unnatural?)</li>
+            <li>In this given example, I would rate the score <code>[0, 0.5]</code>. The image
+              looks real at first glance but there are some distortion in the body and on the fruits / background.</li>
+          </ul>
+          <blockquote>
+            <p>How do we define unnecessary edits and complete different background?</p>
+            <pre><code>"source_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">",
+          "</span>instruction<span class="hljs-string">": "</span>let the cabinets be made <span class="hljs-keyword">of</span> dark wood<span class="hljs-string">",
+          "</span>target_global_caption<span class="hljs-string">": "</span>An <span class="hljs-keyword">empty</span> kitchen <span class="hljs-keyword">with</span> dark wood cabinets <span class="hljs-keyword">and</span> granite floors filled <span class="hljs-keyword">with</span> dishes <span class="hljs-keyword">and</span> appliances, <span class="hljs-keyword">with</span> a game <span class="hljs-keyword">show</span> <span class="hljs-keyword">on</span> TV.<span class="hljs-string">"</span>
+          </code></pre>
+            <p float="left" , align="center">
+              <p>Input | Unnecessary/Bad Edit | Complete different background</p>
+              <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_102625_3.jpg"
+                width="256" />
+              <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/MagicBrush/sample_102625_3.jpg"
+                width="256" />
+              <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/Pix2PixZero/sample_102625_3.jpg"
+                width="256" />
+            </p>
+
+          </blockquote>
+          <p><br><br></p>
+          <p><strong>Case: Output images are following the prompt (how well and how real are they?)</strong></p>
+          <pre><code><span class="hljs-comment">"source_global_caption"</span>: <span class="hljs-comment">"A skateboarder is doing a trick on a hand rail."</span>,
+          <span class="hljs-comment">"instruction"</span>: <span class="hljs-comment">"What if the man had a hat?"</span>,
+          <span class="hljs-comment">"target_global_caption"</span>: <span class="hljs-comment">"A skateboarder with a hat is doing a trick on a hand rail."</span>
+          </code></pre>
+
+          <p float="left" , align="center">
+            <p>Input | OutputA | OutputB |
+              OutputC | OutputD | OutputE</p>
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_139276_1.jpg"
+              width="256" />
+            <img
+              src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/InstructPix2Pix/sample_139276_1.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/MagicBrush/sample_139276_1.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/Prompt2prompt/sample_139276_1.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/Text2Live/sample_139276_1.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/SDEdit/sample_139276_1.jpg"
+              width="256" />
+          </p>
+
+          <ul>
+            <li>This is how I would rate them:</li>
+            <li>OutputA: <code>[1, 1]</code>. The hat suits well thus SC=1. PR=1 despite there is minor facial
+              distortion on the man but its hard to notice.</li>
+            <li>OutputB: <code>[1, 1]</code>. The hat suits well, but there is unnecessary edits on his hand, but its minor. SC=1. PR=1 because there is minor distortion on the man face.</li>
+            <li>OutputC: <code>[1, 0.5]</code>. The hat exists but does not suit well, but its still following the prompt. thus SC=1. PR=0.5 because the unsual sense.</li>
+            <li>OutputD: <code>[0.5, 1]</code>. The hat suits well, but the background color doesn&#39;t match thus SC=0.5.
+              PR=1 as the image look quite real with no distortion.</li>
+            <li>OutputE: <code>[0, 0.5]</code>. SC=0 because the background completely changed. And PR=0.5 because unusual body parts.</li>
+          </ul>
+          <p><br><br></p>
+          <p><strong>Perfect Cases: The Editing following the prompt perfectly and look very real</strong></p>
+          <pre><code><span class="hljs-comment">"source_global_caption"</span>: <span class="hljs-comment">"A bull is on a farm walking around a pen."</span>,
+          <span class="hljs-comment">"instruction"</span>: <span class="hljs-comment">"Have the cow wear a hat."</span>,
+          <span class="hljs-comment">"target_global_caption"</span>: <span class="hljs-comment">"A stylish cow wearing a hat walks around a pen on a farm."</span>
+          </code></pre>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/input/sample_111376_1.jpg"
+              width="256" />
+            <img
+              src="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE/InstructPix2Pix/sample_111376_1.jpg"
+              width="256" />
+          </p>
+
+          <ul>
+            <li>In this given example, I would rate the score <code>[1, 1]</code> . The hat gives a nice specular
+              reflection.</li>
+          </ul>
 
         </div>
 
@@ -184,8 +324,8 @@
           <h3>How to complete the task</h3>
           <p><strong>Before you start working on the task, please be sure that you already reigistered with us on
               Prolific.</strong></p>
-          <p><strong>We will examine the statistic to reject poor submissions. Please follow the guideline
-              strictly.</strong></p>
+          <p><strong>Please be sure follow the Detail explanation tables when labelling.</strong></p>
+          <p>We will examine the statistic to reject poor submissions. Please follow the guideline strictly.</p>
           <p>First open the visualization link in a new page: <a
               href="https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE">https://chromaica.github.io/ImagenHub/ImagenHub_Text-Guided_IE</a>
           </p>
@@ -194,7 +334,7 @@
           </p>
           <p>The website might freeze for a while due to high amount of images.</p>
           <p>Then go to the googlesheet <a
-              href="https://docs.google.com/spreadsheets/d/16JUZCSteASRznergu6Ab0v8LKH9Ryx7CsU4DUtjQaC4/edit?usp=sharing">https://docs.google.com/spreadsheets/d/16JUZCSteASRznergu6Ab0v8LKH9Ryx7CsU4DUtjQaC4/edit?usp=sharing</a>
+              href="https://docs.google.com/spreadsheets/d/1ESJwuJL-ohZTxS5t3Q1acDHXDgVDNzYEie9mIgvIsek/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1ESJwuJL-ohZTxS5t3Q1acDHXDgVDNzYEie9mIgvIsek/edit?usp=sharing</a>
             and make a copy to your own google account</p>
           <p float="left" , align="center">
             <img src="imgs/instruction1.png" width="512" alt="">
