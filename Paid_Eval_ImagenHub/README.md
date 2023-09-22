@@ -59,6 +59,6 @@ This is how we decide the PR score to judge whether the image looks real:
 | Recognizable        | none                | little or None      | 1         |
 
 * Artifacts can be:
-  * Distortion, watermark, scratches, blurred faces, etc.
+  * Distortion, watermark, scratches, blurred faces, unusual body parts. subjects not harmonized.
 * Unusual sense can be:
-  * subjects not harmonized, subjects too big or too small, unusual body parts, wrong shadow, wrong lighting, wrong sense of distance, etc.
+  * wrong sense of distance (subject too big or too small compared to others), wrong shadow, wrong lighting, etc.
