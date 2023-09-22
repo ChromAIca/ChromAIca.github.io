@@ -7,9 +7,8 @@
 "instruction": "let there be granite floor in the kitchen",
 "target_global_caption": "An empty kitchen with granite floors filled with dishes and appliances, with a game show on TV."
 ```
-
+<p>Input | Token | Model A | Model B | Model C</p>
 <p float="left", align="center">
-  <p>Input | Token | Model A | Model B | Model C</p>
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/input/sample_79.jpg" width="256" />
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/token/sample_79.jpg" width="256" /> 
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/BLIPDiffusion_Edit/sample_79.jpg" width="256" /> 
