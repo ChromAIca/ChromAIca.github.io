@@ -9,7 +9,7 @@
 ```
 
 <p float="left", align="center">
-Input | Token | Model A | Model B | Model C
+  <p>Input | Token | Model A | Model B | Model C</p>
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/input/sample_79.jpg" width="256" />
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/token/sample_79.jpg" width="256" /> 
   <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IE/BLIPDiffusion_Edit/sample_79.jpg" width="256" /> 
