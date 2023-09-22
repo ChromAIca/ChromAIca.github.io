@@ -26,7 +26,7 @@ General Rules for Semantic Consistency (SC) scoring:
 * SC=1 : All the conditions are following >75% of the requirement. You agree that the overall idea is correct.
 
 General Rules for Perceptual Realism (PR) scoring:
-* PR=0: Obvious distortion/artifacts at first glance
+* PR=0: Obvious distortion/artifacts that are unrecognizable at first glance
 * PR=0.5: Unnatural sense of detail feeling in some area (You find out the image looks strange after examining it carefully.)
 * PR=1: You agree that the image generally look real (doesn't have to be 100% perfect. Like 90% is good enough.)
 
@@ -53,7 +53,7 @@ This is how we decide the PR score to judge whether the image looks real:
 
 | Artifacts           | Unusual sense       | PR rating |
 |---------------------|---------------------|-----------|
-| obvious             | Any                 | 0         |
+| Unrecognizable      | Any                 | 0         |
 | not obvious         | some or little      | 0.5       |
 | None                | little or None      | 1         |
 
