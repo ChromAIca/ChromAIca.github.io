@@ -19,15 +19,15 @@ Semantic Consistency (SC) ensures that the generated image is coherent in terms 
 
 Perceptual Realism (PR) ensures the generated image align with real-world characteristics. In another words, the image has to be visually convincing and closely resembles a real photograph (Photorealism).
 
-Rules for Semantic Consistency (SC) scoring:
+General Rules for Semantic Consistency (SC) scoring:
 
-* SC=0 : Image completely not following one or more of the conditions at all (e.g. not following the prompt at all, different background in editing task, wrong subject in subject-driven task etc)
+* SC=0 : Image not following one or more of the conditions at all (e.g. not following the prompt at all, different background in editing task, wrong subject in subject-driven task etc)
 * SC=0.5 : all the conditions are partly following the requirements.
 * SC=1 : All the conditions are following >75% of the requirement. You agree that the overall idea is correct.
 
-Rules for Perceptual Realism (PR) scoring:
-* PR=0: Obvious distortion / artifacts at first glance
-* PR=0.5: Unnatural sense of detail feeling in some area (e.g. body portion was wrong, textures, backgrounds, small color difference, watermark, wrong object size etc.) but not as bad as artifacts.
+General Rules for Perceptual Realism (PR) scoring:
+* PR=0: Obvious distortion/artifacts that are unrecognizable at first glance
+* PR=0.5: Some artifacts but the objects are still recognizable; or Unnatural sense of detail feeling in some area (You find out the image looks strange after examining it carefully.)
 * PR=1: You agree that the image generally look real (doesn't have to be 100% perfect. Like 90% is good enough.)
 
 ## Detail explanation of SC scoring.
@@ -51,13 +51,14 @@ This is how we decide the SC score to judge whether the conditions are fulfillin
 
 This is how we decide the PR score to judge whether the image looks real:
 
-| Artifacts           | Unusual sense       | PR rating |
-|---------------------|---------------------|-----------|
-| obvious             | Any                 | 0         |
-| not obvious         | some or little      | 0.5       |
-| None                | little or None      | 1         |
+| Objects in image    | Artifacts           | Unusual sense       | PR rating |
+|---------------------|---------------------|---------------------|-----------|
+| Unrecognizable      | serious             | Any                 | 0         |
+| Recognizable        | some                | Any                 | 0.5       |
+| Recognizable        | Any                 | some                | 0.5       |
+| Recognizable        | none                | little or None      | 1         |
 
-* Artifacts should be something that you were able to spot at first glance. It includes:
-  * Distortion, watermark, scratches, subject merged, unusual body parts, art style not harmonized etc.
-* Unusual sense should be something that you were not able to spot at first glance. It includes:
-  * image not harmonized, wrong shadow, wrong lighting, wrong sense of distance etc.
+* Artifacts can be:
+  * Distortion, watermark, scratches, blurred faces, unusual body parts. subjects not harmonized.
+* Unusual sense can be:
+  * wrong sense of distance (subject too big or too small compared to others), wrong shadow, wrong lighting, etc.
