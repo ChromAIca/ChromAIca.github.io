@@ -61,7 +61,7 @@
             different according to the task.</p>
           <p>
             <img
-              src="https://github.com/ChromAIca/ChromAIca.github.io/assets/34955859/6c2e9b84-3375-4354-b6f7-4a80569ae252"
+              src="imgs/task.png"
               alt="image">
           </p>
 
@@ -173,9 +173,78 @@
         </div>
 
         <h2 id="examples-">Examples:</h2>
-        <p>prompt means the image description.</p>
+        <p>prompt is the text description of the image.</p>
+        <p>input is the object to be replaced.</p>
+        <p>token is the object to appear.</p>
+        <p>SC Condtion 1: Is it following the prompt?</p>
+        <p>SC Condtion 2: Is subject in the output looks like the subject in token?</p>
         <button type="button" class="btn btn-info btn-block" onclick="hide_and_show()">Show/Hide examples</button>
         <div id="humaneval_examples" class="jumbotron">
+          <p><strong>Case: Normal situation.</strong></p>
+          <pre><code><span class="hljs-comment">"subject_id"</span>: <span class="hljs-number">16</span>,
+          <span class="hljs-comment">"subject"</span>: <span class="hljs-comment">"dog8"</span>,
+          <span class="hljs-comment">"prompt"</span>: <span class="hljs-comment">"A &lt;token&gt; dog swimming in a river"</span>
+          </code></pre>
+          <p>Input | Token | OutputA | OutputB | OutputC | OutputD | OutputE</p>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/input/sample_83.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/BLIPDiffusion_Gen/sample_83.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/DreamBooth/sample_83.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/DreamBoothLora/sample_83.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/SuTI/sample_83.jpg"
+              width="256" /><br> <img
+              src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/TextualInversion/sample_83.jpg"
+              width="256" /><br>
+          </p>
+
+          <ul>
+            <li>This is how I would rate them:</li>
+            <li>OutputA: <code>[0.5, 1]</code>. SC=0.5: The subject of the output does not quite match the input image.
+              PR=1: It looks real.</li>
+            <li>OutputB: <code>[1, 1]</code>. SC=1: The output does match the subject and prompt. PR=1: It looks real.
+            </li>
+            <li>OutputC: <code>[0, 1]</code>. SC=0: The subject of the output does not match the input image. PR=1: It
+              looks real.</li>
+            <li>OutputD: <code>[1, 1]</code>. SC=1: The output does match the subject and prompt. PR=1: It looks real.
+            </li>
+            <li>OutputE: <code>[0, 0]</code>. SC=1: The subject does match the token. PR=0: Serious unusual body.</li>
+          </ul>
+          <p><strong>Case: Partial match.</strong></p>
+          <pre><code><span class="hljs-comment">"subject_id"</span>: <span class="hljs-number">2</span>,
+          <span class="hljs-comment">"subject"</span>: <span class="hljs-comment">"bear_plushie"</span>,
+          <span class="hljs-comment">"prompt"</span>: <span class="hljs-comment">"a &lt;token&gt; bear plushie in a basket"</span>
+          </code></pre>
+          <p>Input | Token | OutputA | OutputB | OutputC | OutputD | OutputE</p>
+          <p float="left" , align="center">
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/input/sample_12.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/BLIPDiffusion_Gen/sample_12.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/DreamBooth/sample_12.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/DreamBoothLora/sample_12.jpg"
+              width="256" />
+            <img src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/SuTI/sample_12.jpg"
+              width="256" /><br> <img
+              src="https://chromaica.github.io/ImagenHub/ImagenHub_Subject-Driven_IG/TextualInversion/sample_12.jpg"
+              width="256" /><br>
+          </p>
+
+          <ul>
+            <li>This is how I would rate them:</li>
+            <li>OutputA: <code>[0, 1]</code>. SC=0: The output does not match the prompt. PR=1: It looks real.</li>
+            <li>OutputB: <code>[0.5, 1]</code>. SC=0.5: The hat of the subject does not match the input image. PR=1: It
+              looks real.</li>
+            <li>OutputC: <code>[0, 1]</code>. SC=0: The output does not match the subject. PR=1: It looks real.</li>
+            <li>OutputD: <code>[0, 0.5]</code>. SC=0: The output does not match the prompt. PR=0.5: Some unnatural sense
+              in the gound.</li>
+            <li>OutputE: <code>[0, 0.5]</code>. SC=0: The output does not match the subject and prompt. PR=0.5: Some
+              unnatural sense in the blue part.</li>
+          </ul>
 
         </div>
 
