@@ -15,9 +15,9 @@
 </p>
 
 * This is how I would rate them:
-* OutputA: `[0, 1] `. SC=0: The subject does not match the token. PR=1: It looks real.
+* OutputA: `[0, 1]`. SC=0: The subject does not match the token. PR=1: It looks real.
 * OutputB: `[1, 0.5]`. SC=1: The subject does match the token. PR=0.5: Some unusual sense in the ankle.
-* OutputC: `[1, 1]`. SC=1:The subject does match the token. PR=1: It looks real.
+* OutputC: `[1, 1]`. SC=1: The subject does match the token. PR=1: It looks real.
 
 **Case: Background not match.**
 ```
@@ -35,9 +35,9 @@
 </p>
 
 * This is how I would rate them:
-* OutputA: `[0, 0.5] `. SC=0: The subject does not match the token. PR=0.5: Some unusual sense in the edge of the table.
+* OutputA: `[0, 0.5]`. SC=0: The subject does not match the token. PR=0.5: Some unusual sense in the edge of the table.
 * OutputB: `[1, 1]`. SC=1: The subject does match the token. PR=1: It looks real.
-* OutputC: `[0, 1]`. SC=0:The backgroud does not match the input. PR=1: It looks real.
+* OutputC: `[0, 1]`. SC=0: The backgroud does not match the input. PR=1: It looks real.
 
 
 
@@ -60,8 +60,8 @@
 </p>
 
 * This is how I would rate them:
-* OutputA: `[0, 0.5] `. SC=0: The subject does not match the token. PR=0.5: Some unnatural sense in the background.
-* OutputB: `[0.5, 0.5]`. SC=0.5: Some details of the subject does match the token. PR=0.5: Some unnatural sense in the hand.
+* OutputA: `[0, 0.5]`. SC=0: The subject does not match the token. PR=0.5: Some unnatural sense in the background.
+* OutputB: `[0.5, 0.5]`. SC=0.5: Some details of the subject do not match the token. PR=0.5: Some unnatural sense in the hand.
 * OutputC: `[0.5, 1]`. SC=0.5: The subject does match the token, but removing the hand is an unnecessary edit. PR=1: It looks real.
 
 
