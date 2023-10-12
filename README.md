@@ -7,6 +7,7 @@ Imagen Museum shows the visualization results from [ImagenHub: Standardizing the
 <div align="center">
 <img src="https://github.com/TIGER-AI-Lab/ImagenHub/blob/gh-pages/static/images/banner.png" width="75%">
  </div>
+ 
 Showcase of Results (Website might take some time to load due to huge amount of images)
 * [Text-Guided Image Generation](https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IG)
 * [Text-Guided Image Editing](https://chromaica.github.io/Museum/ImagenHub_Text-Guided_IE)
