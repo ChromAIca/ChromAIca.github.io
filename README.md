@@ -1,6 +1,6 @@
 ChromAIca is a repository for storing AI Multimedia data.
 
-# Imagen Museum
+# 🖼️🏛️Imagen Museum
 
 Imagen Museum shows the visualization results from [ImagenHub: Standardizing the evaluation of conditional image generation models](https://tiger-ai-lab.github.io/ImagenHub/).
 <div align="center">
