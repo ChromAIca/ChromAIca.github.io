@@ -1,0 +1,78 @@
+{
+    "sample_7.jpg": {
+        "prompt": "Rainbow coloured penguin.",
+        "category": "Conflicting",
+        "source": "DrawBench"
+    },
+    "sample_9.jpg": {
+        "prompt": "A panda making latte art.",
+        "category": "Conflicting",
+        "source": "DrawBench"
+    },
+    "sample_16.jpg": {
+        "prompt": "One cat and two dogs sitting on the grass.",
+        "category": "Counting",
+        "source": "DrawBench"
+    },
+    "sample_23.jpg": {
+        "prompt": "An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.",
+        "category": "DALL-E",
+        "source": "DrawBench"
+    },
+    "sample_32.jpg": {
+        "prompt": "A mechanical or electrical device for measuring time.",
+        "category": "Descriptions",
+        "source": "DrawBench"
+    },
+    "sample_43.jpg": {
+        "prompt": "Bzaseball galove.",
+        "category": "Misspellings",
+        "source": "DrawBench",
+        "explanation": "Baseball glove."
+    },
+    "sample_51.jpg": {
+        "prompt": "A pizza on the right of a suitcase.",
+        "category": "Positional",
+        "source": "DrawBench"
+    },
+    "sample_66.jpg": {
+        "prompt": "McDonalds Church.",
+        "category": "Reddit",
+        "source": "DrawBench"
+    },
+    "sample_76.jpg": {
+        "prompt": "A sign that says 'Deep Learning'.",
+        "category": "Text",
+        "source": "DrawBench"
+    },
+    "sample_85.jpg": {
+        "prompt": "a toy gun in the shape of a cute cat ",
+        "category": "Misc",
+        "source": "DiffusionDB"
+    },
+    "sample_88.jpg": {
+        "prompt": "an electric pokemon, nightly, spiral, naive nerikomi, weird perspective, extra narrow, detailed illustration, lit by flashlight, scenic spiral environment by rhads from lorax movie, trending artstation, true color, fisheye, grass field mountainous terrain, spiral clouds ",
+        "category": "Misc",
+        "source": "DiffusionDB"
+    },
+    "sample_146.jpg": {
+        "prompt": "Two brown horses grazing on green grass next to a lighthouse.",
+        "category": "Hard",
+        "source": "ABC-6K"
+    },
+    "sample_149.jpg": {
+        "prompt": "A pink and a white frisbee are on the ground .",
+        "category": "Hard",
+        "source": "ABC-6K"
+    },
+    "sample_157.jpg": {
+        "prompt": "photograph of a dolphin standing on a grassland",
+        "category": "Realism",
+        "source": "ChromAIca + Midjourney Prompt Generator"
+    },
+    "sample_165.jpg": {
+        "prompt": "photograph of a car on the moon in the sky over Saturn, atmospheric",
+        "category": "Realism",
+        "source": "ChromAIca + Midjourney Prompt Generator"
+    }
+}
