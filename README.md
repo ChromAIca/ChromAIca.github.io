@@ -3,7 +3,7 @@ Repo located at: [https://github.com/ChromAIca/ChromAIca.github.io](https://gith
 
 # 🖼️🏛️Imagen Museum
 
-Imagen Museum shows the visualization results from [ImagenHub: Standardizing the evaluation of conditional image generation models](https://tiger-ai-lab.github.io/ImagenHub/).
+Imagen Museum shows the visualization results from [ImagenHub: Standardizing the evaluation of conditional image generation models (ICLR 2024)](https://tiger-ai-lab.github.io/ImagenHub/).
 * We are actively looking for researchers to showcase their work! Please visit the guideline [here.](https://imagenhub.readthedocs.io/en/latest/Guidelines/imagenmuseum.html)
 <div align="center">
 <img src="https://i.imgur.com/Lu5sQKf.png" width="75%">
