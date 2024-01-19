@@ -1,8 +1,10 @@
 ChromAIca is a repository for storing AI Multimedia data.
+Repo located at: [https://github.com/ChromAIca/ChromAIca.github.io](https://github.com/ChromAIca/ChromAIca.github.io)
 
 # 🖼️🏛️Imagen Museum
 
 Imagen Museum shows the visualization results from [ImagenHub: Standardizing the evaluation of conditional image generation models](https://tiger-ai-lab.github.io/ImagenHub/).
+* We are actively looking for researchers to showcase their work! Please visit the guideline [here.](https://imagenhub.readthedocs.io/en/latest/Guidelines/imagenmuseum.html)
 <div align="center">
 <img src="https://i.imgur.com/Lu5sQKf.png" width="75%">
  </div>
